@@ -1,7 +1,7 @@
-import React, { lazy, Suspense } from 'react';
-import ReactDOM from 'react-dom';
-import './style.css';
-import { Loading } from './components';
+import React, { lazy, Suspense } from "react";
+import ReactDOM from "react-dom";
+import "./style.css";
+import { Loading } from "./components";
 
 const App = lazy(() => {
   return new Promise(resolve => {
@@ -15,5 +15,5 @@ ReactDOM.render(
       <App />
     </Suspense>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
