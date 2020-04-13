@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import {
   StyledBMCScreen,
   StyledBMCScreenHeaderGrid,
@@ -17,11 +17,10 @@ import { Channels } from "./SectionsInfo/Channels";
 import { CustomerSegments } from "./SectionsInfo/CustomerSegments";
 import { CostStructure } from "./SectionsInfo/CostStructure";
 import { RevenueStreams } from "./SectionsInfo/RevenueStreams";
+import { AppContext } from "../../App";
 
 const BMCScreen = () => {
-  const [title, setTitle] = useState();
-  const [version, setVersion] = useState();
-  const [date, setDate] = useState();
+  const {title, setTitle, version, setVersion, date, setDate} = useContext(AppContext);
 
   return (
     <>
