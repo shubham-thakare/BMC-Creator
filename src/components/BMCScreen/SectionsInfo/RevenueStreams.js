@@ -1,5 +1,5 @@
-import React from "react";
-import { PopoverQuestion, PopoverBody } from "./Common";
+import React from 'react';
+import { PopoverQuestion, PopoverBody } from './Common';
 
 export const RevenueStreams = () => {
   return (

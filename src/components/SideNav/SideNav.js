@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useContext } from "react";
-import { Icon, Divider } from "@blueprintjs/core";
-import { IconNames } from "@blueprintjs/icons";
-import { StyledSideNavbar } from "./styles/SideNav.style";
-import { AppContext } from "../../App";
+import React, { useContext } from 'react';
+import { Icon, Divider } from '@blueprintjs/core';
+import { IconNames } from '@blueprintjs/icons';
+import { StyledSideNavbar } from './styles/SideNav.style';
+import { AppContext } from '../../utils/Context';
 
 const SideNav = () => {
   const { exportImage, openNav, closeNav, cmsData } = useContext(AppContext);
@@ -16,7 +16,7 @@ const SideNav = () => {
     l_export_to_svg,
     l_presentation_mode,
     l_view_on_github,
-    url_app_github
+    url_app_github,
   } = cmsData;
 
   return (

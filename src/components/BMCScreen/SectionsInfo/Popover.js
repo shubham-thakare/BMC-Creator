@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 import {
   Popover as BPPopover,
-  PopoverInteractionKind
-} from "@blueprintjs/core";
+  PopoverInteractionKind,
+} from '@blueprintjs/core';
 
 export const Popover = ({ children, content }) => {
   return (
@@ -19,5 +19,5 @@ export const Popover = ({ children, content }) => {
 };
 
 Popover.propTypes = {
-  content: PropTypes.node
+  content: PropTypes.node,
 };
