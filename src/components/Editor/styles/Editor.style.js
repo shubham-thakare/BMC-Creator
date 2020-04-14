@@ -1,5 +1,3 @@
 import styled from 'styled-components';
 
-export const StyledEditor = styled.div`
-
-`;
+export const StyledEditor = styled.div``;

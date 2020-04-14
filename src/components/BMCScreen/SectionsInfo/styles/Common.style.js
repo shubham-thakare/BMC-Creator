@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledPopoverBody = styled.div`
   padding: 10px;
@@ -24,7 +24,7 @@ export const StyledPopoverQuestionWrapper = styled.div`
 export const StyledPopoverHintTitle = styled.div`
   font-weight: bold;
   text-transform: uppercase;
-  font-style: ${props => props.isItalic && 'italic'};
+  font-style: ${(props) => props.isItalic && 'italic'};
 `;
 
 export const StyledPopoverHintText = styled.div`

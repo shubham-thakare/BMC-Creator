@@ -1,5 +1,10 @@
-import React from "react";
-import { PopoverQuestion, PopoverHintTitle, PopoverHintText, PopoverBody } from "./Common";
+import React from 'react';
+import {
+  PopoverQuestion,
+  PopoverHintTitle,
+  PopoverHintText,
+  PopoverBody,
+} from './Common';
 
 export const ValuePropositions = () => {
   return (

@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const iconBackground = iconURL => `
+const iconBackground = (iconURL) => `
     background-image: url(${iconURL});
     background-position: top right;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ export const StyledTitleInput = styled.input`
   height: 50px;
   padding: 0 10px;
   border-radius: 5px;
-  width: 400px;
+  width: 600px;
   outline: none;
   border: 1px solid var(--app-background-color);
   background: var(--app-background-color);
@@ -76,18 +76,18 @@ export const StyledBMCScreenCanvasGrid = styled.div`
   grid-template-rows: repeat(12, 1fr);
   grid-template-columns: repeat(10, 1fr);
   grid-template-areas:
-    "key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments"
-    "key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments"
-    "key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments"
-    "key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments"
-    "key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments"
-    "key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments"
-    "key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments"
-    "key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments"
-    "cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams"
-    "cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams"
-    "cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams"
-    "cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams";
+    'key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments'
+    'key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments'
+    'key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments'
+    'key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments'
+    'key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments'
+    'key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments'
+    'key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments'
+    'key-partners key-partners key-resources key-resources value-propositions value-propositions channels channels customer-segments customer-segments'
+    'cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams'
+    'cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams'
+    'cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams'
+    'cost-structure cost-structure cost-structure cost-structure cost-structure revenue-streams revenue-streams revenue-streams revenue-streams revenue-streams';
   grid-gap: 5px;
   padding: 5px;
   background: var(--app-divider-color);
@@ -134,45 +134,45 @@ export const StyledBMCScreenCanvasGrid = styled.div`
     }
 
     & .icon-key-partners {
-      ${iconBackground(process.env.PUBLIC_URL + "/assets/key_partners.svg")}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/key_partners.svg')}
     }
 
     & .icon-key-activities {
-      ${iconBackground(process.env.PUBLIC_URL + "/assets/key_activities.svg")}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/key_activities.svg')}
     }
 
     & .icon-key-resources {
-      ${iconBackground(process.env.PUBLIC_URL + "/assets/key_resources.svg")}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/key_resources.svg')}
     }
 
     & .icon-value-prepositions {
       ${iconBackground(
-        process.env.PUBLIC_URL + "/assets/value_prepositions.svg"
+        process.env.PUBLIC_URL + '/assets/value_prepositions.svg',
       )}
     }
 
     & .icon-customer-relationships {
       ${iconBackground(
-        process.env.PUBLIC_URL + "/assets/customer_relationships.svg"
+        process.env.PUBLIC_URL + '/assets/customer_relationships.svg',
       )}
     }
 
     & .icon-channels {
-      ${iconBackground(process.env.PUBLIC_URL + "/assets/channels.svg")}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/channels.svg')}
     }
 
     & .icon-customer-segments {
       ${iconBackground(
-        process.env.PUBLIC_URL + "/assets/customer_segments.svg"
+        process.env.PUBLIC_URL + '/assets/customer_segments.svg',
       )}
     }
 
     & .icon-cost-structure {
-      ${iconBackground(process.env.PUBLIC_URL + "/assets/cost_structure.svg")}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/cost_structure.svg')}
     }
 
     & .icon-revenue-streams {
-      ${iconBackground(process.env.PUBLIC_URL + "/assets/revenue_streams.svg")}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/revenue_streams.svg')}
     }
   }
 `;
