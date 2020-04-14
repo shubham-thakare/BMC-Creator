@@ -1,26 +1,28 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 import {
   StyledBMCScreen,
   StyledBMCScreenHeaderGrid,
   StyledBMCScreenCanvasGrid,
   StyledTitleInput,
-  StyledBMCScreenInput
-} from "./styles/BMCScreen.style";
-import { KeyPartners } from "./SectionsInfo/KeyPartners";
-import { Popover } from "./SectionsInfo/Popover";
-import { KeyActivities } from "./SectionsInfo/KeyActivities";
-import { KeyResources } from "./SectionsInfo/KeyResources";
-import { ValuePropositions } from "./SectionsInfo/ValuePropositions";
-import { CustomerRelationships } from "./SectionsInfo/CustomerRelationships";
-import { Channels } from "./SectionsInfo/Channels";
-import { CustomerSegments } from "./SectionsInfo/CustomerSegments";
-import { CostStructure } from "./SectionsInfo/CostStructure";
-import { RevenueStreams } from "./SectionsInfo/RevenueStreams";
-import { AppContext } from "../../App";
+  StyledBMCScreenInput,
+} from './styles/BMCScreen.style';
+import { KeyPartners } from './SectionsInfo/KeyPartners';
+import { Popover } from './SectionsInfo/Popover';
+import { KeyActivities } from './SectionsInfo/KeyActivities';
+import { KeyResources } from './SectionsInfo/KeyResources';
+import { ValuePropositions } from './SectionsInfo/ValuePropositions';
+import { CustomerRelationships } from './SectionsInfo/CustomerRelationships';
+import { Channels } from './SectionsInfo/Channels';
+import { CustomerSegments } from './SectionsInfo/CustomerSegments';
+import { CostStructure } from './SectionsInfo/CostStructure';
+import { RevenueStreams } from './SectionsInfo/RevenueStreams';
+import { AppContext } from '../../utils/Context';
 
 const BMCScreen = () => {
-  const {title, setTitle, version, setVersion, date, setDate} = useContext(AppContext);
+  const { title, setTitle, version, setVersion, date, setDate } = useContext(
+    AppContext,
+  );
 
   return (
     <>
@@ -30,7 +32,7 @@ const BMCScreen = () => {
             <StyledTitleInput
               placeholder="Edit title..."
               value={title}
-              onChange={evt => setTitle(evt.target.value)}
+              onChange={(evt) => setTitle(evt.target.value)}
             />
           </div>
           <div className="row-grid">
@@ -39,7 +41,7 @@ const BMCScreen = () => {
               <StyledBMCScreenInput
                 placeholder="NA"
                 value={version}
-                onChange={evt => setVersion(evt.target.value)}
+                onChange={(evt) => setVersion(evt.target.value)}
               />
             </div>
             <div className="display-flex">
@@ -47,7 +49,7 @@ const BMCScreen = () => {
               <StyledBMCScreenInput
                 placeholder="NA"
                 value={date}
-                onChange={evt => setDate(evt.target.value)}
+                onChange={(evt) => setDate(evt.target.value)}
               />
             </div>
           </div>

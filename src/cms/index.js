@@ -1,3 +1,3 @@
-import cmsData from "./common.cms";
+import cmsData from './common.cms';
 
 export default cmsData;

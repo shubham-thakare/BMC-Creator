@@ -1,5 +1,5 @@
-import React from "react";
-import { PopoverQuestion, PopoverHintText, PopoverBody } from "./Common";
+import React from 'react';
+import { PopoverQuestion, PopoverHintText, PopoverBody } from './Common';
 
 export const CustomerSegments = () => {
   return (
