@@ -1,31 +1,43 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
   PopoverQuestion,
   PopoverHintTitle,
   PopoverHintText,
   PopoverBody,
 } from './Common';
+import { AppContext } from '../../../utils/Context';
 
 export const CustomerRelationships = () => {
+  const { cmsData } = useContext(AppContext);
+
+  const {
+    cr_q_one,
+    cr_q_two,
+    cr_q_three,
+    cr_q_four,
+    cr_d_title,
+    d_cr_one,
+    d_cr_two,
+    d_cr_three,
+    d_cr_four,
+    d_cr_five,
+    d_cr_six,
+  } = cmsData;
+
   return (
     <PopoverBody>
-      <PopoverQuestion>
-        What type of relationship does each of our customer segments expect us
-        to establish and maintain with them?
-      </PopoverQuestion>
-      <PopoverQuestion>Which ones have we established?</PopoverQuestion>
-      <PopoverQuestion>
-        How are they integrated with the rest of our business model?
-      </PopoverQuestion>
-      <PopoverQuestion>How costly are they?</PopoverQuestion>
+      <PopoverQuestion>{cr_q_one}</PopoverQuestion>
+      <PopoverQuestion>{cr_q_two}</PopoverQuestion>
+      <PopoverQuestion>{cr_q_three}</PopoverQuestion>
+      <PopoverQuestion>{cr_q_four}</PopoverQuestion>
       <br />
-      <PopoverHintTitle>EXAMPLES</PopoverHintTitle>
-      <PopoverHintText>Personal assistance</PopoverHintText>
-      <PopoverHintText>Dedicated personal assistance</PopoverHintText>
-      <PopoverHintText>Self-service</PopoverHintText>
-      <PopoverHintText>Automated services</PopoverHintText>
-      <PopoverHintText>Communities</PopoverHintText>
-      <PopoverHintText>Co-creation</PopoverHintText>
+      <PopoverHintTitle>{cr_d_title}</PopoverHintTitle>
+      <PopoverHintText>{d_cr_one}</PopoverHintText>
+      <PopoverHintText>{d_cr_two}</PopoverHintText>
+      <PopoverHintText>{d_cr_three}</PopoverHintText>
+      <PopoverHintText>{d_cr_four}</PopoverHintText>
+      <PopoverHintText>{d_cr_five}</PopoverHintText>
+      <PopoverHintText>{d_cr_six}</PopoverHintText>
     </PopoverBody>
   );
 };

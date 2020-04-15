@@ -1,54 +1,79 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { PopoverQuestion, PopoverBody } from './Common';
+import { AppContext } from '../../../utils/Context';
 
 export const RevenueStreams = () => {
+  const { cmsData } = useContext(AppContext);
+
+  const {
+    rs_q_one,
+    rs_q_two,
+    rs_q_three,
+    rs_q_four,
+    rs_q_five,
+    rs_table_head_first,
+    rs_table_head_second,
+    rs_table_head_third,
+    rs_table_tr_one_td_one,
+    rs_table_tr_one_td_two,
+    rs_table_tr_one_td_three,
+    rs_table_tr_two_td_one,
+    rs_table_tr_two_td_two,
+    rs_table_tr_two_td_three,
+    rs_table_tr_three_td_one,
+    rs_table_tr_three_td_two,
+    rs_table_tr_three_td_three,
+    rs_table_tr_four_td_one,
+    rs_table_tr_four_td_two,
+    rs_table_tr_five_td_one,
+    rs_table_tr_five_td_two,
+    rs_table_tr_six_td_one,
+    rs_table_tr_seven_td_one,
+  } = cmsData;
+
   return (
     <PopoverBody>
-      <PopoverQuestion>
-        For what value are our customers really willing to pay?
-      </PopoverQuestion>
-      <PopoverQuestion>For what do they currently pay?</PopoverQuestion>
-      <PopoverQuestion>How are they currently paying?</PopoverQuestion>
-      <PopoverQuestion>How would they prefer to pay?</PopoverQuestion>
-      <PopoverQuestion>
-        How much does each revenue stream contribute to overall revenues?
-      </PopoverQuestion>
+      <PopoverQuestion>{rs_q_one}</PopoverQuestion>
+      <PopoverQuestion>{rs_q_two}</PopoverQuestion>
+      <PopoverQuestion>{rs_q_three}</PopoverQuestion>
+      <PopoverQuestion>{rs_q_four}</PopoverQuestion>
+      <PopoverQuestion>{rs_q_five}</PopoverQuestion>
       <br />
       <table>
         <thead>
-          <th>Types</th>
-          <th>Fixed Pricing</th>
-          <th>Dynamic Pricing</th>
+          <th>{rs_table_head_first}</th>
+          <th>{rs_table_head_second}</th>
+          <th>{rs_table_head_third}</th>
         </thead>
         <tbody>
           <tr>
-            <td>Asset sale</td>
-            <td>List price</td>
-            <td>Negotiation (bargaining)</td>
+            <td>{rs_table_tr_one_td_one}</td>
+            <td>{rs_table_tr_one_td_two}</td>
+            <td>{rs_table_tr_one_td_three}</td>
           </tr>
           <tr>
-            <td>Usage fee</td>
-            <td>Product feature dependent</td>
-            <td>Yield management</td>
+            <td>{rs_table_tr_two_td_one}</td>
+            <td>{rs_table_tr_two_td_two}</td>
+            <td>{rs_table_tr_two_td_three}</td>
           </tr>
           <tr>
-            <td>Subscription fees</td>
-            <td>Customer segment</td>
-            <td>Real-time-market</td>
+            <td>{rs_table_tr_three_td_one}</td>
+            <td>{rs_table_tr_three_td_two}</td>
+            <td>{rs_table_tr_three_td_three}</td>
           </tr>
           <tr>
-            <td>Lending/Renting/Leasing</td>
-            <td>dependent</td>
+            <td>{rs_table_tr_four_td_one}</td>
+            <td>{rs_table_tr_four_td_two}</td>
           </tr>
           <tr>
-            <td>Licensing</td>
-            <td>Volume dependent </td>
+            <td>{rs_table_tr_five_td_one}</td>
+            <td>{rs_table_tr_five_td_two}</td>
           </tr>
           <tr>
-            <td>Brokerage fees</td>
+            <td>{rs_table_tr_six_td_one}</td>
           </tr>
           <tr>
-            <td>Advertising</td>
+            <td>{rs_table_tr_seven_td_one}</td>
           </tr>
         </tbody>
       </table>

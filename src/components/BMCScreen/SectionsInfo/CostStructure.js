@@ -1,38 +1,44 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
   PopoverQuestion,
   PopoverHintTitle,
   PopoverHintText,
   PopoverBody,
 } from './Common';
+import { AppContext } from '../../../utils/Context';
 
 export const CostStructure = () => {
+  const { cmsData } = useContext(AppContext);
+
+  const {
+    cs_q_one,
+    cs_q_two,
+    cs_q_three,
+    cs_d_title_one,
+    d_cs_one,
+    d_cs_two,
+    cs_d_title_two,
+    d_cs_three,
+    d_cs_four,
+    d_cs_five,
+    d_cs_six,
+  } = cmsData;
+
   return (
     <PopoverBody>
-      <PopoverQuestion>
-        What are the most important costs inherent in our business model?
-      </PopoverQuestion>
-      <PopoverQuestion>Which key resources are most expensive?</PopoverQuestion>
-      <PopoverQuestion>
-        Which key activities are most expensive?
-      </PopoverQuestion>
+      <PopoverQuestion>{cs_q_one}</PopoverQuestion>
+      <PopoverQuestion>{cs_q_two}</PopoverQuestion>
+      <PopoverQuestion>{cs_q_three}</PopoverQuestion>
       <br />
-      <PopoverHintTitle>IS YOUR BUSINESS MORE</PopoverHintTitle>
-      <PopoverHintText>
-        Cost driven (leanest cost structure, low price value proposition,
-        maximum automation, extensive outsourcing)
-      </PopoverHintText>
-      <PopoverHintText>
-        Value driven (focused on value creation, premium value proposition)
-      </PopoverHintText>
+      <PopoverHintTitle>{cs_d_title_one}</PopoverHintTitle>
+      <PopoverHintText>{d_cs_one}</PopoverHintText>
+      <PopoverHintText>{d_cs_two}</PopoverHintText>
       <br />
-      <PopoverHintTitle>SAMPLE CHARACTERISTICS</PopoverHintTitle>
-      <PopoverHintText>
-        Fixed costs (salaries, rents, utilities)
-      </PopoverHintText>
-      <PopoverHintText>Variable costs</PopoverHintText>
-      <PopoverHintText>Economies of scale</PopoverHintText>
-      <PopoverHintText>Economies of scope</PopoverHintText>
+      <PopoverHintTitle>{cs_d_title_two}</PopoverHintTitle>
+      <PopoverHintText>{d_cs_three}</PopoverHintText>
+      <PopoverHintText>{d_cs_four}</PopoverHintText>
+      <PopoverHintText>{d_cs_five}</PopoverHintText>
+      <PopoverHintText>{d_cs_six}</PopoverHintText>
     </PopoverBody>
   );
 };
