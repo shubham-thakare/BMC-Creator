@@ -119,60 +119,33 @@ export const StyledBMCScreenCanvasGrid = styled.div`
   .bmc-revenue-streams {
     grid-area: revenue-streams;
   }
-
-  div {
-    background: var(--white-color);
-    padding: 5px;
-
-    & div.bmc-screen--section__label {
-      display: block;
-      font-size: large;
-      font-weight: bold;
-      user-select: none;
-      -webkit-user-drag: none;
-      padding-right: 35px;
-    }
-
-    & .icon-key-partners {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/key_partners.svg')}
-    }
-
-    & .icon-key-activities {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/key_activities.svg')}
-    }
-
-    & .icon-key-resources {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/key_resources.svg')}
-    }
-
-    & .icon-value-prepositions {
-      ${iconBackground(
-        process.env.PUBLIC_URL + '/assets/images/value_prepositions.svg',
-      )}
-    }
-
-    & .icon-customer-relationships {
-      ${iconBackground(
-        process.env.PUBLIC_URL + '/assets/images/customer_relationships.svg',
-      )}
-    }
-
-    & .icon-channels {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/channels.svg')}
-    }
-
-    & .icon-customer-segments {
-      ${iconBackground(
-        process.env.PUBLIC_URL + '/assets/images/customer_segments.svg',
-      )}
-    }
-
-    & .icon-cost-structure {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/cost_structure.svg')}
-    }
-
-    & .icon-revenue-streams {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/revenue_streams.svg')}
-    }
-  }
 `;
+
+export const StyledGridRow = styled.div`
+  display: grid;
+`;
+
+export const StyledFlex = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 100px;
+`;
+
+export const StyledDiv = styled.div`
+  background: ${props => props.isTransparent ? 'transparent' : 'var(--white-color)'};
+  padding: 5px;
+`;
+
+export const StyledSectionTitle = styled.div`
+  display: block;
+  min-height: 30px;
+  font-size: large;
+  font-weight: bold;
+  user-select: none;
+  -webkit-user-drag: none;
+  padding-right: 35px;
+  ${props => iconBackground(process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg')}
+`;
+
+export const StyledBold = styled.b``;
