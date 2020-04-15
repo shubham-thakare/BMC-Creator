@@ -1,8 +1,0 @@
-{
-  "bracketSpacing": true,
-  "parser": "flow",
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "all",
-  "arrowParens": "always"
-}
