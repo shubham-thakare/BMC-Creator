@@ -28,5 +28,5 @@ export const StyledPopoverHintTitle = styled.div`
 `;
 
 export const StyledPopoverHintText = styled.div`
-  font-style: italic;
+  font-style: normal;
 `;
