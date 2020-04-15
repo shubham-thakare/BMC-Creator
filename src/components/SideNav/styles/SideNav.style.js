@@ -12,25 +12,6 @@ export const StyledSideNavbar = styled.div`
   padding-top: 65px;
   transition: 0.5s;
 
-  .bmc-title {
-    padding-left: 15px;
-    padding: 8px 15px;
-  }
-
-  & a {
-    padding: 8px 8px 20px 15px;
-    text-decoration: none;
-    font-size: var(--navbar-link-font-size);
-    color: var(--link-color);
-    display: block;
-    transition: 0.2s;
-    outline: none;
-  }
-
-  & a:hover {
-    color: var(--link-hover-color);
-  }
-
   .closebtn {
     position: absolute;
     top: -2px;
@@ -46,20 +27,38 @@ export const StyledSideNavbar = styled.div`
     font-size: 36px;
     margin-left: 50px;
   }
+`;
 
-  #toggle-hide {
-    display: none;
+export const StyledAppTitle = styled.div`
+  padding: 8px 8px;
+`;
+
+export const StyledLink = styled.a`
+  padding: 8px 8px 20px 15px;
+  text-decoration: none !important;
+  font-size: var(--navbar-link-font-size);
+  color: var(--link-color);
+  display: block;
+  transition: 0.2s;
+  outline: none;  
+
+  &:hover {
+    color: var(--link-hover-color);
   }
+`;
 
-  .side-bar--footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-  }
+export const StyledToggleHide = styled.div`
+  display: none;
+`;
 
-  .side-bar--footer a {
+export const StyledFooter = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  
+  & a {
     padding: 8px;
     font-size: var(--navbar-link-font-size-smaller);
   }
