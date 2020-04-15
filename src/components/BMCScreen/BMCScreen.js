@@ -6,6 +6,11 @@ import {
   StyledBMCScreenCanvasGrid,
   StyledTitleInput,
   StyledBMCScreenInput,
+  StyledGridRow,
+  StyledFlex,
+  StyledDiv,
+  StyledSectionTitle,
+  StyledBold,
 } from './styles/BMCScreen.style';
 import { KeyPartners } from './SectionsInfo/KeyPartners';
 import { Popover } from './SectionsInfo/Popover';
@@ -50,80 +55,78 @@ const BMCScreen = () => {
     <>
       <StyledBMCScreen id="canvas-screen">
         <StyledBMCScreenHeaderGrid>
-          <div>
+          <StyledDiv isTransparent>
             <StyledTitleInput
               placeholder={p_canvas_title}
               value={title}
               onChange={(evt) => setTitle(evt.target.value)}
             />
-          </div>
-          <div className="row-grid">
-            <div className="display-flex">
-              <b>{l_version}:</b>
+          </StyledDiv>
+          <StyledGridRow>
+            <StyledFlex>
+              <StyledBold>{l_version}:</StyledBold>
               <StyledBMCScreenInput
                 placeholder={p_na}
                 value={version}
                 onChange={(evt) => setVersion(evt.target.value)}
               />
-            </div>
-            <div className="display-flex">
-              <b>{l_date}:</b>
+            </StyledFlex>
+            <StyledFlex>
+              <StyledBold>{l_date}:</StyledBold>
               <StyledBMCScreenInput
                 placeholder={p_na}
                 value={date}
                 onChange={(evt) => setDate(evt.target.value)}
               />
-            </div>
-          </div>
+            </StyledFlex>
+          </StyledGridRow>
         </StyledBMCScreenHeaderGrid>
         <StyledBMCScreenCanvasGrid>
-          <div className="bmc-key-partners">
-            <div className="bmc-screen--section__label icon-key-partners">
+          <StyledDiv className="bmc-key-partners">
+            <StyledSectionTitle icon="key_partners">
               <Popover content={<KeyPartners />}>{l_key_partners}</Popover>
-            </div>
-          </div>
-          <div className="bmc-key-activities">
-            <div className="bmc-screen--section__label icon-key-activities">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-key-activities">
+            <StyledSectionTitle icon="key_activities">
               <Popover content={<KeyActivities />}>{l_key_activities}</Popover>
-            </div>
-          </div>
-          <div className="bmc-key-resources">
-            <div className="bmc-screen--section__label icon-key-resources">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-key-resources">
+            <StyledSectionTitle icon="key_resources">
               <Popover content={<KeyResources />}>{l_key_resources}</Popover>
-            </div>
-          </div>
-          <div className="bmc-value-propositions">
-            <div className="bmc-screen--section__label icon-value-prepositions">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-value-propositions">
+            <StyledSectionTitle icon="value_propositions">
               <Popover content={<ValuePropositions />}>{l_value_propositions}</Popover>
-            </div>
-          </div>
-          <div className="bmc-customer-ralationships">
-            <div className="bmc-screen--section__label icon-customer-relationships">
-              <Popover content={<CustomerRelationships />}>
-                {l_customer_relationships}
-              </Popover>
-            </div>
-          </div>
-          <div className="bmc-channels">
-            <div className="bmc-screen--section__label icon-channels">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-customer-ralationships">
+            <StyledSectionTitle icon="customer_relationships">
+              <Popover content={<CustomerRelationships />}>{l_customer_relationships}</Popover>
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-channels">
+            <StyledSectionTitle icon="channels">
               <Popover content={<Channels />}>{l_channels}</Popover>
-            </div>
-          </div>
-          <div className="bmc-customer-segments">
-            <div className="bmc-screen--section__label icon-customer-segments">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-customer-segments">
+            <StyledSectionTitle icon="customer_segments">
               <Popover content={<CustomerSegments />}>{l_customer_segments}</Popover>
-            </div>
-          </div>
-          <div className="bmc-cost-structure">
-            <div className="bmc-screen--section__label icon-cost-structure">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-cost-structure">
+            <StyledSectionTitle icon="cost_structure">
               <Popover content={<CostStructure />}>{l_cost_structure}</Popover>
-            </div>
-          </div>
-          <div className="bmc-revenue-streams">
-            <div className="bmc-screen--section__label icon-revenue-streams">
+            </StyledSectionTitle>
+          </StyledDiv>
+          <StyledDiv className="bmc-revenue-streams">
+            <StyledSectionTitle icon="revenue_streams">
               <Popover content={<RevenueStreams />}>{l_revenue_streams}</Popover>
-            </div>
-          </div>
+            </StyledSectionTitle>
+          </StyledDiv>
         </StyledBMCScreenCanvasGrid>
       </StyledBMCScreen>
     </>
