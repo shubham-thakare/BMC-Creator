@@ -134,45 +134,45 @@ export const StyledBMCScreenCanvasGrid = styled.div`
     }
 
     & .icon-key-partners {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/key_partners.svg')}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/key_partners.svg')}
     }
 
     & .icon-key-activities {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/key_activities.svg')}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/key_activities.svg')}
     }
 
     & .icon-key-resources {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/key_resources.svg')}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/key_resources.svg')}
     }
 
     & .icon-value-prepositions {
       ${iconBackground(
-        process.env.PUBLIC_URL + '/assets/value_prepositions.svg',
+        process.env.PUBLIC_URL + '/assets/images/value_prepositions.svg',
       )}
     }
 
     & .icon-customer-relationships {
       ${iconBackground(
-        process.env.PUBLIC_URL + '/assets/customer_relationships.svg',
+        process.env.PUBLIC_URL + '/assets/images/customer_relationships.svg',
       )}
     }
 
     & .icon-channels {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/channels.svg')}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/channels.svg')}
     }
 
     & .icon-customer-segments {
       ${iconBackground(
-        process.env.PUBLIC_URL + '/assets/customer_segments.svg',
+        process.env.PUBLIC_URL + '/assets/images/customer_segments.svg',
       )}
     }
 
     & .icon-cost-structure {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/cost_structure.svg')}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/cost_structure.svg')}
     }
 
     & .icon-revenue-streams {
-      ${iconBackground(process.env.PUBLIC_URL + '/assets/revenue_streams.svg')}
+      ${iconBackground(process.env.PUBLIC_URL + '/assets/images/revenue_streams.svg')}
     }
   }
 `;
