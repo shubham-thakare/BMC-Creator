@@ -48,17 +48,6 @@ body {
   background: rgba(0, 0, 0, 0.35);
 }
 
-.row-grid {
-  display: grid;
-}
-
-.display-flex {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  min-width: 100px;
-}
-
 span:focus {
   outline: none;
 }

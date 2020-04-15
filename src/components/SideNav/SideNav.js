@@ -4,7 +4,13 @@
 import React, { useContext } from 'react';
 import { Icon, Divider } from '@blueprintjs/core';
 import { IconNames } from '@blueprintjs/icons';
-import { StyledSideNavbar } from './styles/SideNav.style';
+import {
+  StyledSideNavbar,
+  StyledAppTitle,
+  StyledLink,
+  StyledToggleHide,
+  StyledFooter,
+} from './styles/SideNav.style';
 import { AppContext } from '../../utils/Context';
 
 const SideNav = () => {
@@ -22,51 +28,47 @@ const SideNav = () => {
   return (
     <>
       <StyledSideNavbar id="sidebar">
-        <a
+        <StyledLink
           href="javascript:void(0)"
           id="open-button"
           className="openbtn"
           onClick={() => openNav()}
         >
           <Icon icon={IconNames.MENU} iconSize={30} />
-        </a>
-        <a
+        </StyledLink>
+        <StyledLink
           href="javascript:void(0)"
           id="close-button"
           className="closebtn"
           onClick={() => closeNav()}
         >
           <Icon icon={IconNames.CHEVRON_LEFT} iconSize={30} />
-        </a>
-        <div id="toggle-hide">
-          <Divider />
-          <div className="bmc-title">{l_app_title}</div>
-          <Divider />
-          <a href="javascript:void(0)">
-            <Icon icon={IconNames.DOCUMENT} iconSize={20} />
-            &nbsp;{l_save}
-          </a>
-          <a href="javascript:void(0)">
-            <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} />
-            &nbsp;{l_open}
-          </a>
-          <a href="javascript:void(0)" onClick={() => exportImage()}>
-            <Icon icon={IconNames.EXPORT} iconSize={20} />
-            &nbsp;{l_export_to_svg}
-          </a>
-          <a href="javascript:void(0)">
-            <Icon icon={IconNames.PRESENTATION} iconSize={20} />
-            &nbsp;{l_presentation_mode}
-          </a>
+        </StyledLink>
 
-          <div className="side-bar--footer">
+        <StyledToggleHide id="toggle-hide">
+          <Divider />
+          <StyledAppTitle><b>{l_app_title}</b> <i>v1.0.0</i></StyledAppTitle>
+          <Divider />
+          <StyledLink href="javascript:void(0)">
+            <Icon icon={IconNames.DOCUMENT} iconSize={20} /> {l_save}
+          </StyledLink>
+          <StyledLink href="javascript:void(0)">
+            <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
+          </StyledLink>
+          <StyledLink href="javascript:void(0)" onClick={() => exportImage()}>
+            <Icon icon={IconNames.EXPORT} iconSize={20} /> {l_export_to_svg}
+          </StyledLink>
+          <StyledLink href="javascript:void(0)">
+            <Icon icon={IconNames.PRESENTATION} iconSize={20} /> {l_presentation_mode}
+          </StyledLink>
+
+          <StyledFooter>
             <Divider />
-            <a href={url_app_github} target="_blank" rel="noopener noreferrer">
-              {l_view_on_github} &nbsp;
-              <Icon icon={IconNames.SHARE} iconSize={14} />
-            </a>
-          </div>
-        </div>
+            <StyledLink href={url_app_github} target="_blank" rel="noopener noreferrer">
+              {l_view_on_github} <Icon icon={IconNames.SHARE} iconSize={14} />
+            </StyledLink>
+          </StyledFooter>
+        </StyledToggleHide>
       </StyledSideNavbar>
     </>
   );
