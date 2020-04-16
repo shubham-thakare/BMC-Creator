@@ -1,5 +1,6 @@
 import React, { useReducer } from 'react';
-import { BMCScreen, SideNav } from './components';
+import { SideNav } from './components';
+import { BMCScreen } from './screens';
 import { ContextProvider } from './utils';
 import { reducer, appState } from './reducer';
 

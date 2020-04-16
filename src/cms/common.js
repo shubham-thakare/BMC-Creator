@@ -1,9 +1,9 @@
-/*** 
+/***
  * CMS Key Prefix Legends
  * p_ = placeholder text
  * l_ = label text
  * d_ = descripion text
-***/
+ ***/
 
 export default {
   // Navbar CMS
@@ -34,7 +34,8 @@ export default {
 
   /** Popover Screens **/
   // Channels CMS
-  c_q_one: 'Through which channels do our customer segments want to be reached?',
+  c_q_one:
+    'Through which channels do our customer segments want to be reached?',
   c_q_two: 'How are we reaching them now?',
   c_q_three: 'How are our channels integrated?',
   c_q_four: 'Which ones work best?',
@@ -42,11 +43,14 @@ export default {
   c_q_six: 'How are we integrating them with customer routines?',
   l_channel_phases: 'CHANNEL PHASES',
   l_cp_one: '1. Awareness',
-  d_cp_one: 'How do we raise awareness about our company\'s products and services?',
+  d_cp_one:
+    "How do we raise awareness about our company's products and services?",
   l_cp_two: '2. Evaluation',
-  d_cp_two: 'How do we help customers evaluate our organization\'s value proposition?',
+  d_cp_two:
+    "How do we help customers evaluate our organization's value proposition?",
   l_cp_three: '3. Purchase',
-  d_cp_three: 'How do we allow customers to purchase specific products and services?',
+  d_cp_three:
+    'How do we allow customers to purchase specific products and services?',
   l_cp_four: '4. Delivery',
   d_cp_four: 'How do we deliver a value proposition to customers?',
   l_cp_five: '5. After sales',
@@ -57,8 +61,10 @@ export default {
   cs_q_two: 'Which key resources are most expensive?',
   cs_q_three: 'Which key activities are most expensive?',
   cs_d_title_one: 'IS YOUR BUSINESS MORE',
-  d_cs_one: 'Cost driven (leanest cost structure, low price value proposition, maximum automation, extensive outsourcing)',
-  d_cs_two: 'Value driven (focused on value creation, premium value proposition)',
+  d_cs_one:
+    'Cost driven (leanest cost structure, low price value proposition, maximum automation, extensive outsourcing)',
+  d_cs_two:
+    'Value driven (focused on value creation, premium value proposition)',
   cs_d_title_two: 'SAMPLE CHARACTERISTICS',
   d_cs_three: 'Fixed costs (salaries, rents, utilities)',
   d_cs_four: 'Variable costs',
@@ -66,7 +72,8 @@ export default {
   d_cs_six: 'Economies of scope',
 
   // CustomerRelationship CMS
-  cr_q_one: 'What type of relationship does each of our customer segments expect us to establish and maintain with them?',
+  cr_q_one:
+    'What type of relationship does each of our customer segments expect us to establish and maintain with them?',
   cr_q_two: 'Which ones have we established?',
   cr_q_three: 'How are they integrated with the rest of our business model?',
   cr_q_four: 'How costly are they?',
@@ -123,7 +130,8 @@ export default {
   rs_q_two: 'For what do they currently pay?',
   rs_q_three: 'How are they currently paying?',
   rs_q_four: 'How would they prefer to pay?',
-  rs_q_five: 'How much does each revenue stream contribute to overall revenues?',
+  rs_q_five:
+    'How much does each revenue stream contribute to overall revenues?',
   rs_table_head_first: 'Types',
   rs_table_head_second: 'Fixed Pricing',
   rs_table_head_third: 'Dynamic Pricing',
@@ -145,8 +153,9 @@ export default {
 
   // Value Propositions
   vp_q_one: 'What value do we deliver to the customer?',
-  vp_q_two: 'Which one of our customer\'s problems are we helping to solve?',
-  vp_q_three: 'What bundles of products and services are we offering to each customer segment?',
+  vp_q_two: "Which one of our customer's problems are we helping to solve?",
+  vp_q_three:
+    'What bundles of products and services are we offering to each customer segment?',
   vp_q_four: 'Which customer needs are we satisfying?',
   vp_d_title: 'CHARACTERISTICS',
   d_vp_one: 'Newness',

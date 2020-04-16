@@ -5,9 +5,4 @@ import {
   PopoverHintText,
 } from './styles/Common.style';
 
-export {
-  PopoverBody,
-  PopoverQuestion,
-  PopoverHintTitle,
-  PopoverHintText,
-};
+export { PopoverBody, PopoverQuestion, PopoverHintTitle, PopoverHintText };

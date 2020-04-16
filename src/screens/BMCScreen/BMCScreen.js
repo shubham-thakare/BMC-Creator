@@ -12,25 +12,24 @@ import {
   SectionTitle,
   Bold,
 } from './styles/BMCScreen.style';
-import { KeyPartners } from './SectionsInfo/KeyPartners';
-import { Popover } from './SectionsInfo/Popover';
-import { KeyActivities } from './SectionsInfo/KeyActivities';
-import { KeyResources } from './SectionsInfo/KeyResources';
-import { ValuePropositions } from './SectionsInfo/ValuePropositions';
-import { CustomerRelationships } from './SectionsInfo/CustomerRelationships';
-import { Channels } from './SectionsInfo/Channels';
-import { CustomerSegments } from './SectionsInfo/CustomerSegments';
-import { CostStructure } from './SectionsInfo/CostStructure';
-import { RevenueStreams } from './SectionsInfo/RevenueStreams';
 import { AppContext } from '../../utils';
 import { UPDATE_TITLE, UPDATE_VERSION, UPDATE_DATE } from '../../actions';
 import cmsData from '../../cms';
+import {
+  Popover,
+  KeyPartners,
+  KeyActivities,
+  KeyResources,
+  ValuePropositions,
+  CustomerRelationships,
+  Channels,
+  CustomerSegments,
+  CostStructure,
+  RevenueStreams,
+} from '../../components';
 
 const BMCScreen = () => {
-  const {
-    state,
-    dispatch,
-  } = useContext(AppContext);
+  const { state, dispatch } = useContext(AppContext);
 
   const { title, version, date } = state;
 
@@ -58,8 +57,8 @@ const BMCScreen = () => {
             <TitleInput
               placeholder={p_canvas_title}
               value={title}
-              onChange={
-                (evt) => dispatch({ action: UPDATE_TITLE, payload: evt.target.value })
+              onChange={(evt) =>
+                dispatch({ action: UPDATE_TITLE, payload: evt.target.value })
               }
             />
           </Div>
@@ -69,8 +68,11 @@ const BMCScreen = () => {
               <BMCScreenInput
                 placeholder={p_na}
                 value={version}
-                onChange={
-                  (evt) => dispatch({ action: UPDATE_VERSION, payload: evt.target.value })
+                onChange={(evt) =>
+                  dispatch({
+                    action: UPDATE_VERSION,
+                    payload: evt.target.value,
+                  })
                 }
               />
             </Flex>
@@ -79,8 +81,8 @@ const BMCScreen = () => {
               <BMCScreenInput
                 placeholder={p_na}
                 value={date}
-                onChange={
-                  (evt) => dispatch({ action: UPDATE_DATE, payload: evt.target.value })
+                onChange={(evt) =>
+                  dispatch({ action: UPDATE_DATE, payload: evt.target.value })
                 }
               />
             </Flex>
@@ -104,12 +106,16 @@ const BMCScreen = () => {
           </Div>
           <Div className="bmc-value-propositions">
             <SectionTitle icon="value_propositions">
-              <Popover content={<ValuePropositions />}>{l_value_propositions}</Popover>
+              <Popover content={<ValuePropositions />}>
+                {l_value_propositions}
+              </Popover>
             </SectionTitle>
           </Div>
           <Div className="bmc-customer-ralationships">
             <SectionTitle icon="customer_relationships">
-              <Popover content={<CustomerRelationships />}>{l_customer_relationships}</Popover>
+              <Popover content={<CustomerRelationships />}>
+                {l_customer_relationships}
+              </Popover>
             </SectionTitle>
           </Div>
           <Div className="bmc-channels">
@@ -119,7 +125,9 @@ const BMCScreen = () => {
           </Div>
           <Div className="bmc-customer-segments">
             <SectionTitle icon="customer_segments">
-              <Popover content={<CustomerSegments />}>{l_customer_segments}</Popover>
+              <Popover content={<CustomerSegments />}>
+                {l_customer_segments}
+              </Popover>
             </SectionTitle>
           </Div>
           <Div className="bmc-cost-structure">
@@ -129,7 +137,9 @@ const BMCScreen = () => {
           </Div>
           <Div className="bmc-revenue-streams">
             <SectionTitle icon="revenue_streams">
-              <Popover content={<RevenueStreams />}>{l_revenue_streams}</Popover>
+              <Popover content={<RevenueStreams />}>
+                {l_revenue_streams}
+              </Popover>
             </SectionTitle>
           </Div>
         </BMCScreenCanvasGrid>
