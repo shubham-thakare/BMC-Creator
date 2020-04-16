@@ -1,13 +1,13 @@
 import {
-  StyledPopoverBody,
-  StyledPopoverQuestionWrapper,
-  StyledPopoverHintTitle,
-  StyledPopoverHintText,
+  PopoverBody,
+  PopoverQuestion,
+  PopoverHintTitle,
+  PopoverHintText,
 } from './styles/Common.style';
 
 export {
-  StyledPopoverBody as PopoverBody,
-  StyledPopoverQuestionWrapper as PopoverQuestion,
-  StyledPopoverHintTitle as PopoverHintTitle,
-  StyledPopoverHintText as PopoverHintText,
+  PopoverBody,
+  PopoverQuestion,
+  PopoverHintTitle,
+  PopoverHintText,
 };
