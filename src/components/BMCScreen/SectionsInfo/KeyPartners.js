@@ -1,15 +1,13 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import {
   PopoverQuestion,
   PopoverHintTitle,
   PopoverHintText,
   PopoverBody,
 } from './Common';
-import { AppContext } from '../../../utils/Context';
+import cmsData from '../../../cms';
 
 export const KeyPartners = () => {
-  const { cmsData } = useContext(AppContext);
-
   const {
     kp_q_one,
     kp_q_two,

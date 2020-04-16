@@ -1,3 +1,19 @@
-import { AppContext, contextWithoutState } from './Context';
+import {
+    AppContext,
+    ContextProvider,
+    ContextConsumer,
+    openNav,
+    closeNav,
+    hideNav,
+    exportImage,
+} from './utils';
 
-export { AppContext, contextWithoutState };
+export {
+    AppContext,
+    ContextProvider,
+    ContextConsumer,
+    openNav,
+    closeNav,
+    hideNav,
+    exportImage,
+};

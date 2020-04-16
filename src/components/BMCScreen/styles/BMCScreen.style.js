@@ -7,7 +7,7 @@ const iconBackground = (iconURL) => `
     background-size: 30px;
 `;
 
-export const StyledBMCScreen = styled.div`
+export const BMCScreen = styled.div`
   height: 100vh;
   display: grid;
   grid-template-rows: 60px auto;
@@ -17,13 +17,13 @@ export const StyledBMCScreen = styled.div`
   background: var(--app-background-color);
 `;
 
-export const StyledBMCScreenHeaderGrid = styled.div`
+export const BMCScreenHeaderGrid = styled.div`
   display: grid;
   grid-template-columns: auto 170px;
   grid-gap: 10px;
 `;
 
-export const StyledTitleInput = styled.input`
+export const TitleInput = styled.input`
   height: 50px;
   padding: 0 10px;
   border-radius: 5px;
@@ -47,7 +47,7 @@ export const StyledTitleInput = styled.input`
   }
 `;
 
-export const StyledBMCScreenInput = styled.input`
+export const BMCScreenInput = styled.input`
   height: 25px;
   padding: 0 5px;
   border-radius: 5px;
@@ -70,7 +70,7 @@ export const StyledBMCScreenInput = styled.input`
   }
 `;
 
-export const StyledBMCScreenCanvasGrid = styled.div`
+export const BMCScreenCanvasGrid = styled.div`
   margin-bottom: 10px;
   display: grid;
   grid-template-rows: repeat(12, 1fr);
@@ -121,23 +121,23 @@ export const StyledBMCScreenCanvasGrid = styled.div`
   }
 `;
 
-export const StyledGridRow = styled.div`
+export const GridRow = styled.div`
   display: grid;
 `;
 
-export const StyledFlex = styled.div`
+export const Flex = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
   min-width: 100px;
 `;
 
-export const StyledDiv = styled.div`
+export const Div = styled.div`
   background: ${props => props.isTransparent ? 'transparent' : 'var(--white-color)'};
   padding: 5px;
 `;
 
-export const StyledSectionTitle = styled.div`
+export const SectionTitle = styled.div`
   display: block;
   min-height: 30px;
   font-size: large;
@@ -148,4 +148,4 @@ export const StyledSectionTitle = styled.div`
   ${props => iconBackground(process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg')}
 `;
 
-export const StyledBold = styled.b``;
+export const Bold = styled.b``;
