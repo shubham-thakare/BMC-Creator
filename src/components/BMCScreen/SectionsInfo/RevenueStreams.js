@@ -1,10 +1,8 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { PopoverQuestion, PopoverBody } from './Common';
-import { AppContext } from '../../../utils/Context';
+import cmsData from '../../../cms';
 
 export const RevenueStreams = () => {
-  const { cmsData } = useContext(AppContext);
-
   const {
     rs_q_one,
     rs_q_two,
