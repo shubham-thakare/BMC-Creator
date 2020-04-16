@@ -1,6 +1,7 @@
 import Loading from './Loading';
 import SideNav from './SideNav';
 import Popover from './Popover';
+import DocContainer from './DocContainer';
 
 import {
   KeyPartners,
@@ -27,4 +28,5 @@ export {
   CostStructure,
   RevenueStreams,
   Popover,
+  DocContainer,
 };

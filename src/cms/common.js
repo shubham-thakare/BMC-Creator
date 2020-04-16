@@ -17,6 +17,9 @@ export default {
   url_app_github: 'https://github.com/shubham-thakare/BMC-Creator',
   default_export_file_name: 'Untitled',
 
+  // Common Messages CMS
+  p_get_started: 'Hover mouse cursor on sections to get started',
+
   // BMCScreen CMS
   p_canvas_title: 'Edit title...',
   p_na: 'NA',
