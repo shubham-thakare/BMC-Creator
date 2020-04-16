@@ -26,16 +26,26 @@ import {
   CustomerSegments,
   CostStructure,
   RevenueStreams,
+  DocContainer,
 } from '../../components';
+import {
+  Dialog,
+  Classes,
+  Button,
+  Intent,
+  EditableText,
+  H1,
+} from '@blueprintjs/core';
 
 const BMCScreen = () => {
   const { state, dispatch } = useContext(AppContext);
 
-  const { title, version, date } = state;
+  const { title, version, date, keyPartners } = state;
 
   const {
     p_canvas_title,
     p_na,
+    p_get_started,
     l_version,
     l_date,
     l_key_partners,
@@ -51,6 +61,30 @@ const BMCScreen = () => {
 
   return (
     <>
+      <Dialog isOpen={false}>
+        <div className={Classes.DIALOG_BODY}>
+          <H1>
+            <EditableText
+              alwaysRenderInput
+              placeholder="Edit note title..."
+              selectAllOnFocus
+            />
+          </H1>
+          <EditableText
+            alwaysRenderInput
+            maxLines={10}
+            minLines={5}
+            multiline={true}
+            placeholder="Edit description"
+          />
+        </div>
+        <div className={Classes.DIALOG_FOOTER}>
+          <div className={Classes.DIALOG_FOOTER_ACTIONS}>
+            <Button>Cancel</Button>
+            <Button intent={Intent.PRIMARY}>Submit</Button>
+          </div>
+        </div>
+      </Dialog>
       <BMCScreenDiv id="canvas-screen">
         <BMCScreenHeaderGrid>
           <Div isTransparent>
@@ -93,16 +127,22 @@ const BMCScreen = () => {
             <SectionTitle icon="key_partners">
               <Popover content={<KeyPartners />}>{l_key_partners}</Popover>
             </SectionTitle>
+            <DocContainer
+              isEmpty={!keyPartners.length}
+              message={p_get_started}
+            />
           </Div>
           <Div className="bmc-key-activities">
             <SectionTitle icon="key_activities">
               <Popover content={<KeyActivities />}>{l_key_activities}</Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-key-resources">
             <SectionTitle icon="key_resources">
               <Popover content={<KeyResources />}>{l_key_resources}</Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-value-propositions">
             <SectionTitle icon="value_propositions">
@@ -110,6 +150,7 @@ const BMCScreen = () => {
                 {l_value_propositions}
               </Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-customer-ralationships">
             <SectionTitle icon="customer_relationships">
@@ -117,11 +158,13 @@ const BMCScreen = () => {
                 {l_customer_relationships}
               </Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-channels">
             <SectionTitle icon="channels">
               <Popover content={<Channels />}>{l_channels}</Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-customer-segments">
             <SectionTitle icon="customer_segments">
@@ -129,11 +172,13 @@ const BMCScreen = () => {
                 {l_customer_segments}
               </Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-cost-structure">
             <SectionTitle icon="cost_structure">
               <Popover content={<CostStructure />}>{l_cost_structure}</Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
           <Div className="bmc-revenue-streams">
             <SectionTitle icon="revenue_streams">
@@ -141,6 +186,7 @@ const BMCScreen = () => {
                 {l_revenue_streams}
               </Popover>
             </SectionTitle>
+            <DocContainer />
           </Div>
         </BMCScreenCanvasGrid>
       </BMCScreenDiv>
