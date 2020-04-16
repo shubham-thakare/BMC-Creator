@@ -5,7 +5,7 @@ import {
   PopoverHintText,
   PopoverBody,
 } from './Common';
-import cmsData from '../../../cms';
+import cmsData from '../../cms';
 
 export const CostStructure = () => {
   const {
