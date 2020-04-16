@@ -5,7 +5,7 @@ import { Loading } from './components';
 
 const App = lazy(() => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(import('./App')), 1000);
+    setTimeout(() => resolve(import('./App')), 0);
   });
 });
 
