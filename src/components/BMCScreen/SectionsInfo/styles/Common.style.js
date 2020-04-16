@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledPopoverBody = styled.div`
+export const PopoverBody = styled.div`
   padding: 10px;
   max-height: 300px;
   overflow: auto;
@@ -17,16 +17,16 @@ export const StyledPopoverBody = styled.div`
   }
 `;
 
-export const StyledPopoverQuestionWrapper = styled.div`
+export const PopoverQuestionWrapper = styled.div`
   margin-bottom: 10px;
 `;
 
-export const StyledPopoverHintTitle = styled.div`
+export const PopoverHintTitle = styled.div`
   font-weight: bold;
   text-transform: uppercase;
   font-style: ${(props) => props.isItalic && 'italic'};
 `;
 
-export const StyledPopoverHintText = styled.div`
+export const PopoverHintText = styled.div`
   font-style: normal;
 `;
