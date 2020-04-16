@@ -1,12 +1,12 @@
 import React from 'react';
 import { Spinner } from '@blueprintjs/core';
-import { Loader } from './styles/Loading.style';
+import { LoaderWrapper } from './styles/Loading.style';
 
 const Loading = () => {
   return (
-    <Loader>
+    <LoaderWrapper>
       <Spinner />
-    </Loader>
+    </LoaderWrapper>
   );
 };
 
