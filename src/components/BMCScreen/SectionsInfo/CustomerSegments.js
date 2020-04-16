@@ -1,10 +1,8 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { PopoverQuestion, PopoverHintText, PopoverBody } from './Common';
-import { AppContext } from '../../../utils/Context';
+import cmsData from '../../../cms';
 
 export const CustomerSegments = () => {
-  const { cmsData } = useContext(AppContext);
-
   const {
     cseg_q_one,
     cseg_q_two,
