@@ -1,7 +1,17 @@
 {
   "name": "bmc-creator",
+  "description": "Helps you to create your business model canvas",
+  "keywords": [],
   "version": "1.0.0",
   "private": true,
+  "author": "Shubham Thakare",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "dependencies": {
     "@blueprintjs/core": "3.25.0",
     "@testing-library/jest-dom": "4.2.4",
