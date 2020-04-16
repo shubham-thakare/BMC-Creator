@@ -17,7 +17,7 @@ export const PopoverBody = styled.div`
   }
 `;
 
-export const PopoverQuestionWrapper = styled.div`
+export const PopoverQuestion = styled.div`
   margin-bottom: 10px;
 `;
 
