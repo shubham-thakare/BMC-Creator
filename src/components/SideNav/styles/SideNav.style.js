@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledSideNavbar = styled.div`
+export const SideNavbar = styled.div`
   height: 100%;
   width: 220px;
   position: fixed;
@@ -29,11 +29,11 @@ export const StyledSideNavbar = styled.div`
   }
 `;
 
-export const StyledAppTitle = styled.div`
+export const AppTitle = styled.div`
   padding: 8px 8px;
 `;
 
-export const StyledLink = styled.a`
+export const Link = styled.a`
   padding: 8px 8px 20px 15px;
   text-decoration: none !important;
   font-size: var(--navbar-link-font-size);
@@ -47,11 +47,11 @@ export const StyledLink = styled.a`
   }
 `;
 
-export const StyledToggleHide = styled.div`
+export const ToggleHide = styled.div`
   display: none;
 `;
 
-export const StyledFooter = styled.div`
+export const Footer = styled.div`
   position: absolute;
   bottom: 0;
   left: 0;
