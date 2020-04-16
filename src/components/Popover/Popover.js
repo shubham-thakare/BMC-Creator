@@ -5,7 +5,7 @@ import {
   PopoverInteractionKind,
 } from '@blueprintjs/core';
 
-export const Popover = ({ children, content }) => {
+const Popover = ({ children, content }) => {
   return (
     <BPPopover
       interactionKind={PopoverInteractionKind.HOVER}
@@ -21,3 +21,5 @@ export const Popover = ({ children, content }) => {
 Popover.propTypes = {
   content: PropTypes.node,
 };
+
+export default Popover;

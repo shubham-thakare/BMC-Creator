@@ -1,5 +1,30 @@
 import Loading from './Loading';
-import BMCScreen from './BMCScreen';
 import SideNav from './SideNav';
+import Popover from './Popover';
 
-export { Loading, BMCScreen, SideNav };
+import {
+  KeyPartners,
+  KeyActivities,
+  KeyResources,
+  ValuePropositions,
+  CustomerRelationships,
+  Channels,
+  CustomerSegments,
+  CostStructure,
+  RevenueStreams,
+} from './SectionsInfo';
+
+export {
+  Loading,
+  SideNav,
+  KeyPartners,
+  KeyActivities,
+  KeyResources,
+  ValuePropositions,
+  CustomerRelationships,
+  Channels,
+  CustomerSegments,
+  CostStructure,
+  RevenueStreams,
+  Popover,
+};

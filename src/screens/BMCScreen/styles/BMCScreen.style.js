@@ -133,7 +133,8 @@ export const Flex = styled.div`
 `;
 
 export const Div = styled.div`
-  background: ${props => props.isTransparent ? 'transparent' : 'var(--white-color)'};
+  background: ${(props) =>
+    props.isTransparent ? 'transparent' : 'var(--white-color)'};
   padding: 5px;
 `;
 
@@ -145,7 +146,10 @@ export const SectionTitle = styled.div`
   user-select: none;
   -webkit-user-drag: none;
   padding-right: 35px;
-  ${props => iconBackground(process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg')}
+  ${(props) =>
+    iconBackground(
+      process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg',
+    )}
 `;
 
 export const Bold = styled.b``;

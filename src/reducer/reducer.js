@@ -1,9 +1,4 @@
-import {
-  openNav,
-  closeNav,
-  hideNav,
-  exportImage,
-} from "../utils";
+import { openNav, closeNav, hideNav, exportImage } from '../utils';
 import {
   UPDATE_TITLE,
   UPDATE_VERSION,
@@ -12,8 +7,8 @@ import {
   CLOSE_NAV,
   HIDE_NAV,
   EXPORT_IMAGE,
-} from "../actions";
-import cmsData from "../cms";
+} from '../actions';
+import cmsData from '../cms';
 
 export const appState = {
   title: '',
