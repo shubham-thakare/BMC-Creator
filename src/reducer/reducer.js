@@ -9,20 +9,22 @@ import {
   EXPORT_IMAGE,
 } from '../actions';
 import cmsData from '../cms';
+import { OPEN_DIALOG, CLOSE_DIALOG } from '../actions/actions';
 
 export const appState = {
   title: '',
   version: '',
   date: '',
-  keyPartners: {},
-  keyActivities: {},
-  keyResources: {},
-  valuePropositions: {},
-  customerRelationships: {},
-  channels: {},
-  customerSegments: {},
-  costStructure: {},
-  revenueStreams: {},
+  isDialogOpen: false,
+  keyPartners: [],
+  keyActivities: [],
+  keyResources: [],
+  valuePropositions: [],
+  customerRelationships: [],
+  channels: [],
+  customerSegments: [],
+  costStructure: [],
+  revenueStreams: [],
 };
 
 export const reducer = (state, dispatch) => {
@@ -34,6 +36,10 @@ export const reducer = (state, dispatch) => {
       return { ...state, version: payload };
     case UPDATE_DATE:
       return { ...state, date: payload };
+    case OPEN_DIALOG:
+      return { ...state, isDialogOpen: true };
+    case CLOSE_DIALOG:
+      return { ...state, isDialogOpen: false };
     case OPEN_NAV:
       openNav();
       return state;

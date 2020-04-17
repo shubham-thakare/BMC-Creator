@@ -1,6 +1,7 @@
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import { Icon, Divider } from '@blueprintjs/core';
 import { IconNames } from '@blueprintjs/icons';
 import {
@@ -14,7 +15,7 @@ import { AppContext } from '../../utils';
 import { OPEN_NAV, CLOSE_NAV, EXPORT_IMAGE } from '../../actions';
 import cmsData from '../../cms';
 
-const SideNav = () => {
+const SideNav = ({ hasExportOption }) => {
   const { dispatch } = useContext(AppContext);
   const {
     l_app_title,
@@ -59,12 +60,14 @@ const SideNav = () => {
           <Link href="javascript:void(0)">
             <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
           </Link>
-          <Link
-            href="javascript:void(0)"
-            onClick={() => dispatch({ action: EXPORT_IMAGE })}
-          >
-            <Icon icon={IconNames.EXPORT} iconSize={20} /> {l_export_to_svg}
-          </Link>
+          { hasExportOption &&
+            <Link
+              href="javascript:void(0)"
+              onClick={() => dispatch({ action: EXPORT_IMAGE })}
+            >
+              <Icon icon={IconNames.EXPORT} iconSize={20} /> {l_export_to_svg}
+            </Link>
+          }
           <Link href="javascript:void(0)">
             <Icon icon={IconNames.PRESENTATION} iconSize={20} />{' '}
             {l_presentation_mode}
@@ -85,5 +88,9 @@ const SideNav = () => {
     </>
   );
 };
+
+SideNav.propTypes = {
+  hasExportOption: PropTypes.bool,
+}
 
 export default SideNav;

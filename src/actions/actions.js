@@ -5,3 +5,5 @@ export const OPEN_NAV = 'OPEN_NAV';
 export const CLOSE_NAV = 'CLOSE_NAV';
 export const HIDE_NAV = 'HIDE_NAV';
 export const EXPORT_IMAGE = 'EXPORT_IMAGE';
+export const OPEN_DIALOG = 'OPEN_DIALOG';
+export const CLOSE_DIALOG = 'CLOSE_DIALOG';

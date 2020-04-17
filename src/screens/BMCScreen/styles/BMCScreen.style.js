@@ -35,6 +35,7 @@ export const TitleInput = styled.input`
   font-weight: bold;
   color: var(--title-input-color);
   text-overflow: ellipsis;
+  font-family: var(--input-font-family);
 
   &::placeholder {
     color: var(--title-input-placeholder-color);
@@ -58,6 +59,7 @@ export const BMCScreenInput = styled.input`
   font-size: var(--input-font-size);
   color: var(--title-input-color);
   text-overflow: ellipsis;
+  font-family: var(--input-font-family);
 
   &::placeholder {
     color: var(--title-input-placeholder-color);

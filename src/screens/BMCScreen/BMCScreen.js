@@ -27,19 +27,11 @@ import {
   CostStructure,
   RevenueStreams,
   DocContainer,
+  NoteDialog,
 } from '../../components';
-import {
-  Dialog,
-  Classes,
-  Button,
-  Intent,
-  EditableText,
-  H1,
-} from '@blueprintjs/core';
 
 const BMCScreen = () => {
   const { state, dispatch } = useContext(AppContext);
-
   const { title, version, date, keyPartners } = state;
 
   const {
@@ -61,30 +53,7 @@ const BMCScreen = () => {
 
   return (
     <>
-      <Dialog isOpen={false}>
-        <div className={Classes.DIALOG_BODY}>
-          <H1>
-            <EditableText
-              alwaysRenderInput
-              placeholder="Edit note title..."
-              selectAllOnFocus
-            />
-          </H1>
-          <EditableText
-            alwaysRenderInput
-            maxLines={10}
-            minLines={5}
-            multiline={true}
-            placeholder="Edit description"
-          />
-        </div>
-        <div className={Classes.DIALOG_FOOTER}>
-          <div className={Classes.DIALOG_FOOTER_ACTIONS}>
-            <Button>Cancel</Button>
-            <Button intent={Intent.PRIMARY}>Submit</Button>
-          </div>
-        </div>
-      </Dialog>
+      <NoteDialog />
       <BMCScreenDiv id="canvas-screen">
         <BMCScreenHeaderGrid>
           <Div isTransparent>
