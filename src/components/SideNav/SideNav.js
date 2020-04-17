@@ -60,14 +60,14 @@ const SideNav = ({ hasExportOption }) => {
           <Link href="javascript:void(0)">
             <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
           </Link>
-          { hasExportOption &&
+          {hasExportOption && (
             <Link
               href="javascript:void(0)"
               onClick={() => dispatch({ action: EXPORT_IMAGE })}
             >
               <Icon icon={IconNames.EXPORT} iconSize={20} /> {l_export_to_svg}
             </Link>
-          }
+          )}
           <Link href="javascript:void(0)">
             <Icon icon={IconNames.PRESENTATION} iconSize={20} />{' '}
             {l_presentation_mode}
@@ -91,6 +91,6 @@ const SideNav = ({ hasExportOption }) => {
 
 SideNav.propTypes = {
   hasExportOption: PropTypes.bool,
-}
+};
 
 export default SideNav;

@@ -17,7 +17,12 @@ const DocContainer = ({
   return (
     <DocContainerWrapper className={isEmpty && 'empty-state'}>
       {hasEditOption && (
-        <Icon icon="plus" iconSize={15} className="add-option" onClick={() => dispatch({ action: OPEN_DIALOG })} />
+        <Icon
+          icon="plus"
+          iconSize={15}
+          className="add-option"
+          onClick={() => dispatch({ action: OPEN_DIALOG })}
+        />
       )}
       {allowFullScreen && (
         <Icon icon="fullscreen" iconSize={15} className="full-screen-option" />
@@ -33,6 +38,6 @@ DocContainer.propTypes = {
   isEmpty: PropTypes.bool,
   hasEditOption: PropTypes.bool,
   allowFullScreen: PropTypes.bool,
-}
+};
 
 export default DocContainer;
