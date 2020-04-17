@@ -1,6 +1,13 @@
 import React, { useContext } from 'react';
 import { NoteDialogWrapper, Div } from './styles/NoteDialog.style';
-import { Dialog, Classes, H1, EditableText, Button, Intent } from '@blueprintjs/core';
+import {
+  Dialog,
+  Classes,
+  H1,
+  EditableText,
+  Button,
+  Intent,
+} from '@blueprintjs/core';
 import { CLOSE_DIALOG } from '../../actions/actions';
 import { AppContext } from '../../utils';
 import cmsData from '../../cms';
@@ -15,10 +22,7 @@ const NoteDialog = () => {
       <Dialog isOpen={isDialogOpen}>
         <Div className={Classes.DIALOG_BODY}>
           <H1>
-            <EditableText
-              selectAllOnFocus
-              placeholder={p_edit_note_title}
-            />
+            <EditableText selectAllOnFocus placeholder={p_edit_note_title} />
           </H1>
           <EditableText
             alwaysRenderInput
@@ -30,7 +34,9 @@ const NoteDialog = () => {
         </Div>
         <Div className={Classes.DIALOG_FOOTER}>
           <Div className={Classes.DIALOG_FOOTER_ACTIONS}>
-            <Button onClick={() => dispatch({ action: CLOSE_DIALOG })}>{b_close}</Button>
+            <Button onClick={() => dispatch({ action: CLOSE_DIALOG })}>
+              {b_close}
+            </Button>
             <Button intent={Intent.SUCCESS}>{b_save}</Button>
           </Div>
         </Div>

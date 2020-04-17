@@ -24,8 +24,8 @@ export const exportImage = async (fileName, mode = 'svg') => {
         link.href = dataUrl;
         link.click();
       });
-    break;
-    
+      break;
+
     default:
       htmlToImage.toSvgDataURL(node, { filter: filter }).then((dataUrl) => {
         var link = document.createElement('a');
@@ -33,7 +33,7 @@ export const exportImage = async (fileName, mode = 'svg') => {
         link.href = dataUrl;
         link.click();
       });
-    break;
+      break;
   }
 };
 
