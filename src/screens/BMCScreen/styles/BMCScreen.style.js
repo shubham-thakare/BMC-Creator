@@ -138,6 +138,18 @@ export const Div = styled.div`
   background: ${(props) =>
     props.isTransparent ? 'transparent' : 'var(--white-color)'};
   padding: 5px;
+
+  &:hover .add-option,
+  &:hover .edit-option,
+  &:hover .full-screen-option {
+    opacity: 1;
+  }
+
+  & .add-option:hover,
+  & .edit-option:hover,
+  & .full-screen-option:hover {
+    color: var(--link-hover-color);
+  }
 `;
 
 export const SectionTitle = styled.div`
@@ -152,6 +164,10 @@ export const SectionTitle = styled.div`
     iconBackground(
       process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg',
     )}
+
+  ${Div}:hover & {
+    background: none;
+  }
 `;
 
 export const Bold = styled.b``;

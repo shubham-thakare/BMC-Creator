@@ -14,6 +14,7 @@ import {
 import { AppContext } from '../../utils';
 import { OPEN_NAV, CLOSE_NAV, EXPORT_IMAGE } from '../../actions';
 import cmsData from '../../cms';
+import { SAVE_FILE, OPEN_FILE } from '../../actions/actions';
 
 const SideNav = ({ hasExportOption }) => {
   const { dispatch } = useContext(AppContext);
@@ -54,10 +55,16 @@ const SideNav = ({ hasExportOption }) => {
             <b>{l_app_title}</b> <i>{l_app_version}</i>
           </AppTitle>
           <Divider />
-          <Link href="javascript:void(0)">
+          <Link
+            href="javascript:void(0)"
+            onClick={() => dispatch({ action: SAVE_FILE })}
+          >
             <Icon icon={IconNames.DOCUMENT} iconSize={20} /> {l_save}
           </Link>
-          <Link href="javascript:void(0)">
+          <Link
+            href="javascript:void(0)"
+            onClick={() => dispatch({ action: OPEN_FILE })}
+          >
             <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
           </Link>
           {hasExportOption && (

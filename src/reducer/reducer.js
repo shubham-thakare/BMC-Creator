@@ -1,4 +1,4 @@
-import { openNav, closeNav, hideNav, exportImage } from '../utils';
+import { openNav, closeNav, hideNav, exportImage, saveFile } from '../utils';
 import {
   UPDATE_TITLE,
   UPDATE_VERSION,
@@ -15,9 +15,22 @@ import {
   UPDATE_NOTE_TITLE,
   UPDATE_NOTE_DESCRIPTION,
   SAVE_NOTE,
+  SAVE_FILE,
+  OPEN_FILE,
 } from '../actions/actions';
+import { openFile } from '../utils/utils';
 
 export const appState = {
+  declaration: {
+    attributes: {
+      version: '1.0',
+      encoding: 'utf-8',
+    },
+  },
+  app: {
+    title: 'BMC-Creator',
+    version: '1.0.0',
+  },
   title: '',
   version: '',
   date: '',
@@ -25,7 +38,16 @@ export const appState = {
   noteDescription: '',
   activeKey: '',
   isDialogOpen: false,
-  keyPartners: { notes: [] },
+  keyPartners: {
+    notes: [
+      {
+        title: 'test title',
+        description: 'test description',
+        background: undefined,
+        color: undefined,
+      },
+    ],
+  },
   keyActivities: { notes: [] },
   keyResources: { notes: [] },
   valuePropositions: { notes: [] },
@@ -75,8 +97,10 @@ export const reducer = (state, dispatch) => {
             {
               title: state.noteTitle,
               description: state.noteDescription,
-            }
-          ]
+              background: undefined,
+              color: undefined,
+            },
+          ],
         },
         isDialogOpen: false,
         activeKey: '',
@@ -98,6 +122,19 @@ export const reducer = (state, dispatch) => {
 
     case EXPORT_IMAGE:
       exportImage(state.title ? state.title : cmsData.default_export_file_name);
+      return state;
+
+    case SAVE_FILE:
+      saveFile(
+        state,
+        state.title ? state.title : cmsData.default_export_file_name,
+      );
+      closeNav();
+      return state;
+
+    case OPEN_FILE:
+      openFile(state);
+      closeNav();
       return state;
 
     default:
