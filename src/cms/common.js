@@ -19,7 +19,7 @@ export default {
   default_export_file_name: 'Untitled',
 
   // Common Messages CMS
-  p_get_started: 'Hover mouse cursor on sections to get started',
+  p_get_started: 'Hover mouse cursor on the section to add notes',
   p_edit_note_title: 'Edit note title...',
   p_edit_note_desc: 'Edit description',
   b_cancel: 'Cancel',

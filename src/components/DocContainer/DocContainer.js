@@ -7,6 +7,7 @@ import { OPEN_DIALOG } from '../../actions/actions';
 
 const DocContainer = ({
   children,
+  activeKey,
   message,
   isEmpty,
   hasEditOption = true,
@@ -21,7 +22,7 @@ const DocContainer = ({
           icon="plus"
           iconSize={15}
           className="add-option"
-          onClick={() => dispatch({ action: OPEN_DIALOG })}
+          onClick={() => dispatch({ action: OPEN_DIALOG, payload: { activeKey } })}
         />
       )}
       {allowFullScreen && (
@@ -34,6 +35,7 @@ const DocContainer = ({
 };
 
 DocContainer.propTypes = {
+  key: PropTypes.string,
   message: PropTypes.string,
   isEmpty: PropTypes.bool,
   hasEditOption: PropTypes.bool,
