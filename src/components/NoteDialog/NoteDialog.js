@@ -53,7 +53,12 @@ const NoteDialog = () => {
             <Button onClick={() => dispatch({ action: CLOSE_DIALOG })}>
               {b_close}
             </Button>
-            <Button intent={Intent.SUCCESS} onClick={() => dispatch({ action: SAVE_NOTE })}>{b_save}</Button>
+            <Button
+              intent={Intent.SUCCESS}
+              onClick={() => dispatch({ action: SAVE_NOTE })}
+            >
+              {b_save}
+            </Button>
           </Div>
         </Div>
       </Dialog>

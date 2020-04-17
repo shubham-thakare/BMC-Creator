@@ -3,6 +3,7 @@ import SideNav from './SideNav';
 import Popover from './Popover';
 import DocContainer from './DocContainer';
 import NoteDialog from './NoteDialog';
+import Note from './Note';
 
 import {
   KeyPartners,
@@ -31,4 +32,5 @@ export {
   Popover,
   DocContainer,
   NoteDialog,
+  Note,
 };
