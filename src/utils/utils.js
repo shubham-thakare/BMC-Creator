@@ -55,3 +55,30 @@ export const closeNav = () => {
   document.getElementById('open-button').style.display = 'block';
   document.getElementById('toggle-hide').style.display = 'none';
 };
+
+export const saveFile = (currentState, fileName) => {
+  var pom = document.createElement('a');
+  var blob = new Blob([JSON.stringify(currentState)], { type: 'text/xml' });
+  pom.setAttribute('href', window.URL.createObjectURL(blob));
+  pom.setAttribute('download', fileName + '.bmc');
+  pom.dataset.downloadurl = ['text/xml', pom.download, pom.href].join(':');
+  pom.draggable = true;
+  pom.classList.add('dragout');
+  pom.click();
+};
+
+export const openFile = (currentState) => {
+  const inputElement = document.createElement('input');
+  inputElement.type = 'file';
+  inputElement.accept = '.bmc';
+  inputElement.addEventListener('change', (event) => {
+    const input = event.target;
+    const reader = new FileReader();
+    reader.onload = () => {
+      const data = reader.result;
+      currentState = data;
+    };
+    reader.readAsText(input.files[0]);
+  });
+  inputElement.dispatchEvent(new MouseEvent('click'));
+};
