@@ -7,3 +7,6 @@ export const HIDE_NAV = 'HIDE_NAV';
 export const EXPORT_IMAGE = 'EXPORT_IMAGE';
 export const OPEN_DIALOG = 'OPEN_DIALOG';
 export const CLOSE_DIALOG = 'CLOSE_DIALOG';
+export const SAVE_NOTE = 'SAVE_NOTE';
+export const UPDATE_NOTE_TITLE = 'UPDATE_NOTE_TITLE';
+export const UPDATE_NOTE_DESCRIPTION = 'UPDATE_NOTE_DESCRIPTION';
