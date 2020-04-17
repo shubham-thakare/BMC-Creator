@@ -3,6 +3,7 @@
  * p_ = placeholder text
  * l_ = label text
  * d_ = descripion text
+ * b_ = button text
  ***/
 
 export default {
@@ -19,6 +20,12 @@ export default {
 
   // Common Messages CMS
   p_get_started: 'Hover mouse cursor on sections to get started',
+  p_edit_note_title: 'Edit note title...',
+  p_edit_note_desc: 'Edit description',
+  b_cancel: 'Cancel',
+  b_submit: 'Submit',
+  b_close: 'Close',
+  b_save: 'Save',
 
   // BMCScreen CMS
   p_canvas_title: 'Edit title...',

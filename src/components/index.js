@@ -2,6 +2,7 @@ import Loading from './Loading';
 import SideNav from './SideNav';
 import Popover from './Popover';
 import DocContainer from './DocContainer';
+import NoteDialog from './NoteDialog';
 
 import {
   KeyPartners,
@@ -29,4 +30,5 @@ export {
   RevenueStreams,
   Popover,
   DocContainer,
+  NoteDialog,
 };
