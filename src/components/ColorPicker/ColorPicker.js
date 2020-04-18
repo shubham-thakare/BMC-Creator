@@ -5,7 +5,7 @@ import { ColorPickerWrapper } from './styles/ColorPicker.style';
 const ColorPicker = ({ label, ...props }) => {
   return (
     <>
-      <label for="colorwell">
+      <label htmlFor="colorwell">
         <b>{label}</b>
       </label>
       <ColorPickerWrapper {...props} list="true" name="colorwell" />
