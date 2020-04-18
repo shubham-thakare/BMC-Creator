@@ -15,7 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
+    "test:c": "jest --coverage",
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.js\""
   },
@@ -32,7 +33,13 @@
     "waait": "1.0.5"
   },
   "devDependencies": {
+    "babel-jest": "^25.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
     "eslint": "6.8.0",
+    "jest": "^25.3.0",
+    "jest-sonar-reporter": "^2.0.0",
     "prettier": "1.19.1"
   },
   "eslintConfig": {
