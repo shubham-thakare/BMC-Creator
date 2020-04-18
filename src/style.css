@@ -77,3 +77,15 @@ span:focus {
 button.bp3-button {
   outline: none;
 }
+
+.full-width {
+  width: 100%;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
