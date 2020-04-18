@@ -40,7 +40,7 @@ export const Link = styled.a`
   color: var(--link-color);
   display: block;
   transition: 0.2s;
-  outline: none;  
+  outline: none;
 
   &:hover {
     color: var(--link-hover-color);
@@ -57,7 +57,7 @@ export const Footer = styled.div`
   left: 0;
   width: 100%;
   text-align: center;
-  
+
   & a {
     padding: 8px;
     font-size: var(--navbar-link-font-size-smaller);
