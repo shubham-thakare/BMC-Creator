@@ -1,10 +1,56 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
-import { DocContainerWrapper } from './styles/DocContainer.style';
+import { DocContainerWrapper, TipsWrapper } from './styles/DocContainer.style';
 import { Icon } from '@blueprintjs/core';
 import { AppContext } from '../../utils';
 import { OPEN_DIALOG } from '../../actions/actions';
 import Note from '../Note';
+import cmsData from '../../cms';
+
+const Tips = () => {
+  const {
+    l_useful_tips,
+    l_tip,
+    l_tip_1,
+    l_tip_2_1,
+    l_tip_2_2,
+    l_tip_3,
+    l_tip_4,
+    l_tip_menu_option_1,
+    l_tip_menu_option_2,
+    l_tip_menu_option_3,
+  } = cmsData;
+
+  return (
+    <TipsWrapper>
+      <span className="message text-bold text-italic">{l_useful_tips}</span>
+      <ul>
+        <li>
+          <span className="message">{l_tip}</span>
+        </li>
+        <li>
+          <span className="message">{l_tip_1}</span>
+        </li>
+        <li>
+          <span className="message">
+            {l_tip_2_1} <code>+</code> {l_tip_2_2}
+          </span>
+        </li>
+        <li>
+          <span className="message">{l_tip_3}</span>
+        </li>
+        <li>
+          <span className="message">{l_tip_4}</span>
+          <ul>
+            <li>{l_tip_menu_option_1}</li>
+            <li>{l_tip_menu_option_2}</li>
+            <li>{l_tip_menu_option_3}</li>
+          </ul>
+        </li>
+      </ul>
+    </TipsWrapper>
+  );
+};
 
 const DocContainer = ({
   activeKey,
@@ -35,9 +81,9 @@ const DocContainer = ({
       {allowFullScreen && (
         <Icon icon="fullscreen" iconSize={15} className="full-screen-option" />
       )}
-      {isEmpty && <span className="message">{message}</span>}
+      {isEmpty && <Tips />}
       {state[activeKey].notes.map((item) => (
-        <Note item={item} key={item.key} />
+        <Note item={item} key={item.key} activeKey={activeKey} />
       ))}
     </DocContainerWrapper>
   );

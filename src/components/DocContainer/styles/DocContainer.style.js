@@ -1,5 +1,32 @@
 import styled from 'styled-components';
 
+export const TipsWrapper = styled.div`
+  & span.message {
+    color: var(--placeholder-color);
+    text-align: center;
+
+    code {
+      padding: 0 5px;
+      border-radius: 3px;
+      background: var(--app-background-color);
+      box-shadow: var(--elevation-1);
+    }
+  }
+
+  & ul {
+    padding-left: 20px;
+    color: var(--placeholder-color);
+
+    & li {
+      margin-bottom: 8px;
+
+      & ul li {
+        margin-bottom: 0;
+      }
+    }
+  }
+`;
+
 export const DocContainerWrapper = styled.div`
   display: grid;
   grid-gap: 5px;
@@ -13,13 +40,9 @@ export const DocContainerWrapper = styled.div`
   &.empty-state {
     height: calc(100% - 55px);
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-
-    & span.message {
-      color: var(--placeholder-color);
-      text-align: center;
-    }
   }
 
   & svg {
