@@ -5,13 +5,14 @@ import {
   PopoverInteractionKind,
 } from '@blueprintjs/core';
 
-const Popover = ({ children, content }) => {
+const Popover = ({ children, content, ...props }) => {
   return (
     <BPPopover
       interactionKind={PopoverInteractionKind.HOVER}
       content={content}
       transitionDuration={100}
       lazy={true}
+      {...props}
     >
       {children}
     </BPPopover>

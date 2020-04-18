@@ -111,28 +111,31 @@ const BMCScreen = () => {
             </SectionTitle>
             <DocContainer
               activeKey="keyPartners"
-              isEmpty={!keyPartners.notes.length}
+              isEmpty={
+                !keyPartners.notes.length &&
+                !keyActivities.notes.length &&
+                !keyResources.notes.length &&
+                !valuePropositions.notes.length &&
+                !customerRelationships.notes.length &&
+                !channels.notes.length &&
+                !customerSegments.notes.length &&
+                !costStructure.notes.length &&
+                !revenueStreams.notes.length
+              }
               message={p_get_started}
-              hasEditOption={keyPartners.notes.length > 0}
             />
           </Div>
           <Div className="bmc-key-activities">
             <SectionTitle icon="key_activities">
               <Popover content={<KeyActivities />}>{l_key_activities}</Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="keyActivities"
-              hasEditOption={keyActivities.notes.length > 0}
-            />
+            <DocContainer activeKey="keyActivities" />
           </Div>
           <Div className="bmc-key-resources">
             <SectionTitle icon="key_resources">
               <Popover content={<KeyResources />}>{l_key_resources}</Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="keyResources"
-              hasEditOption={keyResources.notes.length > 0}
-            />
+            <DocContainer activeKey="keyResources" />
           </Div>
           <Div className="bmc-value-propositions">
             <SectionTitle icon="value_propositions">
@@ -140,10 +143,7 @@ const BMCScreen = () => {
                 {l_value_propositions}
               </Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="valuePropositions"
-              hasEditOption={valuePropositions.notes.length > 0}
-            />
+            <DocContainer activeKey="valuePropositions" />
           </Div>
           <Div className="bmc-customer-ralationships">
             <SectionTitle icon="customer_relationships">
@@ -151,19 +151,13 @@ const BMCScreen = () => {
                 {l_customer_relationships}
               </Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="customerRelationships"
-              hasEditOption={customerRelationships.notes.length > 0}
-            />
+            <DocContainer activeKey="customerRelationships" />
           </Div>
           <Div className="bmc-channels">
             <SectionTitle icon="channels">
               <Popover content={<Channels />}>{l_channels}</Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="channels"
-              hasEditOption={channels.notes.length > 0}
-            />
+            <DocContainer activeKey="channels" />
           </Div>
           <Div className="bmc-customer-segments">
             <SectionTitle icon="customer_segments">
@@ -171,19 +165,13 @@ const BMCScreen = () => {
                 {l_customer_segments}
               </Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="customerSegments"
-              hasEditOption={customerSegments.notes.length > 0}
-            />
+            <DocContainer activeKey="customerSegments" />
           </Div>
           <Div className="bmc-cost-structure">
             <SectionTitle icon="cost_structure">
               <Popover content={<CostStructure />}>{l_cost_structure}</Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="costStructure"
-              hasEditOption={costStructure.notes.length > 0}
-            />
+            <DocContainer activeKey="costStructure" />
           </Div>
           <Div className="bmc-revenue-streams">
             <SectionTitle icon="revenue_streams">
@@ -191,10 +179,7 @@ const BMCScreen = () => {
                 {l_revenue_streams}
               </Popover>
             </SectionTitle>
-            <DocContainer
-              activeKey="revenueStreams"
-              hasEditOption={revenueStreams.notes.length > 0}
-            />
+            <DocContainer activeKey="revenueStreams" />
           </Div>
         </BMCScreenCanvasGrid>
       </BMCScreenDiv>
