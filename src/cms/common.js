@@ -5,6 +5,8 @@
  * d_ = descripion text
  * b_ = button text
  * m_ = message text
+ * t_ = title text
+ * h_ = heading text
  ***/
 
 export default {
@@ -20,13 +22,15 @@ export default {
   default_export_file_name: 'Untitled',
 
   // Common Messages CMS
-  p_get_started: 'Hover mouse cursor on the section to add notes',
+  p_get_started: 'Hover mouse cursor on section to add notes',
   p_edit_note_title: 'Edit note title...',
   p_edit_note_desc: 'Edit description',
   b_cancel: 'Cancel',
   b_submit: 'Submit',
   b_close: 'Close',
   b_save: 'Save',
+  b_delete: 'Delete',
+  t_menu: 'Menu',
   m_failed_to_open_file: 'Failed to open file!',
 
   // BMCScreen CMS
@@ -186,6 +190,18 @@ export default {
   l_note_background_color: 'Note background color',
   l_note_text_color: 'Note text color',
   b_reset_color: 'Reset Colors',
-  l_sample_note_title: 'Note Title',
-  l_sample_note_description: 'Note description',
+  l_sample_note_title: 'Note Title Preview',
+  l_sample_note_description: 'Note description preview',
+
+  // DocContainer Component CMS
+  l_useful_tips: 'Useful Tips',
+  l_tip: 'Update Canvas Title, Version, and Effective Date from the header',
+  l_tip_1: 'Click on section title to see hints',
+  l_tip_2_1: 'Click on',
+  l_tip_2_2: 'button placed at top right to add new notes',
+  l_tip_3: 'Click on note to see menu',
+  l_tip_4: 'Open side navigation bar to',
+  l_tip_menu_option_1: 'Save File',
+  l_tip_menu_option_2: 'Open Existing File',
+  l_tip_menu_option_3: 'Start Presentation Mode',
 };
