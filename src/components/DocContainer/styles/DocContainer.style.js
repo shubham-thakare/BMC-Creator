@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 
 export const DocContainerWrapper = styled.div`
+  display: grid;
+  grid-gap: 5px;
   position: relative;
   top: 10px;
   left: 0;
   width: 100%;
   z-index: 10;
+  margin-bottom: 10px;
 
   &.empty-state {
+    height: calc(100% - 55px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +33,7 @@ export const DocContainerWrapper = styled.div`
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0px 0px 5px -2px;
+    box-shadow: var(--elevation-1);
     opacity: 0;
     transition: 0.1s ease-in-out;
     z-index: 10;

@@ -10,14 +10,18 @@ const DocContainer = ({
   activeKey,
   message,
   isEmpty,
+  hasEditOption = false,
   hasAddOption = true,
-  hasEditOption = true,
   allowFullScreen = true,
+  ...props
 }) => {
   const { state, dispatch } = useContext(AppContext);
 
   return (
-    <DocContainerWrapper className={isEmpty && 'empty-state'}>
+    <DocContainerWrapper className={isEmpty && 'empty-state'} {...props}>
+      {hasEditOption && (
+        <Icon icon="edit" iconSize={15} className="edit-option" />
+      )}
       {hasAddOption && (
         <Icon
           icon="plus"
@@ -28,15 +32,12 @@ const DocContainer = ({
           }
         />
       )}
-      {hasEditOption && (
-        <Icon icon="edit" iconSize={15} className="edit-option" />
-      )}
       {allowFullScreen && (
         <Icon icon="fullscreen" iconSize={15} className="full-screen-option" />
       )}
       {isEmpty && <span className="message">{message}</span>}
       {state[activeKey].notes.map((item) => (
-        <Note item={item} />
+        <Note item={item} key={item.key} />
       ))}
     </DocContainerWrapper>
   );

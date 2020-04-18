@@ -1,6 +1,7 @@
 import { createContext } from 'react';
 import htmlToImage from 'html-to-image';
 import wait from 'waait';
+import { UPDATE_STATE_FROM_FILE_DATA } from '../actions';
 
 export const AppContext = createContext({});
 export const ContextProvider = AppContext.Provider;
@@ -67,7 +68,7 @@ export const saveFile = (currentState, fileName) => {
   pom.click();
 };
 
-export const openFile = (currentState) => {
+export const openFile = (dispatch) => {
   const inputElement = document.createElement('input');
   inputElement.type = 'file';
   inputElement.accept = '.bmc';
@@ -76,9 +77,13 @@ export const openFile = (currentState) => {
     const reader = new FileReader();
     reader.onload = () => {
       const data = reader.result;
-      currentState = data;
+      dispatch({ action: UPDATE_STATE_FROM_FILE_DATA, payload: data });
     };
     reader.readAsText(input.files[0]);
   });
   inputElement.dispatchEvent(new MouseEvent('click'));
+};
+
+export const trimString = (string) => {
+  return string ? string.toString().trim() : '';
 };

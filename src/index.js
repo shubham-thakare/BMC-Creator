@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, StrictMode } from 'react';
+import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 import { Loading } from './components';
@@ -10,10 +10,8 @@ const App = lazy(() => {
 });
 
 ReactDOM.render(
-  <StrictMode>
-    <Suspense fallback={<Loading />}>
-      <App />
-    </Suspense>
-  </StrictMode>,
+  <Suspense fallback={<Loading />}>
+    <App />
+  </Suspense>,
   document.getElementById('root'),
 );
