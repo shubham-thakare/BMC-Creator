@@ -4,6 +4,7 @@ import Popover from './Popover';
 import DocContainer from './DocContainer';
 import NoteDialog from './NoteDialog';
 import Note from './Note';
+import ColorPicker from './ColorPicker';
 
 import {
   KeyPartners,
@@ -33,4 +34,5 @@ export {
   DocContainer,
   NoteDialog,
   Note,
+  ColorPicker,
 };

@@ -6,7 +6,9 @@ import {
   closeNav,
   hideNav,
   exportImage,
+  openFile,
   saveFile,
+  trimString,
 } from './utils';
 
 export {
@@ -17,5 +19,7 @@ export {
   closeNav,
   hideNav,
   exportImage,
+  openFile,
   saveFile,
+  trimString,
 };
