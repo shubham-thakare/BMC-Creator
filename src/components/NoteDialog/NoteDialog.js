@@ -110,6 +110,7 @@ const NoteDialog = () => {
                 background: noteBackgroundColor,
                 color: noteTextColor,
               }}
+              activeKey=""
               style={{ maxWidth: '300px', maxHeight: '60px' }}
             />
           </Div>
