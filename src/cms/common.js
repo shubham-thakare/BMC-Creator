@@ -4,6 +4,7 @@
  * l_ = label text
  * d_ = descripion text
  * b_ = button text
+ * m_ = message text
  ***/
 
 export default {
@@ -26,6 +27,7 @@ export default {
   b_submit: 'Submit',
   b_close: 'Close',
   b_save: 'Save',
+  m_failed_to_open_file: 'Failed to open file!',
 
   // BMCScreen CMS
   p_canvas_title: 'Edit title...',
@@ -179,4 +181,11 @@ export default {
   d_vp_nine: 'Risk reduction',
   d_vp_ten: 'Accessibility',
   d_vp_eleven: 'Convenience/Usability',
+
+  // NoteDialog Component CMS
+  l_note_background_color: 'Note background color',
+  l_note_text_color: 'Note text color',
+  b_reset_color: 'Reset Colors',
+  l_sample_note_title: 'Note Title',
+  l_sample_note_description: 'Note description',
 };

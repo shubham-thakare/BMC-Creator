@@ -75,7 +75,6 @@ export const BMCScreenInput = styled.input`
 export const BMCScreenCanvasGrid = styled.div`
   margin-bottom: 10px;
   display: grid;
-  grid-template-rows: repeat(12, 1fr);
   grid-template-columns: repeat(10, 1fr);
   grid-template-areas:
     'key-partners key-partners key-activities key-activities value-propositions value-propositions customer-ralationships customer-ralationships customer-segments customer-segments'
@@ -138,6 +137,7 @@ export const Div = styled.div`
   background: ${(props) =>
     props.isTransparent ? 'transparent' : 'var(--white-color)'};
   padding: 5px;
+  overflow: hidden;
 
   &:hover .add-option,
   &:hover .edit-option,
