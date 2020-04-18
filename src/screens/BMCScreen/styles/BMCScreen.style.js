@@ -35,6 +35,7 @@ export const TitleInput = styled.input`
   font-weight: bold;
   color: var(--title-input-color);
   text-overflow: ellipsis;
+  font-family: var(--input-font-family);
 
   &::placeholder {
     color: var(--title-input-placeholder-color);
@@ -58,6 +59,7 @@ export const BMCScreenInput = styled.input`
   font-size: var(--input-font-size);
   color: var(--title-input-color);
   text-overflow: ellipsis;
+  font-family: var(--input-font-family);
 
   &::placeholder {
     color: var(--title-input-placeholder-color);
@@ -133,8 +135,21 @@ export const Flex = styled.div`
 `;
 
 export const Div = styled.div`
-  background: ${props => props.isTransparent ? 'transparent' : 'var(--white-color)'};
+  background: ${(props) =>
+    props.isTransparent ? 'transparent' : 'var(--white-color)'};
   padding: 5px;
+
+  &:hover .add-option,
+  &:hover .edit-option,
+  &:hover .full-screen-option {
+    opacity: 1;
+  }
+
+  & .add-option:hover,
+  & .edit-option:hover,
+  & .full-screen-option:hover {
+    color: var(--link-hover-color);
+  }
 `;
 
 export const SectionTitle = styled.div`
@@ -145,7 +160,14 @@ export const SectionTitle = styled.div`
   user-select: none;
   -webkit-user-drag: none;
   padding-right: 35px;
-  ${props => iconBackground(process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg')}
+  ${(props) =>
+    iconBackground(
+      process.env.PUBLIC_URL + '/assets/images/' + props.icon + '.svg',
+    )}
+
+  ${Div}:hover & {
+    background: none;
+  }
 `;
 
 export const Bold = styled.b``;
