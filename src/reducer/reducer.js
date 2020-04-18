@@ -14,9 +14,6 @@ import {
   CLOSE_NAV,
   HIDE_NAV,
   EXPORT_IMAGE,
-} from '../actions';
-import cmsData from '../cms';
-import {
   OPEN_DIALOG,
   CLOSE_DIALOG,
   UPDATE_NOTE_TITLE,
@@ -28,7 +25,9 @@ import {
   UPDATE_NOTE_BACKGROUND_COLOR,
   UPDATE_NOTE_COLOR,
   RESET_NOTE_COLOR,
-} from '../actions/actions';
+  DELETE_NOTE,
+} from '../actions';
+import cmsData from '../cms';
 import { openFile } from '../utils';
 
 export const appState = {
@@ -121,6 +120,19 @@ export const reducer = (state, dispatch) => {
         activeKey: '',
         noteTitle: '',
         noteDescription: '',
+      };
+
+    case DELETE_NOTE:
+      const filteredState =
+        payload.activeKey &&
+        state[payload.activeKey].notes.filter(
+          (item) => item.key !== payload.noteKey,
+        );
+      return {
+        ...state,
+        [payload.activeKey]: {
+          notes: filteredState,
+        },
       };
 
     case OPEN_NAV:
