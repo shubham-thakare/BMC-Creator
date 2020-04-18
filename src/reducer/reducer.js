@@ -1,4 +1,11 @@
-import { openNav, closeNav, hideNav, exportImage, saveFile } from '../utils';
+import {
+  openNav,
+  closeNav,
+  hideNav,
+  exportImage,
+  saveFile,
+  trimString,
+} from '../utils';
 import {
   UPDATE_TITLE,
   UPDATE_VERSION,
@@ -17,16 +24,14 @@ import {
   SAVE_NOTE,
   SAVE_FILE,
   OPEN_FILE,
+  UPDATE_STATE_FROM_FILE_DATA,
+  UPDATE_NOTE_BACKGROUND_COLOR,
+  UPDATE_NOTE_COLOR,
+  RESET_NOTE_COLOR,
 } from '../actions/actions';
-import { openFile } from '../utils/utils';
+import { openFile } from '../utils';
 
 export const appState = {
-  declaration: {
-    attributes: {
-      version: '1.0',
-      encoding: 'utf-8',
-    },
-  },
   app: {
     title: 'BMC-Creator',
     version: '1.0.0',
@@ -36,18 +41,11 @@ export const appState = {
   date: '',
   noteTitle: '',
   noteDescription: '',
+  noteBackgroundColor: '#f5f8fa',
+  noteTextColor: '#000000',
   activeKey: '',
   isDialogOpen: false,
-  keyPartners: {
-    notes: [
-      {
-        title: 'test title',
-        description: 'test description',
-        background: undefined,
-        color: undefined,
-      },
-    ],
-  },
+  keyPartners: { notes: [] },
   keyActivities: { notes: [] },
   keyResources: { notes: [] },
   valuePropositions: { notes: [] },
@@ -76,6 +74,19 @@ export const reducer = (state, dispatch) => {
     case UPDATE_NOTE_DESCRIPTION:
       return { ...state, noteDescription: payload };
 
+    case UPDATE_NOTE_BACKGROUND_COLOR:
+      return { ...state, noteBackgroundColor: payload };
+
+    case UPDATE_NOTE_COLOR:
+      return { ...state, noteTextColor: payload };
+
+    case RESET_NOTE_COLOR:
+      return {
+        ...state,
+        noteBackgroundColor: '#f5f8fa',
+        noteTextColor: '#000000',
+      };
+
     case OPEN_DIALOG:
       return { ...state, isDialogOpen: true, activeKey: payload.activeKey };
 
@@ -94,12 +105,16 @@ export const reducer = (state, dispatch) => {
         [state.activeKey]: {
           notes: [
             ...state[state.activeKey].notes,
-            {
-              title: state.noteTitle,
-              description: state.noteDescription,
-              background: undefined,
-              color: undefined,
-            },
+            trimString(state.noteTitle).length > 0 ||
+            trimString(state.noteDescription).length > 0
+              ? {
+                  key: new Date().getTime(),
+                  title: state.noteTitle,
+                  description: state.noteDescription,
+                  background: state.noteBackgroundColor,
+                  color: state.noteTextColor,
+                }
+              : {},
           ],
         },
         isDialogOpen: false,
@@ -133,8 +148,16 @@ export const reducer = (state, dispatch) => {
       return state;
 
     case OPEN_FILE:
-      openFile(state);
+      openFile(payload.callback);
       closeNav();
+      return state;
+
+    case UPDATE_STATE_FROM_FILE_DATA:
+      try {
+        state = JSON.parse(payload);
+      } catch (ex) {
+        alert(cmsData.m_failed_to_open_file);
+      }
       return state;
 
     default:

@@ -16,7 +16,7 @@ import { OPEN_NAV, CLOSE_NAV, EXPORT_IMAGE } from '../../actions';
 import cmsData from '../../cms';
 import { SAVE_FILE, OPEN_FILE } from '../../actions/actions';
 
-const SideNav = ({ hasExportOption }) => {
+const SideNav = ({ hasExportOption, ...props }) => {
   const { dispatch } = useContext(AppContext);
   const {
     l_app_title,
@@ -31,7 +31,7 @@ const SideNav = ({ hasExportOption }) => {
 
   return (
     <>
-      <SideNavbar id="sidebar">
+      <SideNavbar id="sidebar" {...props}>
         <Link
           href="javascript:void(0)"
           id="open-button"
@@ -63,7 +63,9 @@ const SideNav = ({ hasExportOption }) => {
           </Link>
           <Link
             href="javascript:void(0)"
-            onClick={() => dispatch({ action: OPEN_FILE })}
+            onClick={() =>
+              dispatch({ action: OPEN_FILE, payload: { callback: dispatch } })
+            }
           >
             <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
           </Link>
