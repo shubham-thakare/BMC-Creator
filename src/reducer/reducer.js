@@ -167,9 +167,7 @@ export const reducer = (state, dispatch) => {
     case UPDATE_STATE_FROM_FILE_DATA:
       try {
         state = JSON.parse(payload);
-      } catch (ex) {
-        alert(cmsData.m_failed_to_open_file);
-      }
+      } catch (ex) {}
       return state;
 
     default:

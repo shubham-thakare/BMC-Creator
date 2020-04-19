@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 const iconBackground = (iconURL) => `
-    background-image: url(${iconURL});
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 30px;
+  background-image: url(${iconURL});
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 30px;
 `;
 
 export const BMCScreen = styled.div`
@@ -23,16 +23,7 @@ export const BMCScreenHeaderGrid = styled.div`
   grid-gap: 10px;
 `;
 
-export const TitleInput = styled.input`
-  height: 50px;
-  padding: 0 10px;
-  border-radius: 5px;
-  width: 600px;
-  outline: none;
-  border: 1px solid var(--app-background-color);
-  background: var(--app-background-color);
-  font-size: var(--title-input-font-size);
-  font-weight: bold;
+const inputsCommonStyling = `
   color: var(--title-input-color);
   text-overflow: ellipsis;
   font-family: var(--input-font-family);
@@ -48,6 +39,19 @@ export const TitleInput = styled.input`
   }
 `;
 
+export const TitleInput = styled.input`
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: 600px;
+  outline: none;
+  border: 1px solid var(--app-background-color);
+  background: var(--app-background-color);
+  font-size: var(--title-input-font-size);
+  font-weight: bold;
+  ${inputsCommonStyling}
+`;
+
 export const BMCScreenInput = styled.input`
   height: 25px;
   padding: 0 5px;
@@ -57,19 +61,7 @@ export const BMCScreenInput = styled.input`
   border: 1px solid var(--app-background-color);
   background: var(--app-background-color);
   font-size: var(--input-font-size);
-  color: var(--title-input-color);
-  text-overflow: ellipsis;
-  font-family: var(--input-font-family);
-
-  &::placeholder {
-    color: var(--title-input-placeholder-color);
-  }
-
-  &:hover,
-  &:focus {
-    box-shadow: 0 0 0 0 rgba(19, 124, 189, 0), 0 0 0 0 rgba(19, 124, 189, 0),
-      inset 0 0 0 1px rgba(16, 22, 26, 0.15);
-  }
+  ${inputsCommonStyling}
 `;
 
 export const BMCScreenCanvasGrid = styled.div`
