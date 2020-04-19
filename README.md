@@ -1,7 +1,11 @@
 # Business Model Canvas Creator
-Helps you to create your business model canvas
+Code quality and deployment status
 
 [![Build Status](https://travis-ci.com/shubham-thakare/BMC-Creator.svg?token=xETTf2ismY4iTtbyf1UX&branch=master)](https://travis-ci.com/shubham-thakare/BMC-Creator)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=alert_status)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=security_rating)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shubham-thakare/BMC-Creator/issues)
 [![HitCount](http://hits.dwyl.com/shubham-thakare/BMC-Creator.svg)](http://hits.dwyl.com/shubham-thakare/BMC-Creator)
 
@@ -9,6 +13,12 @@ Helps you to create your business model canvas
 1. **Node** *v10.16.3*
 2. **NPM** *v6.9.0*
 3. **React Js** *v16.13.1*
+
+### CI/CD Integrations
+1. **Travis CI** 
+
+### Code Analysis
+1. **SonarCloud** 
 
 ### External Libraries
 #### UI and Styling
@@ -29,6 +39,3 @@ Helps you to create your business model canvas
 
 #### Other
 1. **waait** *v1.0.5*
-
-### CI/CD Integrations
-1. **Travis CI** 
