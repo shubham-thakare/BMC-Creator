@@ -36,7 +36,7 @@ export const NoteWrapper = styled.div`
   flex-direction: column;
   background: ${(props) =>
     props.bgColor ? props.bgColor : 'var(--app-background-color)'};
-  color: ${(props) => props.color && props.color};
+  color: ${(props) => props.color};
   box-shadow: var(--elevation-2);
   ${animateFadeIn}
 `;
