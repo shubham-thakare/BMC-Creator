@@ -1,5 +1,5 @@
 import React from 'react';
-import { PopoverQuestion, PopoverHintText, PopoverBody } from './Common';
+import { PopoverQuestion, PopoverHintText, PopoverBody } from '.';
 import cmsData from '../../cms';
 
 export const CustomerSegments = () => {

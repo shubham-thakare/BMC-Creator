@@ -1,0 +1,827 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog Component To match snapshot of NoteDialog 1`] = `
+<ContextProviderWrapper
+  useMockState={true}
+>
+  <NoteDialog>
+    <NoteDialogstyle__NoteDialogWrapper>
+      <div
+        className="NoteDialogstyle__NoteDialogWrapper-fblslq-0 kwaYdR"
+      >
+        <Blueprint3.Dialog
+          canOutsideClickClose={true}
+          isOpen={true}
+        >
+          <Blueprint3.Overlay
+            autoFocus={true}
+            backdropProps={Object {}}
+            canEscapeKeyClose={true}
+            canOutsideClickClose={true}
+            className="bp3-overlay-scroll-container"
+            enforceFocus={true}
+            hasBackdrop={true}
+            isOpen={true}
+            lazy={true}
+            transitionDuration={300}
+            transitionName="bp3-overlay"
+            usePortal={true}
+          >
+            <Blueprint3.Portal
+              container={
+                <body
+                  class="bp3-overlay-open"
+                >
+                  <div
+                    class="bp3-portal"
+                  >
+                    <div
+                      class="bp3-overlay bp3-overlay-open bp3-overlay-scroll-container"
+                    >
+                      <div
+                        class="bp3-overlay-backdrop bp3-overlay-appear bp3-overlay-appear-active"
+                        tabindex="0"
+                      />
+                      <div
+                        class="bp3-dialog-container bp3-overlay-content bp3-overlay-appear bp3-overlay-appear-active"
+                        tabindex="0"
+                      >
+                        <div
+                          class="bp3-dialog"
+                        >
+                          <div
+                            class="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-body"
+                          >
+                            <h1
+                              class="bp3-heading"
+                            >
+                              <div
+                                class="bp3-editable-text"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="bp3-editable-text-content"
+                                  style="height: 1px; line-height: 1px; min-width: 80px;"
+                                >
+                                  Test title
+                                </span>
+                              </div>
+                            </h1>
+                            <div
+                              class="bp3-editable-text bp3-multiline"
+                            >
+                              <textarea
+                                class="bp3-editable-text-input"
+                                placeholder="Edit description"
+                              >
+                                Test description
+                              </textarea>
+                            </div>
+                            <br />
+                            <div
+                              class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                              style="display: grid; grid-template-columns: 220px auto;"
+                            >
+                              <div
+                                class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                              >
+                                <div
+                                  class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                >
+                                  <label
+                                    for="colorwell"
+                                  >
+                                    <b>
+                                      Note background color
+                                    </b>
+                                  </label>
+                                  <input
+                                    class="ColorPickerstyle__ColorPickerWrapper-sc-17crikq-0 cBoDSA"
+                                    list="true"
+                                    name="colorwell"
+                                    type="color"
+                                    value="#f5f8fa"
+                                  />
+                                </div>
+                                <div
+                                  class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                >
+                                  <label
+                                    for="colorwell"
+                                  >
+                                    <b>
+                                      Note text color
+                                    </b>
+                                  </label>
+                                  <input
+                                    class="ColorPickerstyle__ColorPickerWrapper-sc-17crikq-0 cBoDSA"
+                                    list="true"
+                                    name="colorwell"
+                                    type="color"
+                                    value="#000000"
+                                  />
+                                </div>
+                                <button
+                                  class="bp3-button bp3-outlined bp3-intent-danger"
+                                  type="button"
+                                >
+                                  <span
+                                    class="bp3-button-text"
+                                  >
+                                    Reset Colors
+                                  </span>
+                                </button>
+                              </div>
+                              <span
+                                class="bp3-popover-wrapper"
+                              >
+                                <span
+                                  class="bp3-popover-target full-width"
+                                >
+                                  <div
+                                    class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX"
+                                    color="#000000"
+                                    style="max-width: 300px; max-height: 60px;"
+                                  >
+                                    <span
+                                      class="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                    >
+                                      Note Title Preview
+                                    </span>
+                                    <span
+                                      class="Notestyle__NoteDescription-sc-2z8c2g-2 ilDHHe"
+                                    >
+                                      Note description preview
+                                    </span>
+                                  </div>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div
+                            class="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-footer"
+                          >
+                            <div
+                              class="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-footer-actions"
+                            >
+                              <button
+                                class="bp3-button"
+                                type="button"
+                              >
+                                <span
+                                  class="bp3-button-text"
+                                >
+                                  Close
+                                </span>
+                              </button>
+                              <button
+                                class="bp3-button bp3-intent-primary"
+                                type="button"
+                              >
+                                <span
+                                  class="bp3-button-text"
+                                >
+                                  Save
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>
+              }
+            >
+              <Portal
+                containerInfo={
+                  <div
+                    class="bp3-portal"
+                  >
+                    <div
+                      class="bp3-overlay bp3-overlay-open bp3-overlay-scroll-container"
+                    >
+                      <div
+                        class="bp3-overlay-backdrop bp3-overlay-appear bp3-overlay-appear-active"
+                        tabindex="0"
+                      />
+                      <div
+                        class="bp3-dialog-container bp3-overlay-content bp3-overlay-appear bp3-overlay-appear-active"
+                        tabindex="0"
+                      >
+                        <div
+                          class="bp3-dialog"
+                        >
+                          <div
+                            class="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-body"
+                          >
+                            <h1
+                              class="bp3-heading"
+                            >
+                              <div
+                                class="bp3-editable-text"
+                                tabindex="0"
+                              >
+                                <span
+                                  class="bp3-editable-text-content"
+                                  style="height: 1px; line-height: 1px; min-width: 80px;"
+                                >
+                                  Test title
+                                </span>
+                              </div>
+                            </h1>
+                            <div
+                              class="bp3-editable-text bp3-multiline"
+                            >
+                              <textarea
+                                class="bp3-editable-text-input"
+                                placeholder="Edit description"
+                              >
+                                Test description
+                              </textarea>
+                            </div>
+                            <br />
+                            <div
+                              class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                              style="display: grid; grid-template-columns: 220px auto;"
+                            >
+                              <div
+                                class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                              >
+                                <div
+                                  class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                >
+                                  <label
+                                    for="colorwell"
+                                  >
+                                    <b>
+                                      Note background color
+                                    </b>
+                                  </label>
+                                  <input
+                                    class="ColorPickerstyle__ColorPickerWrapper-sc-17crikq-0 cBoDSA"
+                                    list="true"
+                                    name="colorwell"
+                                    type="color"
+                                    value="#f5f8fa"
+                                  />
+                                </div>
+                                <div
+                                  class="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                >
+                                  <label
+                                    for="colorwell"
+                                  >
+                                    <b>
+                                      Note text color
+                                    </b>
+                                  </label>
+                                  <input
+                                    class="ColorPickerstyle__ColorPickerWrapper-sc-17crikq-0 cBoDSA"
+                                    list="true"
+                                    name="colorwell"
+                                    type="color"
+                                    value="#000000"
+                                  />
+                                </div>
+                                <button
+                                  class="bp3-button bp3-outlined bp3-intent-danger"
+                                  type="button"
+                                >
+                                  <span
+                                    class="bp3-button-text"
+                                  >
+                                    Reset Colors
+                                  </span>
+                                </button>
+                              </div>
+                              <span
+                                class="bp3-popover-wrapper"
+                              >
+                                <span
+                                  class="bp3-popover-target full-width"
+                                >
+                                  <div
+                                    class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX"
+                                    color="#000000"
+                                    style="max-width: 300px; max-height: 60px;"
+                                  >
+                                    <span
+                                      class="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                    >
+                                      Note Title Preview
+                                    </span>
+                                    <span
+                                      class="Notestyle__NoteDescription-sc-2z8c2g-2 ilDHHe"
+                                    >
+                                      Note description preview
+                                    </span>
+                                  </div>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                          <div
+                            class="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-footer"
+                          >
+                            <div
+                              class="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-footer-actions"
+                            >
+                              <button
+                                class="bp3-button"
+                                type="button"
+                              >
+                                <span
+                                  class="bp3-button-text"
+                                >
+                                  Close
+                                </span>
+                              </button>
+                              <button
+                                class="bp3-button bp3-intent-primary"
+                                type="button"
+                              >
+                                <span
+                                  class="bp3-button-text"
+                                >
+                                  Save
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                }
+              >
+                <TransitionGroup
+                  appear={true}
+                  childFactory={[Function]}
+                  className="bp3-overlay bp3-overlay-open bp3-overlay-scroll-container"
+                  component="div"
+                  onKeyDown={[Function]}
+                >
+                  <div
+                    className="bp3-overlay bp3-overlay-open bp3-overlay-scroll-container"
+                    onKeyDown={[Function]}
+                  >
+                    <CSSTransition
+                      appear={true}
+                      classNames="bp3-overlay"
+                      in={true}
+                      key=".$__backdrop"
+                      onExited={[Function]}
+                      timeout={300}
+                    >
+                      <Transition
+                        appear={true}
+                        enter={true}
+                        exit={true}
+                        in={true}
+                        mountOnEnter={false}
+                        onEnter={[Function]}
+                        onEntered={[Function]}
+                        onEntering={[Function]}
+                        onExit={[Function]}
+                        onExited={[Function]}
+                        onExiting={[Function]}
+                        timeout={300}
+                        unmountOnExit={false}
+                      >
+                        <div
+                          className="bp3-overlay-backdrop"
+                          onMouseDown={[Function]}
+                          tabIndex={0}
+                        />
+                      </Transition>
+                    </CSSTransition>
+                    <CSSTransition
+                      appear={true}
+                      classNames="bp3-overlay"
+                      in={true}
+                      key=".$.0"
+                      onExited={[Function]}
+                      timeout={300}
+                    >
+                      <Transition
+                        appear={true}
+                        enter={true}
+                        exit={true}
+                        in={true}
+                        mountOnEnter={false}
+                        onEnter={[Function]}
+                        onEntered={[Function]}
+                        onEntering={[Function]}
+                        onExit={[Function]}
+                        onExited={[Function]}
+                        onExiting={[Function]}
+                        timeout={300}
+                        unmountOnExit={false}
+                      >
+                        <div
+                          className="bp3-dialog-container bp3-overlay-content"
+                          tabIndex={0}
+                        >
+                          <div
+                            className="bp3-dialog"
+                          >
+                            <NoteDialogstyle__Div
+                              className="bp3-dialog-body"
+                            >
+                              <div
+                                className="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-body"
+                              >
+                                <Component>
+                                  <h1
+                                    className="bp3-heading"
+                                  >
+                                    <Blueprint3.EditableText
+                                      alwaysRenderInput={false}
+                                      confirmOnEnterKey={false}
+                                      defaultValue=""
+                                      disabled={false}
+                                      maxLines={Infinity}
+                                      minLines={1}
+                                      minWidth={80}
+                                      multiline={false}
+                                      onChange={[Function]}
+                                      placeholder="Edit note title..."
+                                      selectAllOnFocus={true}
+                                      type="text"
+                                      value="Test title"
+                                    >
+                                      <div
+                                        className="bp3-editable-text"
+                                        onFocus={[Function]}
+                                        tabIndex={0}
+                                      >
+                                        <span
+                                          className="bp3-editable-text-content"
+                                          style={
+                                            Object {
+                                              "height": 1,
+                                              "lineHeight": "1px",
+                                              "minWidth": 80,
+                                            }
+                                          }
+                                        >
+                                          Test title
+                                        </span>
+                                      </div>
+                                    </Blueprint3.EditableText>
+                                  </h1>
+                                </Component>
+                                <Blueprint3.EditableText
+                                  alwaysRenderInput={true}
+                                  confirmOnEnterKey={false}
+                                  defaultValue=""
+                                  disabled={false}
+                                  maxLines={10}
+                                  minLines={5}
+                                  minWidth={80}
+                                  multiline={true}
+                                  onChange={[Function]}
+                                  placeholder="Edit description"
+                                  type="text"
+                                  value="Test description"
+                                >
+                                  <div
+                                    className="bp3-editable-text bp3-multiline"
+                                    onFocus={[Function]}
+                                    tabIndex={null}
+                                  >
+                                    <textarea
+                                      className="bp3-editable-text-input"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onKeyDown={[Function]}
+                                      placeholder="Edit description"
+                                      value="Test description"
+                                    />
+                                  </div>
+                                </Blueprint3.EditableText>
+                                <br />
+                                <NoteDialogstyle__Div
+                                  style={
+                                    Object {
+                                      "display": "grid",
+                                      "gridTemplateColumns": "220px auto",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                    style={
+                                      Object {
+                                        "display": "grid",
+                                        "gridTemplateColumns": "220px auto",
+                                      }
+                                    }
+                                  >
+                                    <NoteDialogstyle__Div>
+                                      <div
+                                        className="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                      >
+                                        <NoteDialogstyle__Div>
+                                          <div
+                                            className="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                          >
+                                            <ColorPicker
+                                              label="Note background color"
+                                              onChange={[Function]}
+                                              value="#f5f8fa"
+                                            >
+                                              <label
+                                                htmlFor="colorwell"
+                                              >
+                                                <b>
+                                                  Note background color
+                                                </b>
+                                              </label>
+                                              <ColorPickerstyle__ColorPickerWrapper
+                                                list="true"
+                                                name="colorwell"
+                                                onChange={[Function]}
+                                                value="#f5f8fa"
+                                              >
+                                                <input
+                                                  className="ColorPickerstyle__ColorPickerWrapper-sc-17crikq-0 cBoDSA"
+                                                  list="true"
+                                                  name="colorwell"
+                                                  onChange={[Function]}
+                                                  type="color"
+                                                  value="#f5f8fa"
+                                                />
+                                              </ColorPickerstyle__ColorPickerWrapper>
+                                            </ColorPicker>
+                                          </div>
+                                        </NoteDialogstyle__Div>
+                                        <NoteDialogstyle__Div>
+                                          <div
+                                            className="NoteDialogstyle__Div-fblslq-1 kntAyw"
+                                          >
+                                            <ColorPicker
+                                              label="Note text color"
+                                              onChange={[Function]}
+                                              value="#000000"
+                                            >
+                                              <label
+                                                htmlFor="colorwell"
+                                              >
+                                                <b>
+                                                  Note text color
+                                                </b>
+                                              </label>
+                                              <ColorPickerstyle__ColorPickerWrapper
+                                                list="true"
+                                                name="colorwell"
+                                                onChange={[Function]}
+                                                value="#000000"
+                                              >
+                                                <input
+                                                  className="ColorPickerstyle__ColorPickerWrapper-sc-17crikq-0 cBoDSA"
+                                                  list="true"
+                                                  name="colorwell"
+                                                  onChange={[Function]}
+                                                  type="color"
+                                                  value="#000000"
+                                                />
+                                              </ColorPickerstyle__ColorPickerWrapper>
+                                            </ColorPicker>
+                                          </div>
+                                        </NoteDialogstyle__Div>
+                                        <Blueprint3.Button
+                                          intent="danger"
+                                          onClick={[Function]}
+                                          outlined={true}
+                                        >
+                                          <button
+                                            className="bp3-button bp3-outlined bp3-intent-danger"
+                                            onClick={[Function]}
+                                            onKeyDown={[Function]}
+                                            onKeyUp={[Function]}
+                                            type="button"
+                                          >
+                                            <Blueprint3.Icon
+                                              key="leftIcon"
+                                            />
+                                            <span
+                                              className="bp3-button-text"
+                                              key="text"
+                                            >
+                                              Reset Colors
+                                            </span>
+                                            <Blueprint3.Icon
+                                              key="rightIcon"
+                                            />
+                                          </button>
+                                        </Blueprint3.Button>
+                                      </div>
+                                    </NoteDialogstyle__Div>
+                                    <Note
+                                      activeKey=""
+                                      item={
+                                        Object {
+                                          "background": "#f5f8fa",
+                                          "color": "#000000",
+                                          "description": "Note description preview",
+                                          "title": "Note Title Preview",
+                                        }
+                                      }
+                                      style={
+                                        Object {
+                                          "maxHeight": "60px",
+                                          "maxWidth": "300px",
+                                        }
+                                      }
+                                    >
+                                      <Blueprint3.Popover
+                                        boundary="scrollParent"
+                                        captureDismiss={false}
+                                        content={
+                                          <NoteMenu
+                                            activeKey=""
+                                          />
+                                        }
+                                        defaultIsOpen={false}
+                                        disabled={false}
+                                        fill={false}
+                                        hasBackdrop={false}
+                                        hoverCloseDelay={300}
+                                        hoverOpenDelay={150}
+                                        inheritDarkTheme={true}
+                                        interactionKind="click"
+                                        minimal={false}
+                                        modifiers={Object {}}
+                                        openOnTargetFocus={true}
+                                        position="right-bottom"
+                                        targetClassName="full-width"
+                                        targetTagName="span"
+                                        transitionDuration={300}
+                                        usePortal={true}
+                                        wrapperTagName="span"
+                                      >
+                                        <Manager>
+                                          <span
+                                            className="bp3-popover-wrapper"
+                                          >
+                                            <Reference
+                                              innerRef={[Function]}
+                                            >
+                                              <InnerReference
+                                                innerRef={[Function]}
+                                                setReferenceNode={[Function]}
+                                              >
+                                                <Blueprint3.ResizeSensor
+                                                  onResize={[Function]}
+                                                >
+                                                  <span
+                                                    className="bp3-popover-target full-width"
+                                                    onClick={[Function]}
+                                                  >
+                                                    <Notestyle__NoteWrapper
+                                                      bgColor="#f5f8fa"
+                                                      className=""
+                                                      color="#000000"
+                                                      key=".0"
+                                                      style={
+                                                        Object {
+                                                          "maxHeight": "60px",
+                                                          "maxWidth": "300px",
+                                                        }
+                                                      }
+                                                    >
+                                                      <div
+                                                        className="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX"
+                                                        color="#000000"
+                                                        style={
+                                                          Object {
+                                                            "maxHeight": "60px",
+                                                            "maxWidth": "300px",
+                                                          }
+                                                        }
+                                                      >
+                                                        <Notestyle__NoteTitle>
+                                                          <span
+                                                            className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                                          >
+                                                            Note Title Preview
+                                                          </span>
+                                                        </Notestyle__NoteTitle>
+                                                        <Notestyle__NoteDescription>
+                                                          <span
+                                                            className="Notestyle__NoteDescription-sc-2z8c2g-2 ilDHHe"
+                                                          >
+                                                            Note description preview
+                                                          </span>
+                                                        </Notestyle__NoteDescription>
+                                                      </div>
+                                                    </Notestyle__NoteWrapper>
+                                                  </span>
+                                                </Blueprint3.ResizeSensor>
+                                              </InnerReference>
+                                            </Reference>
+                                            <Blueprint3.Overlay
+                                              autoFocus={true}
+                                              backdropClassName="bp3-popover-backdrop"
+                                              backdropProps={Object {}}
+                                              canEscapeKeyClose={true}
+                                              canOutsideClickClose={true}
+                                              enforceFocus={true}
+                                              hasBackdrop={false}
+                                              isOpen={false}
+                                              lazy={true}
+                                              onClose={[Function]}
+                                              transitionDuration={300}
+                                              transitionName="bp3-popover"
+                                              usePortal={true}
+                                            />
+                                          </span>
+                                        </Manager>
+                                      </Blueprint3.Popover>
+                                    </Note>
+                                  </div>
+                                </NoteDialogstyle__Div>
+                              </div>
+                            </NoteDialogstyle__Div>
+                            <NoteDialogstyle__Div
+                              className="bp3-dialog-footer"
+                            >
+                              <div
+                                className="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-footer"
+                              >
+                                <NoteDialogstyle__Div
+                                  className="bp3-dialog-footer-actions"
+                                >
+                                  <div
+                                    className="NoteDialogstyle__Div-fblslq-1 kntAyw bp3-dialog-footer-actions"
+                                  >
+                                    <Blueprint3.Button
+                                      onClick={[Function]}
+                                    >
+                                      <button
+                                        className="bp3-button"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        type="button"
+                                      >
+                                        <Blueprint3.Icon
+                                          key="leftIcon"
+                                        />
+                                        <span
+                                          className="bp3-button-text"
+                                          key="text"
+                                        >
+                                          Close
+                                        </span>
+                                        <Blueprint3.Icon
+                                          key="rightIcon"
+                                        />
+                                      </button>
+                                    </Blueprint3.Button>
+                                    <Blueprint3.Button
+                                      intent="primary"
+                                      onClick={[Function]}
+                                    >
+                                      <button
+                                        className="bp3-button bp3-intent-primary"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        type="button"
+                                      >
+                                        <Blueprint3.Icon
+                                          key="leftIcon"
+                                        />
+                                        <span
+                                          className="bp3-button-text"
+                                          key="text"
+                                        >
+                                          Save
+                                        </span>
+                                        <Blueprint3.Icon
+                                          key="rightIcon"
+                                        />
+                                      </button>
+                                    </Blueprint3.Button>
+                                  </div>
+                                </NoteDialogstyle__Div>
+                              </div>
+                            </NoteDialogstyle__Div>
+                          </div>
+                        </div>
+                      </Transition>
+                    </CSSTransition>
+                  </div>
+                </TransitionGroup>
+              </Portal>
+            </Blueprint3.Portal>
+          </Blueprint3.Overlay>
+        </Blueprint3.Dialog>
+      </div>
+    </NoteDialogstyle__NoteDialogWrapper>
+  </NoteDialog>
+</ContextProviderWrapper>
+`;

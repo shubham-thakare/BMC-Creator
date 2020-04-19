@@ -12,7 +12,7 @@ import { trimString, AppContext } from '../../utils';
 import { DELETE_NOTE } from '../../actions';
 import cmsData from '../../cms';
 
-const NoteMenu = ({ noteKey, activeKey }) => {
+export const NoteMenu = ({ noteKey, activeKey }) => {
   const { dispatch } = useContext(AppContext);
   const { t_menu, b_delete } = cmsData;
 
