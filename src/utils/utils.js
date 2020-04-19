@@ -11,31 +11,17 @@ const filter = (node) => {
   return node.tagName !== 'i';
 };
 
-export const exportImage = async (fileName, mode = 'svg') => {
+export const exportImage = async (fileName) => {
   hideNav();
   await wait(500);
   const node = document.getElementById('canvas-screen');
   closeNav();
-
-  switch (mode) {
-    case 'jpeg':
-      htmlToImage.toJpeg(node, { quality: 0.95 }).then((dataUrl) => {
-        var link = document.createElement('a');
-        link.download = fileName + '.jpeg';
-        link.href = dataUrl;
-        link.click();
-      });
-      break;
-
-    default:
-      htmlToImage.toSvgDataURL(node, { filter: filter }).then((dataUrl) => {
-        var link = document.createElement('a');
-        link.download = fileName + '.svg';
-        link.href = dataUrl;
-        link.click();
-      });
-      break;
-  }
+  htmlToImage.toSvgDataURL(node, { filter: filter }).then((dataUrl) => {
+    var link = document.createElement('a');
+    link.download = fileName + '.svg';
+    link.href = dataUrl;
+    link.click();
+  });
 };
 
 export const hideNav = () => {
