@@ -12,6 +12,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
+  "homepage": "https://shubham-thakare.github.io/BMC-Creator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
