@@ -123,19 +123,20 @@ const BMCScreen = () => {
                 !revenueStreams.notes.length
               }
               message={p_get_started}
+              hasAddOption
             />
           </Div>
           <Div className="bmc-key-activities">
             <SectionTitle icon="key_activities">
               <Popover content={<KeyActivities />}>{l_key_activities}</Popover>
             </SectionTitle>
-            <DocContainer activeKey="keyActivities" />
+            <DocContainer activeKey="keyActivities" hasAddOption />
           </Div>
           <Div className="bmc-key-resources">
             <SectionTitle icon="key_resources">
               <Popover content={<KeyResources />}>{l_key_resources}</Popover>
             </SectionTitle>
-            <DocContainer activeKey="keyResources" />
+            <DocContainer activeKey="keyResources" hasAddOption />
           </Div>
           <Div className="bmc-value-propositions">
             <SectionTitle icon="value_propositions">
@@ -143,7 +144,7 @@ const BMCScreen = () => {
                 {l_value_propositions}
               </Popover>
             </SectionTitle>
-            <DocContainer activeKey="valuePropositions" />
+            <DocContainer activeKey="valuePropositions" hasAddOption />
           </Div>
           <Div className="bmc-customer-ralationships">
             <SectionTitle icon="customer_relationships">
@@ -151,13 +152,13 @@ const BMCScreen = () => {
                 {l_customer_relationships}
               </Popover>
             </SectionTitle>
-            <DocContainer activeKey="customerRelationships" />
+            <DocContainer activeKey="customerRelationships" hasAddOption />
           </Div>
           <Div className="bmc-channels">
             <SectionTitle icon="channels">
               <Popover content={<Channels />}>{l_channels}</Popover>
             </SectionTitle>
-            <DocContainer activeKey="channels" />
+            <DocContainer activeKey="channels" hasAddOption />
           </Div>
           <Div className="bmc-customer-segments">
             <SectionTitle icon="customer_segments">
@@ -165,13 +166,13 @@ const BMCScreen = () => {
                 {l_customer_segments}
               </Popover>
             </SectionTitle>
-            <DocContainer activeKey="customerSegments" />
+            <DocContainer activeKey="customerSegments" hasAddOption />
           </Div>
           <Div className="bmc-cost-structure">
             <SectionTitle icon="cost_structure">
               <Popover content={<CostStructure />}>{l_cost_structure}</Popover>
             </SectionTitle>
-            <DocContainer activeKey="costStructure" />
+            <DocContainer activeKey="costStructure" hasAddOption />
           </Div>
           <Div className="bmc-revenue-streams">
             <SectionTitle icon="revenue_streams">
@@ -179,7 +180,7 @@ const BMCScreen = () => {
                 {l_revenue_streams}
               </Popover>
             </SectionTitle>
-            <DocContainer activeKey="revenueStreams" />
+            <DocContainer activeKey="revenueStreams" hasAddOption />
           </Div>
         </BMCScreenCanvasGrid>
       </BMCScreenDiv>

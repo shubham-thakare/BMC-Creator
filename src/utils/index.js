@@ -11,6 +11,8 @@ import {
   trimString,
 } from './utils';
 
+import { ContextProviderWrapper } from './ContextProviderWrapper';
+
 export {
   AppContext,
   ContextProvider,
@@ -22,4 +24,5 @@ export {
   openFile,
   saveFile,
   trimString,
+  ContextProviderWrapper,
 };

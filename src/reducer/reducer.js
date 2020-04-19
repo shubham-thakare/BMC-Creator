@@ -99,28 +99,30 @@ export const reducer = (state, dispatch) => {
       };
 
     case SAVE_NOTE:
-      return {
-        ...state,
-        [state.activeKey]: {
-          notes: [
-            ...state[state.activeKey].notes,
-            trimString(state.noteTitle).length > 0 ||
-            trimString(state.noteDescription).length > 0
-              ? {
-                  key: new Date().getTime(),
-                  title: state.noteTitle,
-                  description: state.noteDescription,
-                  background: state.noteBackgroundColor,
-                  color: state.noteTextColor,
-                }
-              : {},
-          ],
-        },
-        isDialogOpen: false,
-        activeKey: '',
-        noteTitle: '',
-        noteDescription: '',
-      };
+      return state.activeKey
+        ? {
+            ...state,
+            [state.activeKey]: {
+              notes: [
+                ...state[state.activeKey].notes,
+                trimString(state.noteTitle).length > 0 ||
+                trimString(state.noteDescription).length > 0
+                  ? {
+                      key: new Date().getTime(),
+                      title: state.noteTitle,
+                      description: state.noteDescription,
+                      background: state.noteBackgroundColor,
+                      color: state.noteTextColor,
+                    }
+                  : {},
+              ],
+            },
+            isDialogOpen: false,
+            activeKey: '',
+            noteTitle: '',
+            noteDescription: '',
+          }
+        : state;
 
     case DELETE_NOTE:
       const filteredState =
