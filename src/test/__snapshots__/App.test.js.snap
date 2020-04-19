@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component To match snapshot of App 1`] = `
+<ContextProviderWrapper>
+  <SideNav
+    hasFooter={true}
+    hasOpenFileOption={true}
+    hasSaveFileOption={true}
+  />
+  <BMCScreen />
+</ContextProviderWrapper>
+`;
