@@ -1,5 +1,14 @@
 # Business Model Canvas Creator
-> Code Quality and Deployment Status
+
+<div align="center">
+  
+  ![App Poster](https://shubham-thakare.github.io/BMC-Creator/assets/images/BMC_Logo.svg)
+  
+</div>
+
+<div align="center">
+  
+Code Quality and Deployment Status
 
 [![Build Status](https://travis-ci.com/shubham-thakare/BMC-Creator.svg?token=xETTf2ismY4iTtbyf1UX&branch=master)](https://travis-ci.com/shubham-thakare/BMC-Creator)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=alert_status)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
@@ -10,6 +19,8 @@
 [![HitCount](http://hits.dwyl.com/shubham-thakare/BMC-Creator.svg)](http://hits.dwyl.com/shubham-thakare/BMC-Creator)
 
 [Go to BMC-Creator](https://shubham-thakare.github.io/BMC-Creator/)
+
+</div>
 
 ## Technology Stack
 1. **Node** *v10.16.3*
