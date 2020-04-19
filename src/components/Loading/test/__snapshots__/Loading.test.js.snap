@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component To match snapshot of Loading 1`] = `
+<Loadingstyle__LoaderWrapper>
+  <Blueprint3.Spinner />
+</Loadingstyle__LoaderWrapper>
+`;

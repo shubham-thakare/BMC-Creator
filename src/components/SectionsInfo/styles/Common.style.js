@@ -24,7 +24,6 @@ export const PopoverQuestion = styled.div`
 export const PopoverHintTitle = styled.div`
   font-weight: bold;
   text-transform: uppercase;
-  font-style: ${(props) => props.isItalic && 'italic'};
 `;
 
 export const PopoverHintText = styled.div`

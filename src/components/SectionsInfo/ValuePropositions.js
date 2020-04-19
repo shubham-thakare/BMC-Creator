@@ -4,7 +4,7 @@ import {
   PopoverHintTitle,
   PopoverHintText,
   PopoverBody,
-} from './Common';
+} from '.';
 import cmsData from '../../cms';
 
 export const ValuePropositions = () => {
