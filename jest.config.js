@@ -1,11 +1,9 @@
 module.exports = {
   collectCoverageFrom: [
-    "src/modules/**/*.{js,jsx}",
-    "src/components/**/*.{js,jsx}",
-    "!src/components/**/{style,styled}.js",
-    "!src/components/modules/{style,styled}.js",
-    "!src/**/index.js",
+    "src/**/*.{js,jsx}",
+    "!src/cms/**/*.{js,jsx}",
     "!src/**/utils.js",
+    "!src/**/index.js",
     "!src/**/{mockData,MockData}.js",
   ],
   verbose: true,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PopoverQuestion, PopoverBody } from './Common';
+import { PopoverQuestion, PopoverBody } from '.';
 import cmsData from '../../cms';
 
 export const RevenueStreams = () => {
