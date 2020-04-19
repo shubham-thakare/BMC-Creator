@@ -74,7 +74,7 @@ export const DocContainerWrapper = styled.div`
 
   & .add-option {
     top: -40px;
-    right: 30px;
+    right: ${props => props.allowFullScreen ? '30px' : '0'};
   }
 
   & .full-screen-option {

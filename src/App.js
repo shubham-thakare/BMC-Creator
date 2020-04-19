@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <ContextProvider value={{ state, dispatch }}>
-      <SideNav />
+      <SideNav hasSaveFileOption hasOpenFileOption hasFooter />
       <BMCScreen />
     </ContextProvider>
   );
