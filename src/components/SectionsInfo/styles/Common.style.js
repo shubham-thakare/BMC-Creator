@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const PopoverBody = styled.div`
   padding: 10px;
-  max-height: 300px;
+  max-height: 278px;
   overflow: auto;
   user-select: none;
   -webkit-user-drag: none;
