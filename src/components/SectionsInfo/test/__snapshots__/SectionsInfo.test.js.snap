@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionsInfo Components Channels Component To match snapshot of Channels 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    Through which channels do our customer segments want to be reached?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How are we reaching them now?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How are our channels integrated?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which ones work best?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which ones are most cost-efficient?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How are we integrating them with customer routines?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    CHANNEL PHASES
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintTitle>
+    1. Awareness
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    How do we raise awareness about our company's products and services?
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintTitle>
+    2. Evaluation
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    How do we help customers evaluate our organization's value proposition?
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintTitle>
+    3. Purchase
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    How do we allow customers to purchase specific products and services?
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintTitle>
+    4. Delivery
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    How do we deliver a value proposition to customers?
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintTitle>
+    5. After sales
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    How do we provide post-purchase customer support?
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components CostStructure Component To match snapshot of CostStructure 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    What are the most important costs inherent in our business model?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which key resources are most expensive?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which key activities are most expensive?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    IS YOUR BUSINESS MORE
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Cost driven (leanest cost structure, low price value proposition, maximum automation, extensive outsourcing)
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Value driven (focused on value creation, premium value proposition)
+  </Commonstyle__PopoverHintText>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    SAMPLE CHARACTERISTICS
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Fixed costs (salaries, rents, utilities)
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Variable costs
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Economies of scale
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Economies of scope
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components CustomerRelationships Component To match snapshot of CustomerRelationships 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    What type of relationship does each of our customer segments expect us to establish and maintain with them?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which ones have we established?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How are they integrated with the rest of our business model?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How costly are they?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    EXAMPLES
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Personal assistance
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Dedicated personal assistance
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Self-service
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Automated services
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Communities
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Co-creation
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components CustomerSegments Component To match snapshot of CustomerSegments 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    For whom are we creating value?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Who are our most important customers?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintText>
+    Mass market
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Niche market
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Segmented
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Diversified
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Multi-sided platform
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components KeyActivities Component To match snapshot of KeyActivities 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    What key activities do our value propositions require?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Our distribution channels?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Customer relationships?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Revenue streams?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    Categories
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Production
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Problem solving
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Platform/Network
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components KeyPartners Component To match snapshot of KeyPartners 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    Who are our key partners?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Who are our key suppliers?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which key resources are we acquairing from partners?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which key activities do partners perform?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    Hints for partnerships
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Optimization and economy
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Reduction of risk and uncertainity
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Acquisition of particular resources and activities
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components KeyResources Component To match snapshot of KeyResources 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    What key resources do our value propositions require?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Our distribution channels?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Customer relationships?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Revenue streams?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    Types of resources
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Physical
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Intellectual (brand patents, copyrights, data)
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Human
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Financial
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components RevenueStreams Component To match snapshot of RevenueStreams 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    For what value are our customers really willing to pay?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    For what do they currently pay?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How are they currently paying?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How would they prefer to pay?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    How much does each revenue stream contribute to overall revenues?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <table>
+    <thead>
+      <th>
+        Types
+      </th>
+      <th>
+        Fixed Pricing
+      </th>
+      <th>
+        Dynamic Pricing
+      </th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Asset sale
+        </td>
+        <td>
+          List price
+        </td>
+        <td>
+          Negotiation (bargaining)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Usage fee
+        </td>
+        <td>
+          Product feature dependent
+        </td>
+        <td>
+          Yield management
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Subscription fees
+        </td>
+        <td>
+          Customer segment
+        </td>
+        <td>
+          Real-time-market
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Lending/Renting/Leasing
+        </td>
+        <td>
+          dependent
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Licensing
+        </td>
+        <td>
+          Volume dependent
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Brokerage fees
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Advertising
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Commonstyle__PopoverBody>
+`;
+
+exports[`SectionsInfo Components ValuePropositions Component To match snapshot of ValuePropositions 1`] = `
+<Commonstyle__PopoverBody>
+  <Commonstyle__PopoverQuestion>
+    What value do we deliver to the customer?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which one of our customer's problems are we helping to solve?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    What bundles of products and services are we offering to each customer segment?
+  </Commonstyle__PopoverQuestion>
+  <Commonstyle__PopoverQuestion>
+    Which customer needs are we satisfying?
+  </Commonstyle__PopoverQuestion>
+  <br />
+  <Commonstyle__PopoverHintTitle>
+    CHARACTERISTICS
+  </Commonstyle__PopoverHintTitle>
+  <Commonstyle__PopoverHintText>
+    Newness
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Performance
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Customization
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Getting the job done
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Design
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Brand/Status
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Price
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Cost reduction
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Risk reduction
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Accessibility
+  </Commonstyle__PopoverHintText>
+  <Commonstyle__PopoverHintText>
+    Convenience/Usability
+  </Commonstyle__PopoverHintText>
+</Commonstyle__PopoverBody>
+`;

@@ -9,7 +9,7 @@ exports[`ColorPicker Component To match snapshot of ColorPicker 1`] = `
       Testing Color Picker
     </b>
   </label>
-  <styled.input
+  <ColorPickerstyle__ColorPickerWrapper
     list="true"
     name="colorwell"
   />

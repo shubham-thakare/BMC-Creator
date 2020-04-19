@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note Component To match snapshot of Note 1`] = `
+<Note
+  activeKey="keyPartners"
+  item={
+    Object {
+      "background": "red",
+      "color": "white",
+      "description": "Test description",
+      "key": 1587312190288,
+      "title": "Test note 1",
+    }
+  }
+>
+  <Blueprint3.Popover
+    boundary="scrollParent"
+    captureDismiss={false}
+    content={
+      <NoteMenu
+        activeKey="keyPartners"
+        noteKey={1587312190288}
+      />
+    }
+    defaultIsOpen={false}
+    disabled={false}
+    fill={false}
+    hasBackdrop={false}
+    hoverCloseDelay={300}
+    hoverOpenDelay={150}
+    inheritDarkTheme={true}
+    interactionKind="click"
+    minimal={false}
+    modifiers={Object {}}
+    openOnTargetFocus={true}
+    position="right-bottom"
+    targetClassName="full-width"
+    targetTagName="span"
+    transitionDuration={300}
+    usePortal={true}
+    wrapperTagName="span"
+  >
+    <Manager>
+      <span
+        className="bp3-popover-wrapper"
+      >
+        <Reference
+          innerRef={[Function]}
+        >
+          <InnerReference
+            innerRef={[Function]}
+            setReferenceNode={[Function]}
+          >
+            <Blueprint3.ResizeSensor
+              onResize={[Function]}
+            >
+              <span
+                className="bp3-popover-target full-width"
+                onClick={[Function]}
+              >
+                <Notestyle__NoteWrapper
+                  bgColor="red"
+                  className=""
+                  color="white"
+                  key=".0"
+                >
+                  <div
+                    className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh"
+                    color="white"
+                  >
+                    <Notestyle__NoteTitle>
+                      <span
+                        className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                      >
+                        Test note 1
+                      </span>
+                    </Notestyle__NoteTitle>
+                    <Notestyle__NoteDescription>
+                      <span
+                        className="Notestyle__NoteDescription-sc-2z8c2g-2 ilDHHe"
+                      >
+                        Test description
+                      </span>
+                    </Notestyle__NoteDescription>
+                  </div>
+                </Notestyle__NoteWrapper>
+              </span>
+            </Blueprint3.ResizeSensor>
+          </InnerReference>
+        </Reference>
+        <Blueprint3.Overlay
+          autoFocus={true}
+          backdropClassName="bp3-popover-backdrop"
+          backdropProps={Object {}}
+          canEscapeKeyClose={true}
+          canOutsideClickClose={true}
+          enforceFocus={true}
+          hasBackdrop={false}
+          isOpen={false}
+          lazy={true}
+          onClose={[Function]}
+          transitionDuration={300}
+          transitionName="bp3-popover"
+          usePortal={true}
+        />
+      </span>
+    </Manager>
+  </Blueprint3.Popover>
+</Note>
+`;

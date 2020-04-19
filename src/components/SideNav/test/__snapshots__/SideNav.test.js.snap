@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNav Component To match snapshot of SideNav 1`] = `
+<ContextProviderWrapper
+  useMockState={true}
+>
+  <SideNav
+    hasExportOption={true}
+    hasFooter={true}
+    hasOpenFileOption={true}
+    hasPresentationModeOption={true}
+    hasSaveFileOption={true}
+  >
+    <SideNavstyle__SideNavbar
+      id="sidebar"
+    >
+      <div
+        className="SideNavstyle__SideNavbar-sc-1s7cd9d-0 gblKmu"
+        id="sidebar"
+      >
+        <SideNavstyle__Link
+          className="openbtn"
+          href="javascript:void(0)"
+          id="open-button"
+          onClick={[Function]}
+        >
+          <a
+            className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo openbtn"
+            href="javascript:void(0)"
+            id="open-button"
+            onClick={[Function]}
+          >
+            <Blueprint3.Icon
+              icon="menu"
+              iconSize={30}
+            >
+              <span
+                className="bp3-icon bp3-icon-menu"
+                icon="menu"
+              >
+                <svg
+                  data-icon="menu"
+                  height={30}
+                  viewBox="0 0 20 20"
+                  width={30}
+                >
+                  <desc>
+                    menu
+                  </desc>
+                  <path
+                    d="M1 6h18c.55 0 1-.45 1-1s-.45-1-1-1H1c-.55 0-1 .45-1 1s.45 1 1 1zm18 3H1c-.55 0-1 .45-1 1s.45 1 1 1h18c.55 0 1-.45 1-1s-.45-1-1-1zm0 5H1c-.55 0-1 .45-1 1s.45 1 1 1h18c.55 0 1-.45 1-1s-.45-1-1-1z"
+                    fillRule="evenodd"
+                    key="0"
+                  />
+                </svg>
+              </span>
+            </Blueprint3.Icon>
+          </a>
+        </SideNavstyle__Link>
+        <SideNavstyle__Link
+          className="closebtn"
+          href="javascript:void(0)"
+          id="close-button"
+          onClick={[Function]}
+        >
+          <a
+            className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo closebtn"
+            href="javascript:void(0)"
+            id="close-button"
+            onClick={[Function]}
+          >
+            <Blueprint3.Icon
+              icon="chevron-left"
+              iconSize={30}
+            >
+              <span
+                className="bp3-icon bp3-icon-chevron-left"
+                icon="chevron-left"
+              >
+                <svg
+                  data-icon="chevron-left"
+                  height={30}
+                  viewBox="0 0 20 20"
+                  width={30}
+                >
+                  <desc>
+                    chevron-left
+                  </desc>
+                  <path
+                    d="M8.41 10l5.29-5.29c.19-.18.3-.43.3-.71a1.003 1.003 0 00-1.71-.71l-6 6c-.18.18-.29.43-.29.71 0 .28.11.53.29.71l6 6a1.003 1.003 0 001.42-1.42L8.41 10z"
+                    fillRule="evenodd"
+                    key="0"
+                  />
+                </svg>
+              </span>
+            </Blueprint3.Icon>
+          </a>
+        </SideNavstyle__Link>
+        <SideNavstyle__ToggleHide
+          id="toggle-hide"
+        >
+          <div
+            className="SideNavstyle__ToggleHide-sc-1s7cd9d-3 hIydNM"
+            id="toggle-hide"
+          >
+            <Blueprint3.Divider>
+              <div
+                className="bp3-divider"
+              />
+            </Blueprint3.Divider>
+            <SideNavstyle__AppTitle>
+              <div
+                className="SideNavstyle__AppTitle-sc-1s7cd9d-1 chyrJg"
+              >
+                <b>
+                  Business Model Canvas
+                </b>
+                 
+                <i>
+                  v1.0.0
+                </i>
+              </div>
+            </SideNavstyle__AppTitle>
+            <Blueprint3.Divider>
+              <div
+                className="bp3-divider"
+              />
+            </Blueprint3.Divider>
+            <SideNavstyle__Link
+              href="javascript:void(0)"
+              onClick={[Function]}
+            >
+              <a
+                className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                href="javascript:void(0)"
+                onClick={[Function]}
+              >
+                <Blueprint3.Icon
+                  icon="document"
+                  iconSize={20}
+                >
+                  <span
+                    className="bp3-icon bp3-icon-document"
+                    icon="document"
+                  >
+                    <svg
+                      data-icon="document"
+                      height={20}
+                      viewBox="0 0 20 20"
+                      width={20}
+                    >
+                      <desc>
+                        document
+                      </desc>
+                      <path
+                        d="M11.98 0h-8c-.55 0-1 .45-1 1v18c0 .55.45 1 1 1h13c.55 0 1-.45 1-1V6l-6-6zm4 18h-11V2h6v5h5v11z"
+                        fillRule="evenodd"
+                        key="0"
+                      />
+                    </svg>
+                  </span>
+                </Blueprint3.Icon>
+                 
+                Save
+              </a>
+            </SideNavstyle__Link>
+            <SideNavstyle__Link
+              href="javascript:void(0)"
+              onClick={[Function]}
+            >
+              <a
+                className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                href="javascript:void(0)"
+                onClick={[Function]}
+              >
+                <Blueprint3.Icon
+                  icon="document-open"
+                  iconSize={20}
+                >
+                  <span
+                    className="bp3-icon bp3-icon-document-open"
+                    icon="document-open"
+                  >
+                    <svg
+                      data-icon="document-open"
+                      height={20}
+                      viewBox="0 0 20 20"
+                      width={20}
+                    >
+                      <desc>
+                        document-open
+                      </desc>
+                      <path
+                        d="M8 15c0 .55.45 1 1 1s1-.45 1-1v-5c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1h2.59L1.3 16.29c-.19.18-.3.43-.3.71a1.003 1.003 0 001.71.71L8 12.41V15zm5-15H5c-.55 0-1 .45-1 1v6h2V2h6v5h5v11H6v-.76L4.04 19.2c.1.45.48.8.96.8h13c.55 0 1-.45 1-1V6l-6-6z"
+                        fillRule="evenodd"
+                        key="0"
+                      />
+                    </svg>
+                  </span>
+                </Blueprint3.Icon>
+                 
+                open
+              </a>
+            </SideNavstyle__Link>
+            <SideNavstyle__Link
+              href="javascript:void(0)"
+              onClick={[Function]}
+            >
+              <a
+                className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                href="javascript:void(0)"
+                onClick={[Function]}
+              >
+                <Blueprint3.Icon
+                  icon="export"
+                  iconSize={20}
+                >
+                  <span
+                    className="bp3-icon bp3-icon-export"
+                    icon="export"
+                  >
+                    <svg
+                      data-icon="export"
+                      height={20}
+                      viewBox="0 0 20 20"
+                      width={20}
+                    >
+                      <desc>
+                        export
+                      </desc>
+                      <path
+                        d="M5 7c.28 0 .53-.11.71-.29L9 3.41V15c0 .55.45 1 1 1s1-.45 1-1V3.41l3.29 3.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71l-5-5C10.53.11 10.28 0 10 0s-.53.11-.71.29l-5 5A1.003 1.003 0 005 7zm14 7c-.55 0-1 .45-1 1v3H2v-3c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1h18c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1z"
+                        fillRule="evenodd"
+                        key="0"
+                      />
+                    </svg>
+                  </span>
+                </Blueprint3.Icon>
+                 
+                Export to SVG
+              </a>
+            </SideNavstyle__Link>
+            <SideNavstyle__Link
+              href="javascript:void(0)"
+            >
+              <a
+                className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                href="javascript:void(0)"
+              >
+                <Blueprint3.Icon
+                  icon="presentation"
+                  iconSize={20}
+                >
+                  <span
+                    className="bp3-icon bp3-icon-presentation"
+                    icon="presentation"
+                  >
+                    <svg
+                      data-icon="presentation"
+                      height={20}
+                      viewBox="0 0 20 20"
+                      width={20}
+                    >
+                      <desc>
+                        presentation
+                      </desc>
+                      <path
+                        d="M19 1h-8c0-.55-.45-1-1-1S9 .45 9 1H1c-.55 0-1 .45-1 1s.45 1 1 1h1v11c0 .55.45 1 1 1h4.59L4.3 18.29c-.19.18-.3.43-.3.71a1.003 1.003 0 001.71.71L9 16.41V19c0 .55.45 1 1 1s1-.45 1-1v-2.59l3.29 3.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71L12.41 15H17c.55 0 1-.45 1-1V3h1c.55 0 1-.45 1-1s-.45-1-1-1zm-3 12H4V3h12v10z"
+                        fillRule="evenodd"
+                        key="0"
+                      />
+                    </svg>
+                  </span>
+                </Blueprint3.Icon>
+                 
+                Presentation Mode
+              </a>
+            </SideNavstyle__Link>
+            <SideNavstyle__Footer>
+              <div
+                className="SideNavstyle__Footer-sc-1s7cd9d-4 iSChnb"
+              >
+                <Blueprint3.Divider>
+                  <div
+                    className="bp3-divider"
+                  />
+                </Blueprint3.Divider>
+                <SideNavstyle__Link
+                  href="https://github.com/shubham-thakare/BMC-Creator"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <a
+                    className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                    href="https://github.com/shubham-thakare/BMC-Creator"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    View on GitHub
+                     
+                    <Blueprint3.Icon
+                      icon="share"
+                      iconSize={14}
+                    >
+                      <span
+                        className="bp3-icon bp3-icon-share"
+                        icon="share"
+                      >
+                        <svg
+                          data-icon="share"
+                          height={14}
+                          viewBox="0 0 16 16"
+                          width={14}
+                        >
+                          <desc>
+                            share
+                          </desc>
+                          <path
+                            d="M10.99 13.99h-9v-9h4.76l2-2H.99c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V7.24l-2 2v4.75zm4-14h-5c-.55 0-1 .45-1 1s.45 1 1 1h2.59L7.29 7.28a1 1 0 00-.3.71 1.003 1.003 0 001.71.71l5.29-5.29V6c0 .55.45 1 1 1s1-.45 1-1V1c0-.56-.45-1.01-1-1.01z"
+                            fillRule="evenodd"
+                            key="0"
+                          />
+                        </svg>
+                      </span>
+                    </Blueprint3.Icon>
+                  </a>
+                </SideNavstyle__Link>
+              </div>
+            </SideNavstyle__Footer>
+          </div>
+        </SideNavstyle__ToggleHide>
+      </div>
+    </SideNavstyle__SideNavbar>
+  </SideNav>
+</ContextProviderWrapper>
+`;

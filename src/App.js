@@ -1,17 +1,14 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import { SideNav } from './components';
 import { BMCScreen } from './screens';
-import { ContextProvider } from './utils';
-import { reducer, appState } from './reducer';
+import { ContextProviderWrapper } from './utils';
 
 const App = () => {
-  const [state, dispatch] = useReducer(reducer, appState);
-
   return (
-    <ContextProvider value={{ state, dispatch }}>
+    <ContextProviderWrapper>
       <SideNav hasSaveFileOption hasOpenFileOption hasFooter />
       <BMCScreen />
-    </ContextProvider>
+    </ContextProviderWrapper>
   );
 };
 
