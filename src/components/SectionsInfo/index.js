@@ -8,6 +8,13 @@ import { CustomerSegments } from '../../components/SectionsInfo/CustomerSegments
 import { CostStructure } from '../../components/SectionsInfo/CostStructure';
 import { RevenueStreams } from '../../components/SectionsInfo/RevenueStreams';
 
+import {
+  PopoverBody,
+  PopoverQuestion,
+  PopoverHintTitle,
+  PopoverHintText,
+} from './styles/Common.style';
+
 export {
   KeyPartners,
   KeyActivities,
@@ -18,4 +25,8 @@ export {
   CustomerSegments,
   CostStructure,
   RevenueStreams,
+  PopoverBody,
+  PopoverQuestion,
+  PopoverHintTitle,
+  PopoverHintText,
 };
