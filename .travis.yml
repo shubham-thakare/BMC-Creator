@@ -4,6 +4,15 @@ node_js:
 addons:
   sonarcloud:
     organization: shubham-thakare
+    token: 
+      secure: $SONAR_TOKEN
 script:
   - npm run test:c -- -u
   - sonar-scanner
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
