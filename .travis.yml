@@ -10,8 +10,9 @@ addons:
 script:
   - npm run test:c -- -u
   - sonar-scanner
-  - npm run build
 deploy:
+  script:
+    - npm run build
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
