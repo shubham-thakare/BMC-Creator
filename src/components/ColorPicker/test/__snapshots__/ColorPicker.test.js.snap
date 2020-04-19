@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker Component To match snapshot of ColorPicker 1`] = `
+<Fragment>
+  <label
+    htmlFor="colorwell"
+  >
+    <b>
+      Testing Color Picker
+    </b>
+  </label>
+  <styled.input
+    list="true"
+    name="colorwell"
+  />
+</Fragment>
+`;

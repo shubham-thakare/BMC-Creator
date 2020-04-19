@@ -1,0 +1,60 @@
+{
+  "name": "bmc-creator",
+  "description": "Helps you to create your business model canvas",
+  "keywords": [],
+  "version": "1.0.0",
+  "private": true,
+  "author": "Shubham Thakare",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:c": "jest --coverage",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "dependencies": {
+    "@blueprintjs/core": "3.25.0",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.5.0",
+    "@testing-library/user-event": "7.2.1",
+    "html-to-image": "0.1.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.1",
+    "styled-components": "5.1.0",
+    "waait": "1.0.5"
+  },
+  "devDependencies": {
+    "babel-jest": "25.3.0",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "enzyme-to-json": "3.4.4",
+    "eslint": "6.8.0",
+    "jest": "25.3.0",
+    "jest-sonar-reporter": "2.0.0",
+    "prettier": "1.19.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/travis/build/shubham-thakare/BMC-Creator/src/components/ColorPicker/test/ColorPicker.test.js">
+    <testCase name="ColorPicker Component To match snapshot of ColorPicker" duration="7"/>
+  </file>
+</testExecutions>
