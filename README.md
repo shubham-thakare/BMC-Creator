@@ -1,5 +1,5 @@
 # Business Model Canvas Creator
-Helps you to create your business model canvas
+Code quality and deployment status
 
 [![Build Status](https://travis-ci.com/shubham-thakare/BMC-Creator.svg?token=xETTf2ismY4iTtbyf1UX&branch=master)](https://travis-ci.com/shubham-thakare/BMC-Creator)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=alert_status)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
