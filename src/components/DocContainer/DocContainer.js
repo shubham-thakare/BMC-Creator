@@ -56,9 +56,9 @@ const DocContainer = ({
   activeKey,
   message,
   isEmpty,
-  hasEditOption = false,
-  hasAddOption = true,
-  allowFullScreen = false,
+  hasEditOption,
+  hasAddOption,
+  allowFullScreen,
   ...props
 }) => {
   const { state, dispatch } = useContext(AppContext);

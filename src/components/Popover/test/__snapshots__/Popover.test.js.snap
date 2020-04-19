@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover Component To match snapshot of Popover 1`] = `
+<Blueprint3.Popover
+  boundary="scrollParent"
+  captureDismiss={false}
+  content={
+    <React.Fragment>
+      Content
+    </React.Fragment>
+  }
+  defaultIsOpen={false}
+  disabled={false}
+  fill={false}
+  hasBackdrop={false}
+  hoverCloseDelay={300}
+  hoverOpenDelay={150}
+  inheritDarkTheme={true}
+  interactionKind="hover"
+  lazy={true}
+  minimal={false}
+  modifiers={Object {}}
+  openOnTargetFocus={true}
+  position="auto"
+  targetTagName="span"
+  transitionDuration={100}
+  usePortal={true}
+  wrapperTagName="span"
+>
+  Children
+</Blueprint3.Popover>
+`;
