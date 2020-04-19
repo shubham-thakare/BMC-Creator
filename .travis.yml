@@ -4,8 +4,6 @@ node_js:
 addons:
   sonarcloud:
     organization: shubham-thakare
-    token: 
-      secure: $SONAR_TOKEN
 script:
   - npm run test:c -- -u
   - sonar-scanner
