@@ -16,7 +16,14 @@ import { OPEN_NAV, CLOSE_NAV, EXPORT_IMAGE } from '../../actions';
 import cmsData from '../../cms';
 import { SAVE_FILE, OPEN_FILE } from '../../actions/actions';
 
-const SideNav = ({ hasExportOption, ...props }) => {
+const SideNav = ({
+  hasSaveFileOption,
+  hasOpenFileOption,
+  hasExportOption,
+  hasPresentationModeOption,
+  hasFooter,
+  ...props
+}) => {
   const { dispatch } = useContext(AppContext);
   const {
     l_app_title,
@@ -55,20 +62,24 @@ const SideNav = ({ hasExportOption, ...props }) => {
             <b>{l_app_title}</b> <i>{l_app_version}</i>
           </AppTitle>
           <Divider />
-          <Link
-            href="javascript:void(0)"
-            onClick={() => dispatch({ action: SAVE_FILE })}
-          >
-            <Icon icon={IconNames.DOCUMENT} iconSize={20} /> {l_save}
-          </Link>
-          <Link
-            href="javascript:void(0)"
-            onClick={() =>
-              dispatch({ action: OPEN_FILE, payload: { callback: dispatch } })
-            }
-          >
-            <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
-          </Link>
+          {hasSaveFileOption && (
+            <Link
+              href="javascript:void(0)"
+              onClick={() => dispatch({ action: SAVE_FILE })}
+            >
+              <Icon icon={IconNames.DOCUMENT} iconSize={20} /> {l_save}
+            </Link>
+          )}
+          {hasOpenFileOption && (
+            <Link
+              href="javascript:void(0)"
+              onClick={() =>
+                dispatch({ action: OPEN_FILE, payload: { callback: dispatch } })
+              }
+            >
+              <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
+            </Link>
+          )}
           {hasExportOption && (
             <Link
               href="javascript:void(0)"
@@ -77,21 +88,25 @@ const SideNav = ({ hasExportOption, ...props }) => {
               <Icon icon={IconNames.EXPORT} iconSize={20} /> {l_export_to_svg}
             </Link>
           )}
-          <Link href="javascript:void(0)">
-            <Icon icon={IconNames.PRESENTATION} iconSize={20} />{' '}
-            {l_presentation_mode}
-          </Link>
-
-          <Footer>
-            <Divider />
-            <Link
-              href={url_app_github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {l_view_on_github} <Icon icon={IconNames.SHARE} iconSize={14} />
+          {hasPresentationModeOption && (
+            <Link href="javascript:void(0)">
+              <Icon icon={IconNames.PRESENTATION} iconSize={20} />{' '}
+              {l_presentation_mode}
             </Link>
-          </Footer>
+          )}
+
+          {hasFooter && (
+            <Footer>
+              <Divider />
+              <Link
+                href={url_app_github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {l_view_on_github} <Icon icon={IconNames.SHARE} iconSize={14} />
+              </Link>
+            </Footer>
+          )}
         </ToggleHide>
       </SideNavbar>
     </>
@@ -99,7 +114,11 @@ const SideNav = ({ hasExportOption, ...props }) => {
 };
 
 SideNav.propTypes = {
+  hasSaveFileOption: PropTypes.bool,
+  hasOpenFileOption: PropTypes.bool,
   hasExportOption: PropTypes.bool,
+  hasPresentationModeOption: PropTypes.bool,
+  hasFooter: PropTypes.bool,
 };
 
 export default SideNav;
