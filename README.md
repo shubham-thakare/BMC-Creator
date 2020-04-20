@@ -22,6 +22,10 @@ All notable changes to this project will be documented in [CHANGELOG.md](CHANGEL
 
 </div>
 
+## Summary
+
+Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models. It is a visual chart with elements describing a firm's or product's value proposition, infrastructure, customers, and finances.
+
 ## Technology Stack
 1. **Node** *v10.16.3*
 2. **NPM** *v6.9.0*
