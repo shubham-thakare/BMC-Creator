@@ -1,6 +1,6 @@
 <div align="center">
   
-  ![App Poster](https://shubham-thakare.github.io/BMC-Creator/assets/images/BMC_Logo.svg)
+  ![App Poster](https://www.bmccreator.com/assets/images/BMC_Logo.svg)
   
 </div>
 
@@ -16,7 +16,7 @@ Code Quality and Deployment Status
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shubham-thakare/BMC-Creator/issues)
 [![HitCount](http://hits.dwyl.com/shubham-thakare/BMC-Creator.svg)](http://hits.dwyl.com/shubham-thakare/BMC-Creator)
 
-[Go to BMC-Creator](https://shubham-thakare.github.io/BMC-Creator/)
+[Go to BMC-Creator](https://www.bmccreator.com/)
 
 </div>
 
