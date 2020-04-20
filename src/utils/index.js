@@ -9,6 +9,7 @@ import {
   openFile,
   saveFile,
   trimString,
+  userVisitedBefore,
 } from './utils';
 
 import { ContextProviderWrapper } from './ContextProviderWrapper';
@@ -25,4 +26,5 @@ export {
   saveFile,
   trimString,
   ContextProviderWrapper,
+  userVisitedBefore,
 };

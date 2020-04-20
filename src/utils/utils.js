@@ -17,7 +17,7 @@ export const exportImage = async (fileName) => {
   const node = document.getElementById('canvas-screen');
   closeNav();
   htmlToImage.toSvgDataURL(node, { filter: filter }).then((dataUrl) => {
-    var link = document.createElement('a');
+    const link = document.createElement('a');
     link.download = fileName + '.svg';
     link.href = dataUrl;
     link.click();
@@ -51,8 +51,8 @@ export const closeNav = () => {
 
 export const saveFile = (currentState, fileName) => {
   try {
-    var pom = document.createElement('a');
-    var blob = new Blob([JSON.stringify(currentState)], { type: 'text/xml' });
+    const pom = document.createElement('a');
+    const blob = new Blob([JSON.stringify(currentState)], { type: 'text/xml' });
     pom.setAttribute('href', window.URL.createObjectURL(blob));
     pom.setAttribute('download', fileName + '.bmc');
     pom.dataset.downloadurl = ['text/xml', pom.download, pom.href].join(':');
@@ -82,4 +82,33 @@ export const openFile = (dispatch) => {
 
 export const trimString = (string) => {
   return string ? string.toString().trim() : '';
+};
+
+export const userVisitedBefore = () => {
+  const userVisitedBefore = getCookie('userVisitedBefore');
+  setCookie('userVisitedBefore', true, 365);
+
+  return userVisitedBefore;
+};
+
+const setCookie = (cname, cvalue, exdays) => {
+  const d = new Date();
+  d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+  const expires = 'expires=' + d.toUTCString();
+  document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/';
+};
+
+const getCookie = (cname) => {
+  const name = cname + '=';
+  const ca = document.cookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) === ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) === 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return '';
 };

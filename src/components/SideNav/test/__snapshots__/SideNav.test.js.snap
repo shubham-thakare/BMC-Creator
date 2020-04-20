@@ -19,13 +19,13 @@ exports[`SideNav Component To match snapshot of SideNav 1`] = `
         id="sidebar"
       >
         <SideNavstyle__Link
-          className="openbtn"
+          className="openbtn joyride-first-step"
           href="javascript:void(0)"
           id="open-button"
           onClick={[Function]}
         >
           <a
-            className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo openbtn"
+            className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo openbtn joyride-first-step"
             href="javascript:void(0)"
             id="open-button"
             onClick={[Function]}

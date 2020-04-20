@@ -1,5 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
+import Joyride from 'react-joyride';
 import App from '../App';
 import { SideNav } from '../components';
 import { BMCScreen } from '../screens';
@@ -17,6 +18,11 @@ describe('App Component', () => {
     done();
   });
 
+  it('Joyride exists', async (done) => {
+    expect(wrapper.find(Joyride)).toHaveLength(1);
+    done();
+  });
+
   it('NavBar exists', async (done) => {
     expect(wrapper.find(SideNav)).toHaveLength(1);
     done();
@@ -24,34 +30,34 @@ describe('App Component', () => {
 
   it('Simulat NavBar link clicks', async (done) => {
     wrapper
-    .find(SideNav)
-    .find(Link)
-    .at(0)
-    .simulate('click');
+      .find(SideNav)
+      .find(Link)
+      .at(0)
+      .simulate('click');
 
     wrapper
-    .find(SideNav)
-    .find(Link)
-    .at(1)
-    .simulate('click');
+      .find(SideNav)
+      .find(Link)
+      .at(1)
+      .simulate('click');
 
     wrapper
-    .find(SideNav)
-    .find(Link)
-    .at(2)
-    .simulate('click');
+      .find(SideNav)
+      .find(Link)
+      .at(2)
+      .simulate('click');
 
     wrapper
-    .find(SideNav)
-    .find(Link)
-    .at(3)
-    .simulate('click');
+      .find(SideNav)
+      .find(Link)
+      .at(3)
+      .simulate('click');
 
     wrapper
-    .find(SideNav)
-    .find(Link)
-    .at(4)
-    .simulate('click');
+      .find(SideNav)
+      .find(Link)
+      .at(4)
+      .simulate('click');
     done();
   });
 
