@@ -36,15 +36,6 @@ const BMCScreen = () => {
     title,
     version,
     date,
-    keyPartners,
-    keyActivities,
-    keyResources,
-    valuePropositions,
-    customerRelationships,
-    channels,
-    customerSegments,
-    costStructure,
-    revenueStreams,
   } = state;
 
   const {
@@ -76,6 +67,7 @@ const BMCScreen = () => {
               onChange={(evt) =>
                 dispatch({ action: UPDATE_TITLE, payload: evt.target.value })
               }
+              className="joyride-second-step"
             />
           </Div>
           <GridRow>
@@ -90,6 +82,7 @@ const BMCScreen = () => {
                     payload: evt.target.value,
                   })
                 }
+                className="joyride-third-step"
               />
             </Flex>
             <Flex>
@@ -100,28 +93,18 @@ const BMCScreen = () => {
                 onChange={(evt) =>
                   dispatch({ action: UPDATE_DATE, payload: evt.target.value })
                 }
+                className="joyride-fourth-step"
               />
             </Flex>
           </GridRow>
         </BMCScreenHeaderGrid>
         <BMCScreenCanvasGrid>
           <Div className="bmc-key-partners">
-            <SectionTitle icon="key_partners">
+            <SectionTitle icon="key_partners" className="joyride-fifth-step">
               <Popover content={<KeyPartners />}>{l_key_partners}</Popover>
             </SectionTitle>
             <DocContainer
               activeKey="keyPartners"
-              isEmpty={
-                !keyPartners.notes.length &&
-                !keyActivities.notes.length &&
-                !keyResources.notes.length &&
-                !valuePropositions.notes.length &&
-                !customerRelationships.notes.length &&
-                !channels.notes.length &&
-                !customerSegments.notes.length &&
-                !costStructure.notes.length &&
-                !revenueStreams.notes.length
-              }
               message={p_get_started}
               hasAddOption
             />

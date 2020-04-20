@@ -204,4 +204,41 @@ export default {
   l_tip_menu_option_1: 'Save File',
   l_tip_menu_option_2: 'Open Existing File',
   l_tip_menu_option_3: 'Start Presentation Mode',
+
+  // Joyride Steps
+
+  joyrideSteps: [
+    {
+      target: '.joyride-first-step',
+      content: 'Use side navigation bar to perform various operations',
+      hideCloseButton: true,
+      disableBeacon: true,
+    },
+    {
+      target: '.joyride-second-step',
+      content: 'Use it to name this canvas',
+      hideCloseButton: true,
+    },
+    {
+      target: '.joyride-third-step',
+      content: 'Update canvas version number here',
+      hideCloseButton: true,
+    },
+    {
+      target: '.joyride-fourth-step',
+      content: 'Update canvas effective date here',
+      hideCloseButton: true,
+    },
+    {
+      target: '.joyride-fifth-step',
+      content: 'See hints by simply clicking on the title of each section',
+      hideCloseButton: true,
+    },
+    {
+      target: '.joyride-sixth-step',
+      content:
+        'Add new notes by clicking on a add button placed at top right corner of each section',
+      hideCloseButton: true,
+    },
+  ],
 };
