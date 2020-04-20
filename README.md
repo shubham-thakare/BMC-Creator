@@ -1,6 +1,5 @@
 <div align="center">
   
-  # Business Model Canvas Creator  
   ![App Poster](https://shubham-thakare.github.io/BMC-Creator/assets/images/BMC_Logo.svg)
   
 </div>
