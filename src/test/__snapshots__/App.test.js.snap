@@ -1,12 +1,1629 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Component To match snapshot of App 1`] = `
-<ContextProviderWrapper>
-  <SideNav
-    hasFooter={true}
-    hasOpenFileOption={true}
-    hasSaveFileOption={true}
-  />
-  <BMCScreen />
-</ContextProviderWrapper>
+<App>
+  <ContextProviderWrapper>
+    <SideNav
+      hasFooter={true}
+      hasOpenFileOption={true}
+      hasSaveFileOption={true}
+    >
+      <SideNavstyle__SideNavbar
+        id="sidebar"
+      >
+        <div
+          className="SideNavstyle__SideNavbar-sc-1s7cd9d-0 gblKmu"
+          id="sidebar"
+        >
+          <SideNavstyle__Link
+            className="openbtn"
+            href="javascript:void(0)"
+            id="open-button"
+            onClick={[Function]}
+          >
+            <a
+              className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo openbtn"
+              href="javascript:void(0)"
+              id="open-button"
+              onClick={[Function]}
+            >
+              <Blueprint3.Icon
+                icon="menu"
+                iconSize={30}
+              >
+                <span
+                  className="bp3-icon bp3-icon-menu"
+                  icon="menu"
+                >
+                  <svg
+                    data-icon="menu"
+                    height={30}
+                    viewBox="0 0 20 20"
+                    width={30}
+                  >
+                    <desc>
+                      menu
+                    </desc>
+                    <path
+                      d="M1 6h18c.55 0 1-.45 1-1s-.45-1-1-1H1c-.55 0-1 .45-1 1s.45 1 1 1zm18 3H1c-.55 0-1 .45-1 1s.45 1 1 1h18c.55 0 1-.45 1-1s-.45-1-1-1zm0 5H1c-.55 0-1 .45-1 1s.45 1 1 1h18c.55 0 1-.45 1-1s-.45-1-1-1z"
+                      fillRule="evenodd"
+                      key="0"
+                    />
+                  </svg>
+                </span>
+              </Blueprint3.Icon>
+            </a>
+          </SideNavstyle__Link>
+          <SideNavstyle__Link
+            className="closebtn"
+            href="javascript:void(0)"
+            id="close-button"
+            onClick={[Function]}
+          >
+            <a
+              className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo closebtn"
+              href="javascript:void(0)"
+              id="close-button"
+              onClick={[Function]}
+            >
+              <Blueprint3.Icon
+                icon="chevron-left"
+                iconSize={30}
+              >
+                <span
+                  className="bp3-icon bp3-icon-chevron-left"
+                  icon="chevron-left"
+                >
+                  <svg
+                    data-icon="chevron-left"
+                    height={30}
+                    viewBox="0 0 20 20"
+                    width={30}
+                  >
+                    <desc>
+                      chevron-left
+                    </desc>
+                    <path
+                      d="M8.41 10l5.29-5.29c.19-.18.3-.43.3-.71a1.003 1.003 0 00-1.71-.71l-6 6c-.18.18-.29.43-.29.71 0 .28.11.53.29.71l6 6a1.003 1.003 0 001.42-1.42L8.41 10z"
+                      fillRule="evenodd"
+                      key="0"
+                    />
+                  </svg>
+                </span>
+              </Blueprint3.Icon>
+            </a>
+          </SideNavstyle__Link>
+          <SideNavstyle__ToggleHide
+            id="toggle-hide"
+          >
+            <div
+              className="SideNavstyle__ToggleHide-sc-1s7cd9d-3 hIydNM"
+              id="toggle-hide"
+            >
+              <Blueprint3.Divider>
+                <div
+                  className="bp3-divider"
+                />
+              </Blueprint3.Divider>
+              <SideNavstyle__AppTitle>
+                <div
+                  className="SideNavstyle__AppTitle-sc-1s7cd9d-1 chyrJg"
+                >
+                  <b>
+                    Business Model Canvas
+                  </b>
+                   
+                  <i>
+                    v1.0.0
+                  </i>
+                </div>
+              </SideNavstyle__AppTitle>
+              <Blueprint3.Divider>
+                <div
+                  className="bp3-divider"
+                />
+              </Blueprint3.Divider>
+              <SideNavstyle__Link
+                href="javascript:void(0)"
+                onClick={[Function]}
+              >
+                <a
+                  className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                  href="javascript:void(0)"
+                  onClick={[Function]}
+                >
+                  <Blueprint3.Icon
+                    icon="document"
+                    iconSize={20}
+                  >
+                    <span
+                      className="bp3-icon bp3-icon-document"
+                      icon="document"
+                    >
+                      <svg
+                        data-icon="document"
+                        height={20}
+                        viewBox="0 0 20 20"
+                        width={20}
+                      >
+                        <desc>
+                          document
+                        </desc>
+                        <path
+                          d="M11.98 0h-8c-.55 0-1 .45-1 1v18c0 .55.45 1 1 1h13c.55 0 1-.45 1-1V6l-6-6zm4 18h-11V2h6v5h5v11z"
+                          fillRule="evenodd"
+                          key="0"
+                        />
+                      </svg>
+                    </span>
+                  </Blueprint3.Icon>
+                   
+                  Save
+                </a>
+              </SideNavstyle__Link>
+              <SideNavstyle__Link
+                href="javascript:void(0)"
+                onClick={[Function]}
+              >
+                <a
+                  className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                  href="javascript:void(0)"
+                  onClick={[Function]}
+                >
+                  <Blueprint3.Icon
+                    icon="document-open"
+                    iconSize={20}
+                  >
+                    <span
+                      className="bp3-icon bp3-icon-document-open"
+                      icon="document-open"
+                    >
+                      <svg
+                        data-icon="document-open"
+                        height={20}
+                        viewBox="0 0 20 20"
+                        width={20}
+                      >
+                        <desc>
+                          document-open
+                        </desc>
+                        <path
+                          d="M8 15c0 .55.45 1 1 1s1-.45 1-1v-5c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1h2.59L1.3 16.29c-.19.18-.3.43-.3.71a1.003 1.003 0 001.71.71L8 12.41V15zm5-15H5c-.55 0-1 .45-1 1v6h2V2h6v5h5v11H6v-.76L4.04 19.2c.1.45.48.8.96.8h13c.55 0 1-.45 1-1V6l-6-6z"
+                          fillRule="evenodd"
+                          key="0"
+                        />
+                      </svg>
+                    </span>
+                  </Blueprint3.Icon>
+                   
+                  open
+                </a>
+              </SideNavstyle__Link>
+              <SideNavstyle__Footer>
+                <div
+                  className="SideNavstyle__Footer-sc-1s7cd9d-4 iSChnb"
+                >
+                  <Blueprint3.Divider>
+                    <div
+                      className="bp3-divider"
+                    />
+                  </Blueprint3.Divider>
+                  <SideNavstyle__Link
+                    href="https://github.com/shubham-thakare/BMC-Creator"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <a
+                      className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                      href="https://github.com/shubham-thakare/BMC-Creator"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      View on GitHub
+                       
+                      <Blueprint3.Icon
+                        icon="share"
+                        iconSize={14}
+                      >
+                        <span
+                          className="bp3-icon bp3-icon-share"
+                          icon="share"
+                        >
+                          <svg
+                            data-icon="share"
+                            height={14}
+                            viewBox="0 0 16 16"
+                            width={14}
+                          >
+                            <desc>
+                              share
+                            </desc>
+                            <path
+                              d="M10.99 13.99h-9v-9h4.76l2-2H.99c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V7.24l-2 2v4.75zm4-14h-5c-.55 0-1 .45-1 1s.45 1 1 1h2.59L7.29 7.28a1 1 0 00-.3.71 1.003 1.003 0 001.71.71l5.29-5.29V6c0 .55.45 1 1 1s1-.45 1-1V1c0-.56-.45-1.01-1-1.01z"
+                              fillRule="evenodd"
+                              key="0"
+                            />
+                          </svg>
+                        </span>
+                      </Blueprint3.Icon>
+                    </a>
+                  </SideNavstyle__Link>
+                </div>
+              </SideNavstyle__Footer>
+            </div>
+          </SideNavstyle__ToggleHide>
+        </div>
+      </SideNavstyle__SideNavbar>
+    </SideNav>
+    <BMCScreen>
+      <NoteDialog>
+        <NoteDialogstyle__NoteDialogWrapper>
+          <div
+            className="NoteDialogstyle__NoteDialogWrapper-fblslq-0 kwaYdR"
+          >
+            <Blueprint3.Dialog
+              canOutsideClickClose={true}
+              isOpen={false}
+            >
+              <Blueprint3.Overlay
+                autoFocus={true}
+                backdropProps={Object {}}
+                canEscapeKeyClose={true}
+                canOutsideClickClose={true}
+                className="bp3-overlay-scroll-container"
+                enforceFocus={true}
+                hasBackdrop={true}
+                isOpen={false}
+                lazy={true}
+                transitionDuration={300}
+                transitionName="bp3-overlay"
+                usePortal={true}
+              />
+            </Blueprint3.Dialog>
+          </div>
+        </NoteDialogstyle__NoteDialogWrapper>
+      </NoteDialog>
+      <BMCScreenstyle__BMCScreen
+        id="canvas-screen"
+      >
+        <div
+          className="BMCScreenstyle__BMCScreen-bb916e-0 kcvdWd"
+          id="canvas-screen"
+        >
+          <BMCScreenstyle__BMCScreenHeaderGrid>
+            <div
+              className="BMCScreenstyle__BMCScreenHeaderGrid-bb916e-1 gDXXQI"
+            >
+              <BMCScreenstyle__Div
+                isTransparent={true}
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 jSABEh"
+                >
+                  <BMCScreenstyle__TitleInput
+                    onChange={[Function]}
+                    placeholder="Edit title..."
+                    value=""
+                  >
+                    <input
+                      className="BMCScreenstyle__TitleInput-bb916e-2 iXDoCK"
+                      onChange={[Function]}
+                      placeholder="Edit title..."
+                      value=""
+                    />
+                  </BMCScreenstyle__TitleInput>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__GridRow>
+                <div
+                  className="BMCScreenstyle__GridRow-bb916e-5 dTTJaT"
+                >
+                  <BMCScreenstyle__Flex>
+                    <div
+                      className="BMCScreenstyle__Flex-bb916e-6 fpYqXl"
+                    >
+                      <BMCScreenstyle__Bold>
+                        <b
+                          className="BMCScreenstyle__Bold-bb916e-9 iIyXav"
+                        >
+                          Version
+                          :
+                        </b>
+                      </BMCScreenstyle__Bold>
+                      <BMCScreenstyle__BMCScreenInput
+                        onChange={[Function]}
+                        placeholder="NA"
+                        value=""
+                      >
+                        <input
+                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie"
+                          onChange={[Function]}
+                          placeholder="NA"
+                          value=""
+                        />
+                      </BMCScreenstyle__BMCScreenInput>
+                    </div>
+                  </BMCScreenstyle__Flex>
+                  <BMCScreenstyle__Flex>
+                    <div
+                      className="BMCScreenstyle__Flex-bb916e-6 fpYqXl"
+                    >
+                      <BMCScreenstyle__Bold>
+                        <b
+                          className="BMCScreenstyle__Bold-bb916e-9 iIyXav"
+                        >
+                          Date
+                          :
+                        </b>
+                      </BMCScreenstyle__Bold>
+                      <BMCScreenstyle__BMCScreenInput
+                        onChange={[Function]}
+                        placeholder="NA"
+                        value=""
+                      >
+                        <input
+                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie"
+                          onChange={[Function]}
+                          placeholder="NA"
+                          value=""
+                        />
+                      </BMCScreenstyle__BMCScreenInput>
+                    </div>
+                  </BMCScreenstyle__Flex>
+                </div>
+              </BMCScreenstyle__GridRow>
+            </div>
+          </BMCScreenstyle__BMCScreenHeaderGrid>
+          <BMCScreenstyle__BMCScreenCanvasGrid>
+            <div
+              className="BMCScreenstyle__BMCScreenCanvasGrid-bb916e-4 fHMvlp"
+            >
+              <BMCScreenstyle__Div
+                className="bmc-key-partners"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-key-partners"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="key_partners"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 kqwGiN"
+                    >
+                      <Popover
+                        content={<KeyPartners />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<KeyPartners />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Key Partners
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="keyPartners"
+                    hasAddOption={true}
+                    isEmpty={true}
+                    message="Hover mouse cursor on section to add notes"
+                  >
+                    <DocContainerstyle__DocContainerWrapper
+                      className="empty-state"
+                    >
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq empty-state"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                        <Tips>
+                          <DocContainerstyle__TipsWrapper>
+                            <div
+                              className="DocContainerstyle__TipsWrapper-sc-106t2xe-0 fKaaIx"
+                            >
+                              <span
+                                className="message text-bold text-italic"
+                              >
+                                Useful Tips
+                              </span>
+                              <ul>
+                                <li>
+                                  <span
+                                    className="message"
+                                  >
+                                    Update Canvas Title, Version, and Effective Date from the header
+                                  </span>
+                                </li>
+                                <li>
+                                  <span
+                                    className="message"
+                                  >
+                                    Click on section title to see hints
+                                  </span>
+                                </li>
+                                <li>
+                                  <span
+                                    className="message"
+                                  >
+                                    Click on
+                                     
+                                    <code>
+                                      +
+                                    </code>
+                                     
+                                    button placed at top right to add new notes
+                                  </span>
+                                </li>
+                                <li>
+                                  <span
+                                    className="message"
+                                  >
+                                    Click on note to see menu
+                                  </span>
+                                </li>
+                                <li>
+                                  <span
+                                    className="message"
+                                  >
+                                    Open side navigation bar to
+                                  </span>
+                                  <ul>
+                                    <li>
+                                      Save File
+                                    </li>
+                                    <li>
+                                      Open Existing File
+                                    </li>
+                                    <li>
+                                      Start Presentation Mode
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </div>
+                          </DocContainerstyle__TipsWrapper>
+                        </Tips>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-key-activities"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-key-activities"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="key_activities"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 kTivOH"
+                    >
+                      <Popover
+                        content={<KeyActivities />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<KeyActivities />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Key Activities
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="keyActivities"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-key-resources"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-key-resources"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="key_resources"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 fWQlOZ"
+                    >
+                      <Popover
+                        content={<KeyResources />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<KeyResources />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Key Resources
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="keyResources"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-value-propositions"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-value-propositions"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="value_propositions"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 beYiur"
+                    >
+                      <Popover
+                        content={<ValuePropositions />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<ValuePropositions />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Value Propositions
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="valuePropositions"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-customer-ralationships"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-customer-ralationships"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="customer_relationships"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 hcfSzQ"
+                    >
+                      <Popover
+                        content={<CustomerRelationships />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<CustomerRelationships />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Costumer Relationships
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="customerRelationships"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-channels"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-channels"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="channels"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 jTNyJM"
+                    >
+                      <Popover
+                        content={<Channels />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<Channels />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Channels
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="channels"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-customer-segments"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-customer-segments"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="customer_segments"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 dMGQnv"
+                    >
+                      <Popover
+                        content={<CustomerSegments />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<CustomerSegments />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Customer Segments
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="customerSegments"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-cost-structure"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-cost-structure"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="cost_structure"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 jSNXrp"
+                    >
+                      <Popover
+                        content={<CostStructure />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<CostStructure />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Cost Structure
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="costStructure"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+              <BMCScreenstyle__Div
+                className="bmc-revenue-streams"
+              >
+                <div
+                  className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-revenue-streams"
+                >
+                  <BMCScreenstyle__SectionTitle
+                    icon="revenue_streams"
+                  >
+                    <div
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 joJytC"
+                    >
+                      <Popover
+                        content={<RevenueStreams />}
+                      >
+                        <Blueprint3.Popover
+                          boundary="scrollParent"
+                          captureDismiss={false}
+                          content={<RevenueStreams />}
+                          defaultIsOpen={false}
+                          disabled={false}
+                          fill={false}
+                          hasBackdrop={false}
+                          hoverCloseDelay={300}
+                          hoverOpenDelay={150}
+                          inheritDarkTheme={true}
+                          interactionKind="hover"
+                          lazy={true}
+                          minimal={false}
+                          modifiers={Object {}}
+                          openOnTargetFocus={true}
+                          position="auto"
+                          targetTagName="span"
+                          transitionDuration={100}
+                          usePortal={true}
+                          wrapperTagName="span"
+                        >
+                          <Manager>
+                            <span
+                              className="bp3-popover-wrapper"
+                            >
+                              <Reference
+                                innerRef={[Function]}
+                              >
+                                <InnerReference
+                                  innerRef={[Function]}
+                                  setReferenceNode={[Function]}
+                                >
+                                  <Blueprint3.ResizeSensor
+                                    onResize={[Function]}
+                                  >
+                                    <span
+                                      className="bp3-popover-target"
+                                      onBlur={[Function]}
+                                      onFocus={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                    >
+                                      <span
+                                        className=""
+                                        tabIndex={0}
+                                      >
+                                        Revenue Streams
+                                      </span>
+                                    </span>
+                                  </Blueprint3.ResizeSensor>
+                                </InnerReference>
+                              </Reference>
+                              <Blueprint3.Overlay
+                                autoFocus={true}
+                                backdropClassName="bp3-popover-backdrop"
+                                backdropProps={Object {}}
+                                canEscapeKeyClose={true}
+                                canOutsideClickClose={false}
+                                enforceFocus={true}
+                                hasBackdrop={false}
+                                isOpen={false}
+                                lazy={true}
+                                onClose={[Function]}
+                                transitionDuration={100}
+                                transitionName="bp3-popover"
+                                usePortal={true}
+                              />
+                            </span>
+                          </Manager>
+                        </Blueprint3.Popover>
+                      </Popover>
+                    </div>
+                  </BMCScreenstyle__SectionTitle>
+                  <DocContainer
+                    activeKey="revenueStreams"
+                    hasAddOption={true}
+                  >
+                    <DocContainerstyle__DocContainerWrapper>
+                      <div
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      >
+                        <Blueprint3.Icon
+                          className="add-option"
+                          icon="plus"
+                          iconSize={15}
+                          onClick={[Function]}
+                        >
+                          <span
+                            className="bp3-icon bp3-icon-plus add-option"
+                            icon="plus"
+                            onClick={[Function]}
+                          >
+                            <svg
+                              data-icon="plus"
+                              height={15}
+                              viewBox="0 0 16 16"
+                              width={15}
+                            >
+                              <desc>
+                                plus
+                              </desc>
+                              <path
+                                d="M13 7H9V3c0-.55-.45-1-1-1s-1 .45-1 1v4H3c-.55 0-1 .45-1 1s.45 1 1 1h4v4c0 .55.45 1 1 1s1-.45 1-1V9h4c.55 0 1-.45 1-1s-.45-1-1-1z"
+                                fillRule="evenodd"
+                                key="0"
+                              />
+                            </svg>
+                          </span>
+                        </Blueprint3.Icon>
+                      </div>
+                    </DocContainerstyle__DocContainerWrapper>
+                  </DocContainer>
+                </div>
+              </BMCScreenstyle__Div>
+            </div>
+          </BMCScreenstyle__BMCScreenCanvasGrid>
+        </div>
+      </BMCScreenstyle__BMCScreen>
+    </BMCScreen>
+  </ContextProviderWrapper>
+</App>
 `;
