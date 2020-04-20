@@ -4,7 +4,7 @@ import { ContextProviderWrapper } from '../ContextProviderWrapper';
 
 let wrapper;
 
-describe('App Component', () => {
+describe('ContextProviderWrapper Component', () => {
   beforeAll(() => {
     wrapper = shallow(
       <ContextProviderWrapper>Test Component</ContextProviderWrapper>,
