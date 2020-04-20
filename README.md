@@ -18,6 +18,8 @@ Code Quality and Deployment Status
 
 visit [https://www.bmccreator.com](https://www.bmccreator.com/)
 
+All notable changes to this project has been documented in [CHANGELOG.md](CHANGELOG.md) file.
+
 </div>
 
 ## Technology Stack
