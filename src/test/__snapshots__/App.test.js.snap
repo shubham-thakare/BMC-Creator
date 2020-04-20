@@ -388,7 +388,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="key_partners"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 kqwGiN"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 eHKVyl"
                     >
                       <Popover
                         content={<KeyPartners />}
@@ -404,7 +404,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -431,14 +431,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Key Partners
                                       </span>
@@ -451,7 +447,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -589,7 +585,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="key_activities"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 kTivOH"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 hAJbXj"
                     >
                       <Popover
                         content={<KeyActivities />}
@@ -605,7 +601,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -632,14 +628,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Key Activities
                                       </span>
@@ -652,7 +644,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -719,7 +711,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="key_resources"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 fWQlOZ"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 iLriAx"
                     >
                       <Popover
                         content={<KeyResources />}
@@ -735,7 +727,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -762,14 +754,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Key Resources
                                       </span>
@@ -782,7 +770,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -849,7 +837,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="value_propositions"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 beYiur"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 dfxhZX"
                     >
                       <Popover
                         content={<ValuePropositions />}
@@ -865,7 +853,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -892,14 +880,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Value Propositions
                                       </span>
@@ -912,7 +896,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -979,7 +963,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="customer_relationships"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 hcfSzQ"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 LvPCc"
                     >
                       <Popover
                         content={<CustomerRelationships />}
@@ -995,7 +979,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -1022,14 +1006,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Costumer Relationships
                                       </span>
@@ -1042,7 +1022,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -1109,7 +1089,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="channels"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 jTNyJM"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 hKHxkg"
                     >
                       <Popover
                         content={<Channels />}
@@ -1125,7 +1105,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -1152,14 +1132,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Channels
                                       </span>
@@ -1172,7 +1148,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -1239,7 +1215,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="customer_segments"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 dMGQnv"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 hKUfQT"
                     >
                       <Popover
                         content={<CustomerSegments />}
@@ -1255,7 +1231,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -1282,14 +1258,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Customer Segments
                                       </span>
@@ -1302,7 +1274,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -1369,7 +1341,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="cost_structure"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 jSNXrp"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 hcKeap"
                     >
                       <Popover
                         content={<CostStructure />}
@@ -1385,7 +1357,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -1412,14 +1384,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Cost Structure
                                       </span>
@@ -1432,7 +1400,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
@@ -1499,7 +1467,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     icon="revenue_streams"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 joJytC"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 lfOfSe"
                     >
                       <Popover
                         content={<RevenueStreams />}
@@ -1515,7 +1483,7 @@ exports[`App Component To match snapshot of App 1`] = `
                           hoverCloseDelay={300}
                           hoverOpenDelay={150}
                           inheritDarkTheme={true}
-                          interactionKind="hover"
+                          interactionKind="click"
                           lazy={true}
                           minimal={false}
                           modifiers={Object {}}
@@ -1542,14 +1510,10 @@ exports[`App Component To match snapshot of App 1`] = `
                                   >
                                     <span
                                       className="bp3-popover-target"
-                                      onBlur={[Function]}
-                                      onFocus={[Function]}
-                                      onMouseEnter={[Function]}
-                                      onMouseLeave={[Function]}
+                                      onClick={[Function]}
                                     >
                                       <span
                                         className=""
-                                        tabIndex={0}
                                       >
                                         Revenue Streams
                                       </span>
@@ -1562,7 +1526,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                 backdropClassName="bp3-popover-backdrop"
                                 backdropProps={Object {}}
                                 canEscapeKeyClose={true}
-                                canOutsideClickClose={false}
+                                canOutsideClickClose={true}
                                 enforceFocus={true}
                                 hasBackdrop={false}
                                 isOpen={false}
