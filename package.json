@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "private": true,
   "author": "Shubham Thakare",
+  "homepage": "https://www.bmccreator.com",
   "license": "Apache-2.0",
   "licenses": [
     {
@@ -12,7 +13,6 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "homepage": "https://shubham-thakare.github.io/BMC-Creator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
