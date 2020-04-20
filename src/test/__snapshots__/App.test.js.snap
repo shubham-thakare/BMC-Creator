@@ -337,6 +337,7 @@ exports[`App Component To match snapshot of App 1`] = `
     <SideNav
       hasFooter={true}
       hasOpenFileOption={true}
+      hasPrintOption={true}
       hasSaveFileOption={true}
     >
       <SideNavstyle__SideNavbar
@@ -528,6 +529,43 @@ exports[`App Component To match snapshot of App 1`] = `
                   </Blueprint3.Icon>
                    
                   open
+                </a>
+              </SideNavstyle__Link>
+              <SideNavstyle__Link
+                href="javascript:void(0)"
+                onClick={[Function]}
+              >
+                <a
+                  className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo"
+                  href="javascript:void(0)"
+                  onClick={[Function]}
+                >
+                  <Blueprint3.Icon
+                    icon="print"
+                    iconSize={20}
+                  >
+                    <span
+                      className="bp3-icon bp3-icon-print"
+                      icon="print"
+                    >
+                      <svg
+                        data-icon="print"
+                        height={20}
+                        viewBox="0 0 20 20"
+                        width={20}
+                      >
+                        <desc>
+                          print
+                        </desc>
+                        <path
+                          d="M14 16H6v-4H4v5c0 .55.45 1 1 1h10c.55 0 1-.45 1-1v-5h-2v4zm2-13c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v1h12V3zm3 2H1c-.55 0-1 .45-1 1v7c0 .55.45 1 1 1h2v-3h14v3h2c.55 0 1-.45 1-1V6c0-.55-.45-1-1-1zm-1 4h-2V7h2v2z"
+                          fillRule="evenodd"
+                          key="0"
+                        />
+                      </svg>
+                    </span>
+                  </Blueprint3.Icon>
+                   Print
                 </a>
               </SideNavstyle__Link>
               <SideNavstyle__Footer>
