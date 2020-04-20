@@ -42,7 +42,7 @@ const SideNav = ({
         <Link
           href="javascript:void(0)"
           id="open-button"
-          className="openbtn"
+          className="openbtn joyride-first-step"
           onClick={() => dispatch({ action: OPEN_NAV })}
         >
           <Icon icon={IconNames.MENU} iconSize={30} />

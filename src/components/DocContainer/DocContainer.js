@@ -72,7 +72,7 @@ const DocContainer = ({
         <Icon
           icon="plus"
           iconSize={15}
-          className="add-option"
+          className="add-option joyride-sixth-step"
           onClick={() =>
             dispatch({ action: OPEN_DIALOG, payload: { activeKey } })
           }
