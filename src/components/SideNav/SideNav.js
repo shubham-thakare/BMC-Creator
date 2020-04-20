@@ -19,6 +19,7 @@ import { SAVE_FILE, OPEN_FILE } from '../../actions/actions';
 const SideNav = ({
   hasSaveFileOption,
   hasOpenFileOption,
+  hasPrintOption,
   hasExportOption,
   hasPresentationModeOption,
   hasFooter,
@@ -80,6 +81,11 @@ const SideNav = ({
               <Icon icon={IconNames.DOCUMENT_OPEN} iconSize={20} /> {l_open}
             </Link>
           )}
+          {hasPrintOption && (
+            <Link href="javascript:void(0)" onClick={() => window.print()}>
+              <Icon icon={IconNames.PRINT} iconSize={20} /> Print
+            </Link>
+          )}
           {hasExportOption && (
             <Link
               href="javascript:void(0)"
@@ -116,6 +122,7 @@ const SideNav = ({
 SideNav.propTypes = {
   hasSaveFileOption: PropTypes.bool,
   hasOpenFileOption: PropTypes.bool,
+  hasPrintOption: PropTypes.bool,
   hasExportOption: PropTypes.bool,
   hasPresentationModeOption: PropTypes.bool,
   hasFooter: PropTypes.bool,

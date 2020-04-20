@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/home/successive/Other/BMC-Creator/src/components/NoteDialog/test/NoteDialog.test.js">
-    <testCase name="Dialog Component To match snapshot of NoteDialog" duration="35"/>
-    <testCase name="Dialog Component Dialog exists" duration="36"/>
-    <testCase name="Dialog Component Dialog contains two EditableText inputs" duration="33"/>
-    <testCase name="Dialog Component Simulate title EditableText onChange" duration="96"/>
-    <testCase name="Dialog Component Simulate description EditableText onChange" duration="68"/>
-    <testCase name="Dialog Component Dialog contains two ColorPicker inputs" duration="23"/>
-    <testCase name="Dialog Component Simulate background ColorPicker onChange" duration="108"/>
-    <testCase name="Dialog Component Simulate text ColorPicker onChange" duration="52"/>
-    <testCase name="Dialog Component Dialog contains one Note component" duration="17"/>
-    <testCase name="Dialog Component Dialog contains three buttons" duration="26"/>
-    <testCase name="Dialog Component Simulate click for reset colors button" duration="37"/>
-    <testCase name="Dialog Component Simulate click for cancel button" duration="36"/>
-    <testCase name="Dialog Component Simulate click for save button" duration="23"/>
+  <file path="/home/successive/Other/BMC-Creator/src/components/SideNav/test/SideNav.test.js">
+    <testCase name="SideNav Component To match snapshot of SideNav" duration="23"/>
+    <testCase name="SideNav Component Should have 8 links" duration="41"/>
+    <testCase name="SideNav Component Should have 1 ToggleHide component" duration="14"/>
+    <testCase name="SideNav Component Should have 1 AppTitle component" duration="7"/>
+    <testCase name="SideNav Component Footer Component Should have 1 Divider component" duration="16"/>
+    <testCase name="SideNav Component Footer Component Should have 1 Link" duration="15"/>
+    <testCase name="SideNav Component Simulate Link clicks" duration="138"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/test/App.test.js">
-    <testCase name="App Component To match snapshot of App" duration="130"/>
-    <testCase name="App Component Joyride exists" duration="53"/>
-    <testCase name="App Component NavBar exists" duration="53"/>
-    <testCase name="App Component Simulat NavBar link clicks" duration="266"/>
-    <testCase name="App Component BMCScreen exists" duration="49"/>
+    <testCase name="App Component To match snapshot of App" duration="79"/>
+    <testCase name="App Component Joyride exists" duration="63"/>
+    <testCase name="App Component NavBar exists" duration="25"/>
+    <testCase name="App Component Simulat NavBar link clicks" duration="215"/>
+    <testCase name="App Component BMCScreen exists" duration="12"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/screens/BMCScreen/test/BMCScreen.test.js">
-    <testCase name="App Component To match snapshot of BMCScreen" duration="114"/>
-    <testCase name="App Component BMCScreen should have a NoteDialog" duration="75"/>
-    <testCase name="App Component BMCScreen should have a BMCScreenDiv" duration="23"/>
-    <testCase name="App Component BMCScreen should have a BMCScreenHeaderGrid" duration="17"/>
-    <testCase name="App Component BMCScreen should have a BMCScreenCanvasGrid" duration="53"/>
-    <testCase name="App Component BMCScreen should have 9 SectionTitle" duration="23"/>
-    <testCase name="App Component BMCScreen should have 9 Popover" duration="32"/>
-    <testCase name="App Component BMCScreen should have 9 DocContainer" duration="38"/>
-    <testCase name="App Component BMCScreen should have a TitleInput" duration="31"/>
-    <testCase name="App Component BMCScreen should have two BMCScreenInputs" duration="22"/>
-    <testCase name="App Component Simulate TitleInput onChange" duration="132"/>
-    <testCase name="App Component Simulate Version BMCScreenInput onChange" duration="112"/>
-    <testCase name="App Component Simulate Date BMCScreenInput onChange" duration="73"/>
+    <testCase name="App Component To match snapshot of BMCScreen" duration="115"/>
+    <testCase name="App Component BMCScreen should have a NoteDialog" duration="82"/>
+    <testCase name="App Component BMCScreen should have a BMCScreenDiv" duration="21"/>
+    <testCase name="App Component BMCScreen should have a BMCScreenHeaderGrid" duration="15"/>
+    <testCase name="App Component BMCScreen should have a BMCScreenCanvasGrid" duration="27"/>
+    <testCase name="App Component BMCScreen should have 9 SectionTitle" duration="26"/>
+    <testCase name="App Component BMCScreen should have 9 Popover" duration="17"/>
+    <testCase name="App Component BMCScreen should have 9 DocContainer" duration="23"/>
+    <testCase name="App Component BMCScreen should have a TitleInput" duration="15"/>
+    <testCase name="App Component BMCScreen should have two BMCScreenInputs" duration="17"/>
+    <testCase name="App Component Simulate TitleInput onChange" duration="114"/>
+    <testCase name="App Component Simulate Version BMCScreenInput onChange" duration="121"/>
+    <testCase name="App Component Simulate Date BMCScreenInput onChange" duration="93"/>
+  </file>
+  <file path="/home/successive/Other/BMC-Creator/src/components/NoteDialog/test/NoteDialog.test.js">
+    <testCase name="Dialog Component To match snapshot of NoteDialog" duration="34"/>
+    <testCase name="Dialog Component Dialog exists" duration="22"/>
+    <testCase name="Dialog Component Dialog contains two EditableText inputs" duration="20"/>
+    <testCase name="Dialog Component Simulate title EditableText onChange" duration="44"/>
+    <testCase name="Dialog Component Simulate description EditableText onChange" duration="31"/>
+    <testCase name="Dialog Component Dialog contains two ColorPicker inputs" duration="24"/>
+    <testCase name="Dialog Component Simulate background ColorPicker onChange" duration="58"/>
+    <testCase name="Dialog Component Simulate text ColorPicker onChange" duration="34"/>
+    <testCase name="Dialog Component Dialog contains one Note component" duration="16"/>
+    <testCase name="Dialog Component Dialog contains three buttons" duration="17"/>
+    <testCase name="Dialog Component Simulate click for reset colors button" duration="34"/>
+    <testCase name="Dialog Component Simulate click for cancel button" duration="29"/>
+    <testCase name="Dialog Component Simulate click for save button" duration="16"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/components/SectionsInfo/test/SectionsInfo.test.js">
-    <testCase name="SectionsInfo Components KeyPartners Component To match snapshot of KeyPartners" duration="5"/>
-    <testCase name="SectionsInfo Components KeyPartners Component KeyPartners should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 3 PopoverHintText" duration="31"/>
-    <testCase name="SectionsInfo Components KeyActivities Component To match snapshot of KeyActivities" duration="1"/>
-    <testCase name="SectionsInfo Components KeyActivities Component KeyActivities should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 3 PopoverHintText" duration="16"/>
-    <testCase name="SectionsInfo Components KeyResources Component To match snapshot of KeyResources" duration="1"/>
-    <testCase name="SectionsInfo Components KeyResources Component KeyResources should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 4 PopoverHintText" duration="59"/>
+    <testCase name="SectionsInfo Components KeyPartners Component To match snapshot of KeyPartners" duration="4"/>
+    <testCase name="SectionsInfo Components KeyPartners Component KeyPartners should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 3 PopoverHintText" duration="29"/>
+    <testCase name="SectionsInfo Components KeyActivities Component To match snapshot of KeyActivities" duration="2"/>
+    <testCase name="SectionsInfo Components KeyActivities Component KeyActivities should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 3 PopoverHintText" duration="117"/>
+    <testCase name="SectionsInfo Components KeyResources Component To match snapshot of KeyResources" duration="5"/>
+    <testCase name="SectionsInfo Components KeyResources Component KeyResources should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 4 PopoverHintText" duration="56"/>
     <testCase name="SectionsInfo Components ValuePropositions Component To match snapshot of ValuePropositions" duration="3"/>
-    <testCase name="SectionsInfo Components ValuePropositions Component ValuePropositions should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 11 PopoverHintText" duration="87"/>
-    <testCase name="SectionsInfo Components CustomerRelationships Component To match snapshot of CustomerRelationships" duration="3"/>
-    <testCase name="SectionsInfo Components CustomerRelationships Component CustomerRelationships should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 6 PopoverHintText" duration="35"/>
-    <testCase name="SectionsInfo Components Channels Component To match snapshot of Channels" duration="3"/>
-    <testCase name="SectionsInfo Components Channels Component Channels should contain 1 PopoverBody, 6 PopoverQuestions, 6 PopoverHintTitle, and 5 PopoverHintText" duration="30"/>
-    <testCase name="SectionsInfo Components CustomerSegments Component To match snapshot of CustomerSegments" duration="1"/>
-    <testCase name="SectionsInfo Components CustomerSegments Component CustomerSegments should contain 1 PopoverBody, 2 PopoverQuestions, and 5 PopoverHintText" duration="19"/>
+    <testCase name="SectionsInfo Components ValuePropositions Component ValuePropositions should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 11 PopoverHintText" duration="28"/>
+    <testCase name="SectionsInfo Components CustomerRelationships Component To match snapshot of CustomerRelationships" duration="2"/>
+    <testCase name="SectionsInfo Components CustomerRelationships Component CustomerRelationships should contain 1 PopoverBody, 4 PopoverQuestions, 1 PopoverHintTitle, and 6 PopoverHintText" duration="32"/>
+    <testCase name="SectionsInfo Components Channels Component To match snapshot of Channels" duration="2"/>
+    <testCase name="SectionsInfo Components Channels Component Channels should contain 1 PopoverBody, 6 PopoverQuestions, 6 PopoverHintTitle, and 5 PopoverHintText" duration="23"/>
+    <testCase name="SectionsInfo Components CustomerSegments Component To match snapshot of CustomerSegments" duration="2"/>
+    <testCase name="SectionsInfo Components CustomerSegments Component CustomerSegments should contain 1 PopoverBody, 2 PopoverQuestions, and 5 PopoverHintText" duration="18"/>
     <testCase name="SectionsInfo Components CostStructure Component To match snapshot of CostStructure" duration="2"/>
     <testCase name="SectionsInfo Components CostStructure Component CostStructure should contain 1 PopoverBody, 3 PopoverQuestions, 2 PopoverHintTitle, and 6 PopoverHintText" duration="27"/>
     <testCase name="SectionsInfo Components RevenueStreams Component To match snapshot of RevenueStreams" duration="4"/>
-    <testCase name="SectionsInfo Components RevenueStreams Component RevenueStreams should contain 1 PopoverBody, 5 PopoverQuestions, and 1 Table" duration="22"/>
+    <testCase name="SectionsInfo Components RevenueStreams Component RevenueStreams should contain 1 PopoverBody, 5 PopoverQuestions, and 1 Table" duration="23"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/components/DocContainer/test/DocContainer.test.js">
-    <testCase name="DocContainer Component To match snapshot of DocContainer" duration="19"/>
-    <testCase name="DocContainer Component Add, Edit, and Fullscreen options exists" duration="19"/>
-    <testCase name="DocContainer Component Simulate add operation" duration="37"/>
+    <testCase name="DocContainer Component To match snapshot of DocContainer" duration="17"/>
+    <testCase name="DocContainer Component Add, Edit, and Fullscreen options exists" duration="14"/>
+    <testCase name="DocContainer Component Simulate add operation" duration="26"/>
     <testCase name="DocContainer Component Tips exists" duration="10"/>
-    <testCase name="DocContainer Component Notes are being mapped perfectly" duration="6"/>
+    <testCase name="DocContainer Component Notes are being mapped perfectly" duration="7"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/components/Note/test/Note.test.js">
     <testCase name="Note Component To match snapshot of Note" duration="7"/>
-    <testCase name="Note Component Context menu popover exists" duration="15"/>
-    <testCase name="Note Component NoteWrapper exists" duration="9"/>
-    <testCase name="Note Component Title exists" duration="13"/>
-    <testCase name="Note Component Description exists" duration="8"/>
-    <testCase name="Note Component Context menu exists" duration="8"/>
-    <testCase name="Note Component Simulate delete operation" duration="21"/>
-    <testCase name="Note Component Only description found in Note" duration="11"/>
-  </file>
-  <file path="/home/successive/Other/BMC-Creator/src/components/SideNav/test/SideNav.test.js">
-    <testCase name="SideNav Component To match snapshot of SideNav" duration="10"/>
-    <testCase name="SideNav Component Should have 7 links" duration="12"/>
-    <testCase name="SideNav Component Should have 1 ToggleHide component" duration="6"/>
-    <testCase name="SideNav Component Should have 1 AppTitle component" duration="6"/>
-    <testCase name="SideNav Component Footer Component Should have 1 Divider component" duration="14"/>
-    <testCase name="SideNav Component Footer Component Should have 1 Link" duration="13"/>
-    <testCase name="SideNav Component Simulate Link clicks" duration="60"/>
-  </file>
-  <file path="/home/successive/Other/BMC-Creator/src/components/Popover/test/Popover.test.js">
-    <testCase name="Popover Component To match snapshot of Popover" duration="3"/>
-  </file>
-  <file path="/home/successive/Other/BMC-Creator/src/utils/test/ContextProviderWrapper.test.js">
-    <testCase name="ContextProviderWrapper Component ContextProviderWrapper using real state" duration="2"/>
+    <testCase name="Note Component Context menu popover exists" duration="26"/>
+    <testCase name="Note Component NoteWrapper exists" duration="6"/>
+    <testCase name="Note Component Title exists" duration="7"/>
+    <testCase name="Note Component Description exists" duration="10"/>
+    <testCase name="Note Component Context menu exists" duration="6"/>
+    <testCase name="Note Component Simulate delete operation" duration="18"/>
+    <testCase name="Note Component Only description found in Note" duration="7"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/components/ColorPicker/test/ColorPicker.test.js">
-    <testCase name="ColorPicker Component To match snapshot of ColorPicker" duration="3"/>
-    <testCase name="ColorPicker Component Label exists" duration="4"/>
-    <testCase name="ColorPicker Component ColorPickerWrapper exists" duration="21"/>
+    <testCase name="ColorPicker Component To match snapshot of ColorPicker" duration="2"/>
+    <testCase name="ColorPicker Component Label exists" duration="3"/>
+    <testCase name="ColorPicker Component ColorPickerWrapper exists" duration="6"/>
   </file>
   <file path="/home/successive/Other/BMC-Creator/src/components/Loading/test/Loading.test.js">
     <testCase name="Loading Component To match snapshot of Loading" duration="2"/>
-    <testCase name="Loading Component Spinner exists" duration="5"/>
+    <testCase name="Loading Component Spinner exists" duration="11"/>
+  </file>
+  <file path="/home/successive/Other/BMC-Creator/src/utils/test/ContextProviderWrapper.test.js">
+    <testCase name="ContextProviderWrapper Component ContextProviderWrapper using real state" duration="1"/>
+  </file>
+  <file path="/home/successive/Other/BMC-Creator/src/components/Popover/test/Popover.test.js">
+    <testCase name="Popover Component To match snapshot of Popover" duration="2"/>
   </file>
 </testExecutions>

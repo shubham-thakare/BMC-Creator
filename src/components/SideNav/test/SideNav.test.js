@@ -10,6 +10,7 @@ let wrapper;
 const props = {
   hasSaveFileOption: true,
   hasOpenFileOption: true,
+  hasPrintOption: true,
   hasExportOption: true,
   hasPresentationModeOption: true,
   hasFooter: true,
@@ -29,8 +30,8 @@ describe('SideNav Component', () => {
     done();
   });
 
-  it('Should have 7 links', async (done) => {
-    expect(wrapper.find(Link)).toHaveLength(7);
+  it('Should have 8 links', async (done) => {
+    expect(wrapper.find(Link)).toHaveLength(8);
     done();
   });
 
@@ -83,6 +84,10 @@ describe('SideNav Component', () => {
     wrapper
       .find(Link)
       .at(6)
+      .simulate('click');
+    wrapper
+      .find(Link)
+      .at(7)
       .simulate('click');
     done();
   });

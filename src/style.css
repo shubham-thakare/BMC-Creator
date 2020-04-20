@@ -26,6 +26,9 @@
   box-sizing: border-box;
 }
 
+@page port {size: portrait;}
+@page land {size: landscape;}
+
 body {
   font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "Icons16", sans-serif;
   overflow-x: hidden;
@@ -92,4 +95,25 @@ button.bp3-button {
 
 .no-animation {
   animation: none !important;
+}
+
+@media print {
+  @page { size: landscape; }
+  body * {
+    visibility: hidden;
+  }
+  #canvas-screen, #canvas-screen * {
+    visibility: visible;
+  }
+  #canvas-screen {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    -webkit-print-color-adjust: exact;
+  }
+  .print-item {
+    box-shadow: none !important;
+  }
 }
