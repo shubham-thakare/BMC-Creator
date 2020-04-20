@@ -58,6 +58,12 @@ describe('App Component', () => {
       .find(Link)
       .at(4)
       .simulate('click');
+
+    wrapper
+      .find(SideNav)
+      .find(Link)
+      .at(5)
+      .simulate('click');
     done();
   });
 
