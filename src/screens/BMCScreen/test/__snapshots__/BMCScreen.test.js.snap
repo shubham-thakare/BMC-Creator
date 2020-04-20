@@ -843,12 +843,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 className="BMCScreenstyle__Div-bb916e-7 jSABEh"
               >
                 <BMCScreenstyle__TitleInput
+                  className="joyride-second-step"
                   onChange={[Function]}
                   placeholder="Edit title..."
                   value="Business Model Canvas Title"
                 >
                   <input
-                    className="BMCScreenstyle__TitleInput-bb916e-2 iXDoCK"
+                    className="BMCScreenstyle__TitleInput-bb916e-2 iXDoCK joyride-second-step"
                     onChange={[Function]}
                     placeholder="Edit title..."
                     value="Business Model Canvas Title"
@@ -873,12 +874,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       </b>
                     </BMCScreenstyle__Bold>
                     <BMCScreenstyle__BMCScreenInput
+                      className="joyride-third-step"
                       onChange={[Function]}
                       placeholder="NA"
                       value="1.0.0"
                     >
                       <input
-                        className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie"
+                        className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-third-step"
                         onChange={[Function]}
                         placeholder="NA"
                         value="1.0.0"
@@ -899,12 +901,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       </b>
                     </BMCScreenstyle__Bold>
                     <BMCScreenstyle__BMCScreenInput
+                      className="joyride-fourth-step"
                       onChange={[Function]}
                       placeholder="NA"
                       value="13 Apr, 2020"
                     >
                       <input
-                        className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie"
+                        className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-fourth-step"
                         onChange={[Function]}
                         placeholder="NA"
                         value="13 Apr, 2020"
@@ -927,10 +930,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-key-partners"
               >
                 <BMCScreenstyle__SectionTitle
+                  className="joyride-fifth-step"
                   icon="key_partners"
                 >
                   <div
-                    className="BMCScreenstyle__SectionTitle-bb916e-8 eHKVyl"
+                    className="BMCScreenstyle__SectionTitle-bb916e-8 eHKVyl joyride-fifth-step"
                   >
                     <Popover
                       content={<KeyPartners />}
@@ -1008,23 +1012,20 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 <DocContainer
                   activeKey="keyPartners"
                   hasAddOption={true}
-                  isEmpty={false}
                   message="Hover mouse cursor on section to add notes"
                 >
-                  <DocContainerstyle__DocContainerWrapper
-                    className={false}
-                  >
+                  <DocContainerstyle__DocContainerWrapper>
                     <div
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -1052,11 +1053,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587375551771,
+                            "key": 1587385446869,
                             "title": "Test note 1",
                           }
                         }
-                        key="1587375551771"
+                        key="1587385446869"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1064,7 +1065,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587375551771}
+                              noteKey={1587385446869}
                             />
                           }
                           defaultIsOpen={false}
@@ -1159,11 +1160,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587375551772,
+                            "key": 1587385446870,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587375551772"
+                        key="1587385446870"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1171,7 +1172,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587375551772}
+                              noteKey={1587385446870}
                             />
                           }
                           defaultIsOpen={false}
@@ -1266,11 +1267,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": undefined,
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587375551773,
+                            "key": 1587385446871,
                             "title": "",
                           }
                         }
-                        key="1587375551773"
+                        key="1587385446871"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1278,7 +1279,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587375551773}
+                              noteKey={1587385446871}
                             />
                           }
                           defaultIsOpen={false}
@@ -1365,11 +1366,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "",
-                            "key": 1587375551774,
+                            "key": 1587385446872,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587375551774"
+                        key="1587385446872"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1377,7 +1378,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587375551774}
+                              noteKey={1587385446872}
                             />
                           }
                           defaultIsOpen={false}
@@ -1557,13 +1558,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -1683,13 +1684,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -1809,13 +1810,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -1935,13 +1936,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -2061,13 +2062,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -2187,13 +2188,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -2313,13 +2314,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >
@@ -2439,13 +2440,13 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                       className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                     >
                       <Blueprint3.Icon
-                        className="add-option"
+                        className="add-option joyride-sixth-step"
                         icon="plus"
                         iconSize={15}
                         onClick={[Function]}
                       >
                         <span
-                          className="bp3-icon bp3-icon-plus add-option"
+                          className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                           icon="plus"
                           onClick={[Function]}
                         >

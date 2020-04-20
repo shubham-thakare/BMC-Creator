@@ -35,6 +35,7 @@ Code Quality and Deployment Status
 #### UI and Styling
 1. **@blueprintjs/core** *v3.25.0*
 2. **styled-components** *v5.1.0*
+3. **react-joyride** *v2.2.1*
 
 #### UI Testing Libraries
 1. **babel-jest** *v25.3.0*
