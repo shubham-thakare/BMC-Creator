@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp CNAME build/CNAME",
     "test": "jest",
     "test:c": "jest --coverage",
     "eject": "react-scripts eject",
