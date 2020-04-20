@@ -8,7 +8,7 @@ import {
 const Popover = ({ children, content, ...props }) => {
   return (
     <BPPopover
-      interactionKind={PopoverInteractionKind.HOVER}
+      interactionKind={PopoverInteractionKind.CLICK}
       content={content}
       transitionDuration={100}
       lazy={true}
