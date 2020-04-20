@@ -112,6 +112,7 @@ const NoteDialog = () => {
               }}
               activeKey=""
               style={{ maxWidth: '300px', maxHeight: '60px' }}
+              className="no-animation"
             />
           </Div>
         </Div>

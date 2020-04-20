@@ -89,3 +89,7 @@ button.bp3-button {
 .text-italic {
   font-style: italic;
 }
+
+.no-animation {
+  animation: none !important;
+}
