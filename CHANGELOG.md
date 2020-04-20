@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * App joyride showing on user's first visit to the website
 * CHANGELOG.md file.
 * Print feature.
+* Meta tags for SEO
+* Google Analytics
 
 ### Changed
 * SonarCloud properties.
