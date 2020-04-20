@@ -51,5 +51,5 @@ All notable changes to this project will be documented in [CHANGELOG.md](CHANGEL
 1. **eslint** *v6.8.0*
 2. **prettier** *v1.19.1*
 
-#### Other
+#### Utils
 1. **waait** *v1.0.5*
