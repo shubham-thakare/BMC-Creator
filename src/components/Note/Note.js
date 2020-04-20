@@ -46,7 +46,7 @@ const Note = ({ item, activeKey, ...props }) => {
             bgColor={item.background}
             color={item.color}
             {...props}
-            className="print-item"
+            className={`${props.className} print-item`}
           >
             {item.title && item.title.length > 0 && (
               <NoteTitle>{item.title}</NoteTitle>
