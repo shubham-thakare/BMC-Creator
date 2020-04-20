@@ -16,7 +16,7 @@ Code Quality and Deployment Status
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shubham-thakare/BMC-Creator/issues)
 [![HitCount](http://hits.dwyl.com/shubham-thakare/BMC-Creator.svg)](http://hits.dwyl.com/shubham-thakare/BMC-Creator)
 
-[Go to BMC-Creator](https://www.bmccreator.com/)
+[Visit https://www.bmccreator.com](https://www.bmccreator.com/)
 
 </div>
 
