@@ -160,6 +160,10 @@ export const SectionTitle = styled.div`
   ${Div}:hover & {
     background: none;
   }
+
+  & span {
+    cursor: pointer;
+  }
 `;
 
 export const Bold = styled.b``;
