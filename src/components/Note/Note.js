@@ -42,7 +42,12 @@ const Note = ({ item, activeKey, ...props }) => {
           interactionKind={PopoverInteractionKind.CLICK}
           targetClassName="full-width"
         >
-          <NoteWrapper bgColor={item.background} color={item.color} {...props}>
+          <NoteWrapper
+            bgColor={item.background}
+            color={item.color}
+            {...props}
+            className="print-item"
+          >
             {item.title && item.title.length > 0 && (
               <NoteTitle>{item.title}</NoteTitle>
             )}
