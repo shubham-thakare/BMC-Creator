@@ -35,7 +35,7 @@ const App = () => {
           }}
         />
       )}
-      <SideNav hasSaveFileOption hasOpenFileOption hasFooter />
+      <SideNav hasSaveFileOption hasOpenFileOption hasPrintOption hasFooter />
       <BMCScreen />
     </ContextProviderWrapper>
   );

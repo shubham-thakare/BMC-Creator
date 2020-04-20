@@ -32,11 +32,7 @@ import {
 
 const BMCScreen = () => {
   const { state, dispatch } = useContext(AppContext);
-  const {
-    title,
-    version,
-    date,
-  } = state;
+  const { title, version, date } = state;
 
   const {
     p_canvas_title,
