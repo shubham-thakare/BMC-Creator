@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60db75c50e51e36c56a6f6579b2fc537",
+    "revision": "e103887900c1ae6bccfd8812782ac50d",
     "url": "/BMC-Creator/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BMC-Creator/static/css/2.00ee10df.chunk.css"
   },
   {
-    "revision": "648a4ff2bedb66dac8fc",
-    "url": "/BMC-Creator/static/css/main.884801ab.chunk.css"
+    "revision": "4a4d553633bf5eef6366",
+    "url": "/BMC-Creator/static/css/main.144c9cc8.chunk.css"
   },
   {
     "revision": "6ea5077e1cf7654f478c",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BMC-Creator/static/js/3.6238dba6.chunk.js"
   },
   {
-    "revision": "648a4ff2bedb66dac8fc",
-    "url": "/BMC-Creator/static/js/main.b29bdacc.chunk.js"
+    "revision": "4a4d553633bf5eef6366",
+    "url": "/BMC-Creator/static/js/main.b21bb878.chunk.js"
   },
   {
     "revision": "cc6fa19f1dd8150bb850",

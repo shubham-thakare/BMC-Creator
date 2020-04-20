@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BMC-Creator/precache-manifest.806952119fa23cc6c8cab19547bfe3e2.js"
+  "/BMC-Creator/precache-manifest.89abe0d5c17e67d0fa46c5bb19e86121.js"
 );
 
 self.addEventListener('message', (event) => {
