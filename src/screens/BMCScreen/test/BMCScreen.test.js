@@ -74,17 +74,25 @@ describe('App Component', () => {
   });
 
   it('Simulate TitleInput onChange', async (done) => {
-    wrapper.find(TitleInput).simulate('change', { target: { value: 'Test Title' } });
+    wrapper
+      .find(TitleInput)
+      .simulate('change', { target: { value: 'Test Title' } });
     done();
   });
 
   it('Simulate Version BMCScreenInput onChange', async (done) => {
-    wrapper.find(BMCScreenInput).at(0).simulate('change', { target: { value: 'Test Version' } });
+    wrapper
+      .find(BMCScreenInput)
+      .at(0)
+      .simulate('change', { target: { value: 'Test Version' } });
     done();
   });
 
   it('Simulate Date BMCScreenInput onChange', async (done) => {
-    wrapper.find(BMCScreenInput).at(1).simulate('change', { target: { value: 'Test Date' } });
+    wrapper
+      .find(BMCScreenInput)
+      .at(1)
+      .simulate('change', { target: { value: 'Test Date' } });
     done();
   });
 });

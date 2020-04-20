@@ -3,6 +3,337 @@
 exports[`App Component To match snapshot of App 1`] = `
 <App>
   <ContextProviderWrapper>
+    <Joyride
+      continuous={true}
+      debug={false}
+      disableCloseOnEsc={true}
+      disableOverlay={false}
+      disableOverlayClose={true}
+      disableScrollParentFix={false}
+      disableScrolling={false}
+      getHelpers={[Function]}
+      hideBackButton={false}
+      run={true}
+      scrollDuration={300}
+      scrollOffset={20}
+      scrollToFirstStep={false}
+      showProgress={true}
+      showSkipButton={true}
+      spotlightClicks={false}
+      spotlightPadding={10}
+      steps={
+        Array [
+          Object {
+            "content": "Use side navigation bar to perform various operations",
+            "disableBeacon": true,
+            "hideCloseButton": true,
+            "target": ".joyride-first-step",
+          },
+          Object {
+            "content": "Use it to name this canvas",
+            "hideCloseButton": true,
+            "target": ".joyride-second-step",
+          },
+          Object {
+            "content": "Update canvas version number here",
+            "hideCloseButton": true,
+            "target": ".joyride-third-step",
+          },
+          Object {
+            "content": "Update canvas effective date here",
+            "hideCloseButton": true,
+            "target": ".joyride-fourth-step",
+          },
+          Object {
+            "content": "See hints by simply clicking on the title of each section",
+            "hideCloseButton": true,
+            "target": ".joyride-fifth-step",
+          },
+          Object {
+            "content": "Add new notes by clicking on a add button placed at top right corner of each section",
+            "hideCloseButton": true,
+            "target": ".joyride-sixth-step",
+          },
+        ]
+      }
+      styles={
+        Object {
+          "buttonBack": Object {
+            "color": "#137CBD",
+            "outline": "none",
+          },
+          "buttonNext": Object {
+            "background": "#137CBD",
+            "outline": "none",
+          },
+          "buttonSkip": Object {
+            "outline": "none",
+          },
+        }
+      }
+    >
+      <div
+        className="react-joyride"
+      >
+        <JoyrideStep
+          action="start"
+          callback={[Function]}
+          continuous={true}
+          controlled={false}
+          debug={false}
+          helpers={
+            Object {
+              "close": [Function],
+              "go": [Function],
+              "info": [Function],
+              "next": [Function],
+              "open": [Function],
+              "prev": [Function],
+              "reset": [Function],
+              "skip": [Function],
+            }
+          }
+          index={0}
+          lifecycle="init"
+          setPopper={[Function]}
+          shouldScroll={false}
+          size={6}
+          status="running"
+          step={
+            Object {
+              "content": "Use side navigation bar to perform various operations",
+              "disableBeacon": true,
+              "disableCloseOnEsc": true,
+              "disableOverlay": false,
+              "disableOverlayClose": true,
+              "disableScrollParentFix": false,
+              "disableScrolling": false,
+              "event": "click",
+              "floaterProps": Object {
+                "offset": 20,
+                "options": Object {
+                  "preventOverflow": Object {
+                    "boundariesElement": "scrollParent",
+                  },
+                },
+                "styles": Object {
+                  "arrow": Object {
+                    "color": "#fff",
+                  },
+                  "options": Object {
+                    "zIndex": 100,
+                  },
+                },
+                "wrapperOptions": Object {
+                  "offset": -18,
+                  "position": true,
+                },
+              },
+              "hideBackButton": false,
+              "hideCloseButton": true,
+              "locale": Object {
+                "back": "Back",
+                "close": "Close",
+                "last": "Last",
+                "next": "Next",
+                "open": "Open the dialog",
+                "skip": "Skip",
+              },
+              "offset": 10,
+              "placement": "bottom",
+              "showProgress": true,
+              "showSkipButton": true,
+              "spotlightClicks": false,
+              "spotlightPadding": 10,
+              "styles": Object {
+                "beacon": Object {
+                  "WebkitAppearance": "none",
+                  "backgroundColor": "transparent",
+                  "border": 0,
+                  "borderRadius": 0,
+                  "color": "#555",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "fontSize": 16,
+                  "height": 36,
+                  "lineHeight": 1,
+                  "padding": 8,
+                  "position": "relative",
+                  "width": 36,
+                  "zIndex": 100,
+                },
+                "beaconInner": Object {
+                  "animation": "joyride-beacon-inner 1.2s infinite ease-in-out",
+                  "backgroundColor": "#f04",
+                  "borderRadius": "50%",
+                  "display": "block",
+                  "height": "50%",
+                  "left": "50%",
+                  "opacity": 0.7,
+                  "position": "absolute",
+                  "top": "50%",
+                  "transform": "translate(-50%, -50%)",
+                  "width": "50%",
+                },
+                "beaconOuter": Object {
+                  "animation": "joyride-beacon-outer 1.2s infinite ease-in-out",
+                  "backgroundColor": "rgba(255,0,68, 0.2)",
+                  "border": "2px solid #f04",
+                  "borderRadius": "50%",
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": "100%",
+                  "left": 0,
+                  "opacity": 0.9,
+                  "position": "absolute",
+                  "top": 0,
+                  "transformOrigin": "center",
+                  "width": "100%",
+                },
+                "buttonBack": Object {
+                  "WebkitAppearance": "none",
+                  "backgroundColor": "transparent",
+                  "border": 0,
+                  "borderRadius": 0,
+                  "color": "#137CBD",
+                  "cursor": "pointer",
+                  "fontSize": 16,
+                  "lineHeight": 1,
+                  "marginLeft": "auto",
+                  "marginRight": 5,
+                  "outline": "none",
+                  "padding": 8,
+                },
+                "buttonClose": Object {
+                  "WebkitAppearance": "none",
+                  "backgroundColor": "transparent",
+                  "border": 0,
+                  "borderRadius": 0,
+                  "color": "#333",
+                  "cursor": "pointer",
+                  "fontSize": 16,
+                  "height": 14,
+                  "lineHeight": 1,
+                  "padding": 15,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 14,
+                },
+                "buttonNext": Object {
+                  "WebkitAppearance": "none",
+                  "background": "#137CBD",
+                  "backgroundColor": "#f04",
+                  "border": 0,
+                  "borderRadius": 4,
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": 16,
+                  "lineHeight": 1,
+                  "outline": "none",
+                  "padding": 8,
+                },
+                "buttonSkip": Object {
+                  "WebkitAppearance": "none",
+                  "backgroundColor": "transparent",
+                  "border": 0,
+                  "borderRadius": 0,
+                  "color": "#333",
+                  "cursor": "pointer",
+                  "fontSize": 14,
+                  "lineHeight": 1,
+                  "outline": "none",
+                  "padding": 8,
+                },
+                "options": Object {
+                  "arrowColor": "#fff",
+                  "backgroundColor": "#fff",
+                  "beaconSize": 36,
+                  "overlayColor": "rgba(0, 0, 0, 0.5)",
+                  "primaryColor": "#f04",
+                  "spotlightShadow": "0 0 15px rgba(0, 0, 0, 0.5)",
+                  "textColor": "#333",
+                  "zIndex": 100,
+                },
+                "overlay": Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0.5)",
+                  "bottom": 0,
+                  "left": 0,
+                  "mixBlendMode": "hard-light",
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": 100,
+                },
+                "overlayLegacy": Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": 100,
+                },
+                "overlayLegacyCenter": Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0.5)",
+                  "bottom": 0,
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "zIndex": 100,
+                },
+                "spotlight": Object {
+                  "backgroundColor": "gray",
+                  "borderRadius": 4,
+                  "position": "absolute",
+                },
+                "spotlightLegacy": Object {
+                  "borderRadius": 4,
+                  "boxShadow": "0 0 0 9999px rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 0, 0, 0.5)",
+                  "position": "absolute",
+                },
+                "tooltip": Object {
+                  "backgroundColor": "#fff",
+                  "borderRadius": 5,
+                  "boxSizing": "border-box",
+                  "color": "#333",
+                  "fontSize": 16,
+                  "maxWidth": "100%",
+                  "padding": 15,
+                  "position": "relative",
+                  "width": 380,
+                },
+                "tooltipContainer": Object {
+                  "lineHeight": 1.4,
+                  "textAlign": "center",
+                },
+                "tooltipContent": Object {
+                  "padding": "20px 10px",
+                },
+                "tooltipFooter": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "justifyContent": "flex-end",
+                  "marginTop": 15,
+                },
+                "tooltipFooterSpacer": Object {
+                  "flex": 1,
+                },
+                "tooltipTitle": Object {
+                  "fontSize": 18,
+                  "margin": 0,
+                },
+              },
+              "target": ".joyride-first-step",
+            }
+          }
+          update={[Function]}
+        />
+      </div>
+    </Joyride>
     <SideNav
       hasFooter={true}
       hasOpenFileOption={true}
@@ -16,13 +347,13 @@ exports[`App Component To match snapshot of App 1`] = `
           id="sidebar"
         >
           <SideNavstyle__Link
-            className="openbtn"
+            className="openbtn joyride-first-step"
             href="javascript:void(0)"
             id="open-button"
             onClick={[Function]}
           >
             <a
-              className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo openbtn"
+              className="SideNavstyle__Link-sc-1s7cd9d-2 jBzRZo openbtn joyride-first-step"
               href="javascript:void(0)"
               id="open-button"
               onClick={[Function]}
@@ -301,12 +632,13 @@ exports[`App Component To match snapshot of App 1`] = `
                   className="BMCScreenstyle__Div-bb916e-7 jSABEh"
                 >
                   <BMCScreenstyle__TitleInput
+                    className="joyride-second-step"
                     onChange={[Function]}
                     placeholder="Edit title..."
                     value=""
                   >
                     <input
-                      className="BMCScreenstyle__TitleInput-bb916e-2 iXDoCK"
+                      className="BMCScreenstyle__TitleInput-bb916e-2 iXDoCK joyride-second-step"
                       onChange={[Function]}
                       placeholder="Edit title..."
                       value=""
@@ -331,12 +663,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         </b>
                       </BMCScreenstyle__Bold>
                       <BMCScreenstyle__BMCScreenInput
+                        className="joyride-third-step"
                         onChange={[Function]}
                         placeholder="NA"
                         value=""
                       >
                         <input
-                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie"
+                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-third-step"
                           onChange={[Function]}
                           placeholder="NA"
                           value=""
@@ -357,12 +690,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         </b>
                       </BMCScreenstyle__Bold>
                       <BMCScreenstyle__BMCScreenInput
+                        className="joyride-fourth-step"
                         onChange={[Function]}
                         placeholder="NA"
                         value=""
                       >
                         <input
-                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie"
+                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-fourth-step"
                           onChange={[Function]}
                           placeholder="NA"
                           value=""
@@ -385,10 +719,11 @@ exports[`App Component To match snapshot of App 1`] = `
                   className="BMCScreenstyle__Div-bb916e-7 ikIamk bmc-key-partners"
                 >
                   <BMCScreenstyle__SectionTitle
+                    className="joyride-fifth-step"
                     icon="key_partners"
                   >
                     <div
-                      className="BMCScreenstyle__SectionTitle-bb916e-8 eHKVyl"
+                      className="BMCScreenstyle__SectionTitle-bb916e-8 eHKVyl joyride-fifth-step"
                     >
                       <Popover
                         content={<KeyPartners />}
@@ -466,23 +801,20 @@ exports[`App Component To match snapshot of App 1`] = `
                   <DocContainer
                     activeKey="keyPartners"
                     hasAddOption={true}
-                    isEmpty={true}
                     message="Hover mouse cursor on section to add notes"
                   >
-                    <DocContainerstyle__DocContainerWrapper
-                      className="empty-state"
-                    >
+                    <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq empty-state"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -503,73 +835,6 @@ exports[`App Component To match snapshot of App 1`] = `
                             </svg>
                           </span>
                         </Blueprint3.Icon>
-                        <Tips>
-                          <DocContainerstyle__TipsWrapper>
-                            <div
-                              className="DocContainerstyle__TipsWrapper-sc-106t2xe-0 fKaaIx"
-                            >
-                              <span
-                                className="message text-bold text-italic"
-                              >
-                                Useful Tips
-                              </span>
-                              <ul>
-                                <li>
-                                  <span
-                                    className="message"
-                                  >
-                                    Update Canvas Title, Version, and Effective Date from the header
-                                  </span>
-                                </li>
-                                <li>
-                                  <span
-                                    className="message"
-                                  >
-                                    Click on section title to see hints
-                                  </span>
-                                </li>
-                                <li>
-                                  <span
-                                    className="message"
-                                  >
-                                    Click on
-                                     
-                                    <code>
-                                      +
-                                    </code>
-                                     
-                                    button placed at top right to add new notes
-                                  </span>
-                                </li>
-                                <li>
-                                  <span
-                                    className="message"
-                                  >
-                                    Click on note to see menu
-                                  </span>
-                                </li>
-                                <li>
-                                  <span
-                                    className="message"
-                                  >
-                                    Open side navigation bar to
-                                  </span>
-                                  <ul>
-                                    <li>
-                                      Save File
-                                    </li>
-                                    <li>
-                                      Open Existing File
-                                    </li>
-                                    <li>
-                                      Start Presentation Mode
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </div>
-                          </DocContainerstyle__TipsWrapper>
-                        </Tips>
                       </div>
                     </DocContainerstyle__DocContainerWrapper>
                   </DocContainer>
@@ -669,13 +934,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -795,13 +1060,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -921,13 +1186,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -1047,13 +1312,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -1173,13 +1438,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -1299,13 +1564,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -1425,13 +1690,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
@@ -1551,13 +1816,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
                       >
                         <Blueprint3.Icon
-                          className="add-option"
+                          className="add-option joyride-sixth-step"
                           icon="plus"
                           iconSize={15}
                           onClick={[Function]}
                         >
                           <span
-                            className="bp3-icon bp3-icon-plus add-option"
+                            className="bp3-icon bp3-icon-plus add-option joyride-sixth-step"
                             icon="plus"
                             onClick={[Function]}
                           >
