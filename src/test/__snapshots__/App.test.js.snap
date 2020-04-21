@@ -445,9 +445,7 @@ exports[`App Component To match snapshot of App 1`] = `
                     Business Model Canvas
                   </b>
                    
-                  <i>
-                    v1.0.0
-                  </i>
+                  <i />
                 </div>
               </SideNavstyle__AppTitle>
               <Blueprint3.Divider>
