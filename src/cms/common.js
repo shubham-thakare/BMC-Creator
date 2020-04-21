@@ -12,7 +12,7 @@
 export default {
   // Navbar CMS
   l_app_title: 'Business Model Canvas',
-  l_app_version: 'v1.0.0',
+  l_app_version: '',
   l_save: 'Save',
   l_open: 'open',
   l_export_to_svg: 'Export to SVG',

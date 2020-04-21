@@ -140,7 +140,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     class="bp3-popover-target full-width"
                                   >
                                     <div
-                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX print-item"
+                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
                                       color="#000000"
                                       style="max-width: 300px; max-height: 60px;"
                                     >
@@ -303,7 +303,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     class="bp3-popover-target full-width"
                                   >
                                     <div
-                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX print-item"
+                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
                                       color="#000000"
                                       style="max-width: 300px; max-height: 60px;"
                                     >
@@ -684,7 +684,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                                     >
                                                       <Notestyle__NoteWrapper
                                                         bgColor="#f5f8fa"
-                                                        className="print-item"
+                                                        className="no-animation print-item"
                                                         color="#000000"
                                                         key=".0"
                                                         style={
@@ -695,7 +695,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                                         }
                                                       >
                                                         <div
-                                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX print-item"
+                                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
                                                           color="#000000"
                                                           style={
                                                             Object {
@@ -1053,11 +1053,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587394016721,
+                            "key": 1587454047458,
                             "title": "Test note 1",
                           }
                         }
-                        key="1587394016721"
+                        key="1587454047458"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1065,7 +1065,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587394016721}
+                              noteKey={1587454047458}
                             />
                           }
                           defaultIsOpen={false}
@@ -1106,12 +1106,12 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     >
                                       <Notestyle__NoteWrapper
                                         bgColor="red"
-                                        className="print-item"
+                                        className="undefined print-item"
                                         color="white"
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
                                           color="white"
                                         >
                                           <Notestyle__NoteTitle>
@@ -1160,11 +1160,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587394016722,
+                            "key": 1587454047459,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587394016722"
+                        key="1587454047459"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1172,7 +1172,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587394016722}
+                              noteKey={1587454047459}
                             />
                           }
                           defaultIsOpen={false}
@@ -1213,12 +1213,12 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     >
                                       <Notestyle__NoteWrapper
                                         bgColor="red"
-                                        className="print-item"
+                                        className="undefined print-item"
                                         color="white"
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
                                           color="white"
                                         >
                                           <Notestyle__NoteTitle>
@@ -1267,11 +1267,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": undefined,
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587394016723,
+                            "key": 1587454047460,
                             "title": "",
                           }
                         }
-                        key="1587394016723"
+                        key="1587454047460"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1279,7 +1279,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587394016723}
+                              noteKey={1587454047460}
                             />
                           }
                           defaultIsOpen={false}
@@ -1319,12 +1319,12 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                       onClick={[Function]}
                                     >
                                       <Notestyle__NoteWrapper
-                                        className="print-item"
+                                        className="undefined print-item"
                                         color="white"
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hiIQbo print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hiIQbo undefined print-item"
                                           color="white"
                                         >
                                           <Notestyle__NoteDescription>
@@ -1366,11 +1366,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "",
-                            "key": 1587394016724,
+                            "key": 1587454047461,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587394016724"
+                        key="1587454047461"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1378,7 +1378,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587394016724}
+                              noteKey={1587454047461}
                             />
                           }
                           defaultIsOpen={false}
@@ -1419,12 +1419,12 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     >
                                       <Notestyle__NoteWrapper
                                         bgColor="red"
-                                        className="print-item"
+                                        className="undefined print-item"
                                         color="white"
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
                                           color="white"
                                         >
                                           <Notestyle__NoteTitle>
