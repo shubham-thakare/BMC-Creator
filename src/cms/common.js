@@ -42,7 +42,7 @@ export default {
   l_key_activities: 'Key Activities',
   l_key_resources: 'Key Resources',
   l_value_propositions: 'Value Propositions',
-  l_customer_relationships: 'Costumer Relationships',
+  l_customer_relationships: 'Customer Relationships',
   l_channels: 'Channels',
   l_customer_segments: 'Customer Segments',
   l_cost_structure: 'Cost Structure',
@@ -210,34 +210,34 @@ export default {
   joyrideSteps: [
     {
       target: '.joyride-first-step',
-      content: 'Use side navigation bar to perform various operations',
+      content: 'To see all the options and to perform various operations.',
       hideCloseButton: true,
       disableBeacon: true,
     },
     {
       target: '.joyride-second-step',
-      content: 'Use it to name this canvas',
+      content: 'Add a title to your canvas.',
       hideCloseButton: true,
     },
     {
       target: '.joyride-third-step',
-      content: 'Update canvas version number here',
+      content: 'Update canvas version number here.',
       hideCloseButton: true,
     },
     {
       target: '.joyride-fourth-step',
-      content: 'Update canvas effective date here',
+      content: 'Update canvas effective date here.',
       hideCloseButton: true,
     },
     {
       target: '.joyride-fifth-step',
-      content: 'See hints by simply clicking on the title of each section',
+      content: 'See hints by simply clicking on the title of each section.',
       hideCloseButton: true,
     },
     {
       target: '.joyride-sixth-step',
       content:
-        'Add new notes by clicking on a add button placed at top right corner of each section',
+        'To add new notes, click on the + (add) button.',
       hideCloseButton: true,
     },
   ],
