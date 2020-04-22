@@ -172,11 +172,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": "red",
               "color": "white",
               "description": "Test description",
-              "key": 1587454050807,
+              "key": 1587532687006,
               "title": "Test note 1",
             }
           }
-          key="1587454050807"
+          key="1587532687006"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -184,7 +184,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1587454050807}
+                noteKey={1587532687006}
               />
             }
             defaultIsOpen={false}
@@ -279,11 +279,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": "red",
               "color": "white",
               "description": "Test description",
-              "key": 1587454050808,
+              "key": 1587534693846,
               "title": "Test note 2",
             }
           }
-          key="1587454050808"
+          key="1587534693846"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -291,7 +291,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1587454050808}
+                noteKey={1587534693846}
               />
             }
             defaultIsOpen={false}
@@ -386,11 +386,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": undefined,
               "color": "white",
               "description": "Test description",
-              "key": 1587454050809,
+              "key": 1587534693847,
               "title": "",
             }
           }
-          key="1587454050809"
+          key="1587534693847"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -398,7 +398,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1587454050809}
+                noteKey={1587534693847}
               />
             }
             defaultIsOpen={false}
@@ -485,11 +485,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": "red",
               "color": "white",
               "description": "",
-              "key": 1587454050810,
+              "key": 1587534693848,
               "title": "Test note 2",
             }
           }
-          key="1587454050810"
+          key="1587534693848"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -497,7 +497,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1587454050810}
+                noteKey={1587534693848}
               />
             }
             defaultIsOpen={false}
