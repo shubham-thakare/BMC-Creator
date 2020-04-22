@@ -1053,11 +1053,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587454047458,
+                            "key": 1587532687006,
                             "title": "Test note 1",
                           }
                         }
-                        key="1587454047458"
+                        key="1587532687006"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1065,7 +1065,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587454047458}
+                              noteKey={1587532687006}
                             />
                           }
                           defaultIsOpen={false}
@@ -1160,11 +1160,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587454047459,
+                            "key": 1587534690847,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587454047459"
+                        key="1587534690847"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1172,7 +1172,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587454047459}
+                              noteKey={1587534690847}
                             />
                           }
                           defaultIsOpen={false}
@@ -1267,11 +1267,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": undefined,
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587454047460,
+                            "key": 1587534690848,
                             "title": "",
                           }
                         }
-                        key="1587454047460"
+                        key="1587534690848"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1279,7 +1279,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587454047460}
+                              noteKey={1587534690848}
                             />
                           }
                           defaultIsOpen={false}
@@ -1366,11 +1366,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "",
-                            "key": 1587454047461,
+                            "key": 1587534690849,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587454047461"
+                        key="1587534690849"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1378,7 +1378,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587454047461}
+                              noteKey={1587534690849}
                             />
                           }
                           defaultIsOpen={false}
@@ -1900,7 +1900,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     <span
                                       className=""
                                     >
-                                      Costumer Relationships
+                                      Customer Relationships
                                     </span>
                                   </span>
                                 </Blueprint3.ResizeSensor>

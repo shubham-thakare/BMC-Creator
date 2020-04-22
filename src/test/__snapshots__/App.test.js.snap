@@ -24,33 +24,33 @@ exports[`App Component To match snapshot of App 1`] = `
       steps={
         Array [
           Object {
-            "content": "Use side navigation bar to perform various operations",
+            "content": "To see all the options and to perform various operations.",
             "disableBeacon": true,
             "hideCloseButton": true,
             "target": ".joyride-first-step",
           },
           Object {
-            "content": "Use it to name this canvas",
+            "content": "Add a title to your canvas.",
             "hideCloseButton": true,
             "target": ".joyride-second-step",
           },
           Object {
-            "content": "Update canvas version number here",
+            "content": "Update canvas version number here.",
             "hideCloseButton": true,
             "target": ".joyride-third-step",
           },
           Object {
-            "content": "Update canvas effective date here",
+            "content": "Update canvas effective date here.",
             "hideCloseButton": true,
             "target": ".joyride-fourth-step",
           },
           Object {
-            "content": "See hints by simply clicking on the title of each section",
+            "content": "See hints by simply clicking on the title of each section.",
             "hideCloseButton": true,
             "target": ".joyride-fifth-step",
           },
           Object {
-            "content": "Add new notes by clicking on a add button placed at top right corner of each section",
+            "content": "To add new notes, click on the + (add) button.",
             "hideCloseButton": true,
             "target": ".joyride-sixth-step",
           },
@@ -101,7 +101,7 @@ exports[`App Component To match snapshot of App 1`] = `
           status="running"
           step={
             Object {
-              "content": "Use side navigation bar to perform various operations",
+              "content": "To see all the options and to perform various operations.",
               "disableBeacon": true,
               "disableCloseOnEsc": true,
               "disableOverlay": false,
@@ -439,7 +439,7 @@ exports[`App Component To match snapshot of App 1`] = `
               </Blueprint3.Divider>
               <SideNavstyle__AppTitle>
                 <div
-                  className="SideNavstyle__AppTitle-sc-1s7cd9d-1 chyrJg"
+                  className="SideNavstyle__AppTitle-sc-1s7cd9d-1 fajqao"
                 >
                   <b>
                     Business Model Canvas
@@ -1312,7 +1312,7 @@ exports[`App Component To match snapshot of App 1`] = `
                                       <span
                                         className=""
                                       >
-                                        Costumer Relationships
+                                        Customer Relationships
                                       </span>
                                     </span>
                                   </Blueprint3.ResizeSensor>

@@ -18,6 +18,8 @@ import {
   OPEN_DIALOG,
   OPEN_FILE,
   SAVE_FILE,
+  EDIT_NOTE,
+  UPDATE_NOTE,
 } from './actions';
 
 export {
@@ -40,4 +42,6 @@ export {
   OPEN_DIALOG,
   OPEN_FILE,
   SAVE_FILE,
+  EDIT_NOTE,
+  UPDATE_NOTE,
 };
