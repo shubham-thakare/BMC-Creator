@@ -11,11 +11,12 @@ export const mockState = {
   noteBackgroundColor: '#f5f8fa',
   noteTextColor: '#000000',
   activeKey: 'keyPartners',
+  updateNoteKey: 1587532687006,
   isDialogOpen: true,
   keyPartners: {
     notes: [
       {
-        key: new Date().getTime(),
+        key: 1587532687006,
         title: 'Test note 1',
         description: 'Test description',
         background: 'red',

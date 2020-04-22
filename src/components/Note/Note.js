@@ -9,16 +9,22 @@ import {
 } from '@blueprintjs/core';
 import { NoteWrapper, NoteTitle, NoteDescription } from './styles/Note.style';
 import { trimString, AppContext } from '../../utils';
-import { DELETE_NOTE } from '../../actions';
+import { DELETE_NOTE, EDIT_NOTE } from '../../actions';
 import cmsData from '../../cms';
 
 export const NoteMenu = ({ noteKey, activeKey }) => {
   const { dispatch } = useContext(AppContext);
-  const { t_menu, b_delete } = cmsData;
+  const { b_edit, b_delete } = cmsData;
 
   return (
     <Menu>
-      <Menu.Divider title={t_menu} />
+      <Menu.Item
+        text={b_edit}
+        icon="edit"
+        onClick={() => {
+          dispatch({ action: EDIT_NOTE, payload: { noteKey, activeKey } });
+        }}
+      />
       <Menu.Item
         text={b_delete}
         icon="trash"

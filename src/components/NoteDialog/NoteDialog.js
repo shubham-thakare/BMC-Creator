@@ -20,7 +20,7 @@ import { AppContext } from '../../utils';
 import cmsData from '../../cms';
 import Note from '../Note';
 import { ColorPicker } from '..';
-import { RESET_NOTE_COLOR } from '../../actions/actions';
+import { RESET_NOTE_COLOR, UPDATE_NOTE } from '../../actions/actions';
 
 const NoteDialog = () => {
   const { state, dispatch } = useContext(AppContext);
@@ -30,6 +30,7 @@ const NoteDialog = () => {
     noteDescription,
     noteBackgroundColor,
     noteTextColor,
+    updateNoteKey,
   } = state;
   const {
     p_edit_note_title,
@@ -123,7 +124,14 @@ const NoteDialog = () => {
             </Button>
             <Button
               intent={Intent.PRIMARY}
-              onClick={() => dispatch({ action: SAVE_NOTE })}
+              onClick={() => {
+                dispatch({
+                  action:
+                    updateNoteKey.toString().length > 0
+                      ? UPDATE_NOTE
+                      : SAVE_NOTE,
+                });
+              }}
             >
               {b_save}
             </Button>
