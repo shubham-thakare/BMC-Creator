@@ -20,7 +20,7 @@ const props2 = {
 };
 
 const contextMenuProps = {
-  noteKey: new Date().getTime(),
+  noteKey: 1587532687006,
   activeKey: 'keyPartners',
 };
 
@@ -67,11 +67,24 @@ describe('Note Component', () => {
     done();
   });
 
+  it('Simulate Edit operation', async (done) => {
+    const add = contextMenu
+      .find(Menu.Item)
+      .find('li')
+      .find('a')
+      .at(0);
+    add.simulate('click', {
+      payload: { activeKey: 'keyPartners', noteKey: '1587532687006' },
+    });
+    done();
+  });
+
   it('Simulate delete operation', async (done) => {
     const add = contextMenu
       .find(Menu.Item)
       .find('li')
-      .find('a');
+      .find('a')
+      .at(1);
     add.simulate('click');
     done();
   });

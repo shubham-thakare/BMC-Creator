@@ -8,7 +8,7 @@ exports[`Note Component To match snapshot of Note 1`] = `
       "background": "red",
       "color": "white",
       "description": "Test description",
-      "key": 1587454051299,
+      "key": 1587532687006,
       "title": "Test note 1",
     }
   }
@@ -19,7 +19,7 @@ exports[`Note Component To match snapshot of Note 1`] = `
     content={
       <NoteMenu
         activeKey="keyPartners"
-        noteKey={1587454051299}
+        noteKey={1587532687006}
       />
     }
     defaultIsOpen={false}
