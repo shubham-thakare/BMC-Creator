@@ -30,7 +30,7 @@ export const SideNavbar = styled.div`
 `;
 
 export const AppTitle = styled.div`
-  padding: 8px 8px;
+  padding: 8px 8px 8px 15px;
 `;
 
 export const Link = styled.a`

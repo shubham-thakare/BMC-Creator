@@ -86,6 +86,15 @@ describe('Dialog Component', () => {
     done();
   });
 
+  it('Simulate click for save button (update note operation)', async (done) => {
+    let component = wrapper
+      .find(Dialog)
+      .find(Button)
+      .at(2);
+    component.simulate('click');
+    done();
+  });
+
   it('Simulate click for reset colors button', async (done) => {
     let component = wrapper
       .find(Dialog)
@@ -100,15 +109,6 @@ describe('Dialog Component', () => {
       .find(Dialog)
       .find(Button)
       .at(1);
-    component.simulate('click');
-    done();
-  });
-
-  it('Simulate click for save button', async (done) => {
-    let component = wrapper
-      .find(Dialog)
-      .find(Button)
-      .at(2);
     component.simulate('click');
     done();
   });
