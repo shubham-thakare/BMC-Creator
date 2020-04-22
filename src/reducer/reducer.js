@@ -26,6 +26,8 @@ import {
   UPDATE_NOTE_COLOR,
   RESET_NOTE_COLOR,
   DELETE_NOTE,
+  EDIT_NOTE,
+  UPDATE_NOTE,
 } from '../actions';
 import cmsData from '../cms';
 import { openFile } from '../utils';
@@ -43,6 +45,7 @@ export const appState = {
   noteBackgroundColor: '#f5f8fa',
   noteTextColor: '#000000',
   activeKey: '',
+  updateNoteKey: '',
   isDialogOpen: false,
   keyPartners: { notes: [] },
   keyActivities: { notes: [] },
@@ -94,6 +97,7 @@ export const reducer = (state, dispatch) => {
         ...state,
         isDialogOpen: false,
         activeKey: '',
+        updateNoteKey: '',
         noteTitle: '',
         noteDescription: '',
       };
@@ -119,10 +123,54 @@ export const reducer = (state, dispatch) => {
             },
             isDialogOpen: false,
             activeKey: '',
+            updateNoteKey: '',
             noteTitle: '',
             noteDescription: '',
           }
         : state;
+
+    case EDIT_NOTE:
+      let editItem =
+        payload.activeKey &&
+        state[payload.activeKey].notes.filter(
+          (item) => item.key === payload.noteKey,
+        );
+
+      editItem = editItem[0];
+
+      return {
+        ...state,
+        noteTitle: editItem.title,
+        noteDescription: editItem.description,
+        noteBackgroundColor: editItem.background,
+        noteTextColor: editItem.color,
+        isDialogOpen: true,
+        activeKey: payload.activeKey,
+        updateNoteKey: editItem.key,
+      };
+
+    case UPDATE_NOTE:
+      let updateItem =
+        state.activeKey &&
+        state[state.activeKey].notes.filter(
+          (item) => item.key === state.updateNoteKey,
+        );
+
+      updateItem = updateItem[0];
+
+      updateItem.title = state.noteTitle;
+      updateItem.description = state.noteDescription;
+      updateItem.background = state.noteBackgroundColor;
+      updateItem.color = state.noteTextColor;
+
+      return {
+        ...state,
+        isDialogOpen: false,
+        activeKey: '',
+        updateNoteKey: '',
+        noteTitle: '',
+        noteDescription: '',
+      };
 
     case DELETE_NOTE:
       const filteredState =

@@ -30,6 +30,7 @@ export default {
   b_close: 'Close',
   b_save: 'Save',
   b_delete: 'Delete',
+  b_edit: 'Edit',
   t_menu: 'Menu',
   m_failed_to_open_file: 'Failed to open file!',
 
@@ -236,8 +237,7 @@ export default {
     },
     {
       target: '.joyride-sixth-step',
-      content:
-        'To add new notes, click on the + (add) button.',
+      content: 'To add new notes, click on the + (add) button.',
       hideCloseButton: true,
     },
   ],
