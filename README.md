@@ -14,7 +14,6 @@ Code Quality and Deployment Status
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=security_rating)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shubham-thakare/BMC-Creator/issues)
-[![HitCount](http://hits.dwyl.com/shubham-thakare/BMC-Creator.svg)](http://hits.dwyl.com/shubham-thakare/BMC-Creator)
 
 visit [https://www.bmccreator.com](https://www.bmccreator.com/)
 
