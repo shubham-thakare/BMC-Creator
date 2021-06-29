@@ -18,6 +18,8 @@ Code Quality and Deployment Status
 visit [https://www.bmccreator.com](https://www.bmccreator.com/)
 
 All notable changes to this project will be documented in [CHANGELOG.md](CHANGELOG.md) file.
+  
+<a href="https://www.producthunt.com/posts/bmc-creator?utm_source=badge-review&utm_medium=badge&utm_souce=badge-bmc-creator#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=302326&theme=light" alt="BMC Creator - Easily create your Business Model Canvas | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 </div>
 
