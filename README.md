@@ -1,6 +1,6 @@
 <div align="center">
   
-  ![App Poster](https://www.bmccreator.com/assets/images/BMC_Logo.svg)
+  ![App Poster](https://shubham-thakare.github.io/BMC-Creator/assets/images/BMC_Logo.svg)
   
 </div>
 
@@ -15,7 +15,7 @@ Code Quality and Deployment Status
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=shubham-thakare_BMC-Creator&metric=security_rating)](https://sonarcloud.io/dashboard?id=shubham-thakare_BMC-Creator)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/shubham-thakare/BMC-Creator/issues)
 
-visit [https://www.bmccreator.com](https://www.bmccreator.com/)
+visit [https://shubham-thakare.github.io/BMC-Creator/](https://shubham-thakare.github.io/BMC-Creator/)
 
 All notable changes to this project will be documented in [CHANGELOG.md](CHANGELOG.md) file.
   
