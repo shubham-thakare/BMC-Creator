@@ -1,6 +1,6 @@
 <div align="center">
   
-  ![App Poster](https://shubham-thakare.github.io/BMC-Creator/assets/images/BMC_Logo.svg)
+  ![App Poster](https://bmccreator.shubhamthakare.com/assets/images/BMC_Logo.svg)
   
 </div>
 
