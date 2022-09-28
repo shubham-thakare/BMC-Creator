@@ -7,7 +7,12 @@ import {
   PopoverPosition,
   PopoverInteractionKind,
 } from '@blueprintjs/core';
-import { NoteWrapper, NoteTitle, NoteDescription } from './styles/Note.style';
+import {
+  NoteWrapper,
+  NoteTitle,
+  NoteDescription,
+  NoteMenuIcon,
+} from './styles/Note.style';
 import { trimString, AppContext } from '../../utils';
 import { DELETE_NOTE, EDIT_NOTE } from '../../actions';
 import cmsData from '../../cms';
@@ -54,6 +59,10 @@ const Note = ({ item, activeKey, ...props }) => {
             {...props}
             className={`${props.className} print-item`}
           >
+            <NoteMenuIcon
+              color={item.color}
+              className="note-menu-icon"
+            ></NoteMenuIcon>
             {item.title && item.title.length > 0 && (
               <NoteTitle>{item.title}</NoteTitle>
             )}
