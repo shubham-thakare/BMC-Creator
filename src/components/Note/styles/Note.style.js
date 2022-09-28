@@ -39,10 +39,15 @@ export const NoteWrapper = styled.div`
   color: ${(props) => props.color};
   box-shadow: var(--elevation-2);
   ${animateFadeIn}
+
+  &:hover .note-menu-icon {
+    opacity: 1;
+  }
 `;
 
 export const NoteTitle = styled.span`
   padding: 5px;
+  padding-right: 15px;
   font-weight: bold;
   user-select: text;
 `;
@@ -50,4 +55,37 @@ export const NoteTitle = styled.span`
 export const NoteDescription = styled.span`
   padding: 5px;
   user-select: text;
+`;
+
+export const NoteMenuIcon = styled.div`
+  & {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    background-color: ${(props) => props.color};
+    opacity: 0;
+  }
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    border-radius: inherit;
+    background-color: ${(props) => props.color};
+  }
+
+  &:before {
+    top: 5px;
+  }
+
+  &:after {
+    top: 10px;
+  }
 `;
