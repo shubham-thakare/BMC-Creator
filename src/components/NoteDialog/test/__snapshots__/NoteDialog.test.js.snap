@@ -139,12 +139,16 @@ exports[`Dialog Component To match snapshot of NoteDialog 1`] = `
                                   class="bp3-popover-target full-width"
                                 >
                                   <div
-                                    class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
+                                    class="Notestyle__NoteWrapper-sc-2z8c2g-0 bqItYe no-animation print-item"
                                     color="#000000"
                                     style="max-width: 300px; max-height: 60px;"
                                   >
+                                    <div
+                                      class="Notestyle__NoteMenuIcon-sc-2z8c2g-3 jzzqmT note-menu-icon"
+                                      color="#000000"
+                                    />
                                     <span
-                                      class="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                      class="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                     >
                                       Note Title Preview
                                     </span>
@@ -302,12 +306,16 @@ exports[`Dialog Component To match snapshot of NoteDialog 1`] = `
                                   class="bp3-popover-target full-width"
                                 >
                                   <div
-                                    class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
+                                    class="Notestyle__NoteWrapper-sc-2z8c2g-0 bqItYe no-animation print-item"
                                     color="#000000"
                                     style="max-width: 300px; max-height: 60px;"
                                   >
+                                    <div
+                                      class="Notestyle__NoteMenuIcon-sc-2z8c2g-3 jzzqmT note-menu-icon"
+                                      color="#000000"
+                                    />
                                     <span
-                                      class="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                      class="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                     >
                                       Note Title Preview
                                     </span>
@@ -694,7 +702,7 @@ exports[`Dialog Component To match snapshot of NoteDialog 1`] = `
                                                       }
                                                     >
                                                       <div
-                                                        className="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
+                                                        className="Notestyle__NoteWrapper-sc-2z8c2g-0 bqItYe no-animation print-item"
                                                         color="#000000"
                                                         style={
                                                           Object {
@@ -703,9 +711,18 @@ exports[`Dialog Component To match snapshot of NoteDialog 1`] = `
                                                           }
                                                         }
                                                       >
+                                                        <Notestyle__NoteMenuIcon
+                                                          className="note-menu-icon"
+                                                          color="#000000"
+                                                        >
+                                                          <div
+                                                            className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 jzzqmT note-menu-icon"
+                                                            color="#000000"
+                                                          />
+                                                        </Notestyle__NoteMenuIcon>
                                                         <Notestyle__NoteTitle>
                                                           <span
-                                                            className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                                            className="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                                           >
                                                             Note Title Preview
                                                           </span>
