@@ -16,7 +16,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
       className="empty-state"
     >
       <div
-        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq empty-state"
+        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr empty-state"
       >
         <Blueprint3.Icon
           className="edit-option"
@@ -230,7 +230,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
                           key=".0"
                         >
                           <div
-                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 iAqcNw undefined print-item"
+                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                             color="white"
                           >
                             <Notestyle__NoteMenuIcon
@@ -288,11 +288,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": "red",
               "color": "white",
               "description": "Test description",
-              "key": 1664376706299,
+              "key": 1664452530471,
               "title": "Test note 2",
             }
           }
-          key="1664376706299"
+          key="1664452530471"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -300,7 +300,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1664376706299}
+                noteKey={1664452530471}
               />
             }
             defaultIsOpen={false}
@@ -346,7 +346,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
                           key=".0"
                         >
                           <div
-                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 iAqcNw undefined print-item"
+                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                             color="white"
                           >
                             <Notestyle__NoteMenuIcon
@@ -404,11 +404,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": undefined,
               "color": "white",
               "description": "Test description",
-              "key": 1664376706300,
+              "key": 1664452530472,
               "title": "",
             }
           }
-          key="1664376706300"
+          key="1664452530472"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -416,7 +416,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1664376706300}
+                noteKey={1664452530472}
               />
             }
             defaultIsOpen={false}
@@ -461,7 +461,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
                           key=".0"
                         >
                           <div
-                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 gqYiqN undefined print-item"
+                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 kQFybJ undefined print-item"
                             color="white"
                           >
                             <Notestyle__NoteMenuIcon
@@ -512,11 +512,11 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
               "background": "red",
               "color": "white",
               "description": "",
-              "key": 1664376706301,
+              "key": 1664452530473,
               "title": "Test note 2",
             }
           }
-          key="1664376706301"
+          key="1664452530473"
         >
           <Blueprint3.Popover
             boundary="scrollParent"
@@ -524,7 +524,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
             content={
               <NoteMenu
                 activeKey="keyPartners"
-                noteKey={1664376706301}
+                noteKey={1664452530473}
               />
             }
             defaultIsOpen={false}
@@ -570,7 +570,7 @@ exports[`DocContainer Component To match snapshot of DocContainer 1`] = `
                           key=".0"
                         >
                           <div
-                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 iAqcNw undefined print-item"
+                            className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                             color="white"
                           >
                             <Notestyle__NoteMenuIcon
