@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import DatePicker from 'react-datepicker';
 
 const iconBackground = (iconURL) => `
   background-image: url(${iconURL});
@@ -167,3 +168,15 @@ export const SectionTitle = styled.div`
 `;
 
 export const Bold = styled.b``;
+
+export const DatePickerStyled = styled(DatePicker)`
+  height: 25px;
+  padding: 0 5px;
+  border-radius: 5px;
+  width: 170px;
+  outline: none;
+  border: 1px solid var(--app-background-color);
+  background: var(--app-background-color);
+  font-size: var(--input-font-size);
+  ${inputsCommonStyling}
+`;

@@ -11,6 +11,7 @@ import {
   Div,
   SectionTitle,
   Bold,
+  DatePickerStyled,
 } from './styles/BMCScreen.style';
 import { AppContext } from '../../utils';
 import { UPDATE_TITLE, UPDATE_VERSION, UPDATE_DATE } from '../../actions';
@@ -83,11 +84,10 @@ const BMCScreen = () => {
             </Flex>
             <Flex>
               <Bold>{l_date}:</Bold>
-              <BMCScreenInput
-                placeholder={p_na}
-                value={date}
-                onChange={(evt) =>
-                  dispatch({ action: UPDATE_DATE, payload: evt.target.value })
+              <DatePickerStyled
+                selected={date}
+                onChange={(date) =>
+                  dispatch({ action: UPDATE_DATE, payload: date })
                 }
                 className="joyride-fourth-step"
               />
