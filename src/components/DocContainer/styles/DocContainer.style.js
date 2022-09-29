@@ -60,10 +60,11 @@ export const DocContainerWrapper = styled.div`
     opacity: 0;
     transition: 0.1s ease-in-out;
     z-index: 10;
-    background: var(--white-color);
+    background: var(--black-color);
+    color: var(--white-color);
 
     & svg {
-      color: inherit;
+      color: var(--white-color);
     }
   }
 
@@ -91,6 +92,6 @@ export const DocContainerWrapper = styled.div`
   & .add-option:hover,
   & .add-edit:hover,
   & .full-screen-option:hover {
-    color: var(--link-hover-color);
+    color: var(--white-color);
   }
 `;

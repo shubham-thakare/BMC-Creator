@@ -38,6 +38,7 @@ export const NoteWrapper = styled.div`
     props.bgColor ? props.bgColor : 'var(--app-background-color)'};
   color: ${(props) => props.color};
   box-shadow: var(--elevation-2);
+  cursor: pointer;
   ${animateFadeIn}
 
   &:hover .note-menu-icon {
