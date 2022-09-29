@@ -65,12 +65,21 @@ exports[`Note Component To match snapshot of Note 1`] = `
                   key=".0"
                 >
                   <div
-                    className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
+                    className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                     color="white"
                   >
+                    <Notestyle__NoteMenuIcon
+                      className="note-menu-icon"
+                      color="white"
+                    >
+                      <div
+                        className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 brUUKT note-menu-icon"
+                        color="white"
+                      />
+                    </Notestyle__NoteMenuIcon>
                     <Notestyle__NoteTitle>
                       <span
-                        className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                        className="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                       >
                         Test note 1
                       </span>

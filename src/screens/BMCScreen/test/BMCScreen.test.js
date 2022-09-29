@@ -8,6 +8,7 @@ import {
   BMCScreenHeaderGrid,
   BMCScreenCanvasGrid,
   SectionTitle,
+  DatePickerStyled,
 } from '../styles/BMCScreen.style';
 import { ContextProviderWrapper } from '../../../utils';
 import { NoteDialog, Popover, DocContainer } from '../../../components';
@@ -68,8 +69,13 @@ describe('App Component', () => {
     done();
   });
 
-  it('BMCScreen should have two BMCScreenInputs', async (done) => {
-    expect(wrapper.find(BMCScreenInput)).toHaveLength(2);
+  it('BMCScreen should have one BMCScreenInput', async (done) => {
+    expect(wrapper.find(BMCScreenInput)).toHaveLength(1);
+    done();
+  });
+
+  it('BMCScreen should have one DatePickerStyled', async (done) => {
+    expect(wrapper.find(DatePickerStyled)).toHaveLength(1);
     done();
   });
 
@@ -83,16 +89,14 @@ describe('App Component', () => {
   it('Simulate Version BMCScreenInput onChange', async (done) => {
     wrapper
       .find(BMCScreenInput)
-      .at(0)
       .simulate('change', { target: { value: 'Test Version' } });
     done();
   });
 
   it('Simulate Date BMCScreenInput onChange', async (done) => {
     wrapper
-      .find(BMCScreenInput)
-      .at(1)
-      .simulate('change', { target: { value: 'Test Date' } });
+      .find(DatePickerStyled)
+      .simulate('change', { target: { value: '09/28/2022' } });
     done();
   });
 });
