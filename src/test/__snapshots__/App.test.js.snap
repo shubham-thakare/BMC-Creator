@@ -702,13 +702,13 @@ exports[`App Component To match snapshot of App 1`] = `
                         className="joyride-third-step"
                         onChange={[Function]}
                         placeholder="NA"
-                        value=""
+                        value="v1.0"
                       >
                         <input
                           className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-third-step"
                           onChange={[Function]}
                           placeholder="NA"
-                          value=""
+                          value="v1.0"
                         />
                       </BMCScreenstyle__BMCScreenInput>
                     </div>
@@ -725,19 +725,123 @@ exports[`App Component To match snapshot of App 1`] = `
                           :
                         </b>
                       </BMCScreenstyle__Bold>
-                      <BMCScreenstyle__BMCScreenInput
+                      <BMCScreenstyle__DatePickerStyled
                         className="joyride-fourth-step"
                         onChange={[Function]}
-                        placeholder="NA"
-                        value=""
+                        selected={2022-09-29T11:55:30.514Z}
                       >
-                        <input
-                          className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-fourth-step"
+                        <r
+                          allowSameDay={false}
+                          className="BMCScreenstyle__DatePickerStyled-bb916e-10 jAKNXT joyride-fourth-step"
+                          customTimeInput={null}
+                          dateFormat="MM/dd/yyyy"
+                          dateFormatCalendar="LLLL yyyy"
+                          disabled={false}
+                          disabledKeyboardNavigation={false}
+                          dropdownMode="scroll"
+                          enableTabLoop={true}
+                          excludeScrollbar={true}
+                          focusSelectedMonth={false}
+                          monthsShown={1}
+                          nextMonthAriaLabel="Next Month"
+                          nextMonthButtonLabel="Next Month"
+                          nextYearAriaLabel="Next Year"
+                          nextYearButtonLabel="Next Year"
+                          onBlur={[Function]}
+                          onCalendarClose={[Function]}
+                          onCalendarOpen={[Function]}
                           onChange={[Function]}
-                          placeholder="NA"
-                          value=""
-                        />
-                      </BMCScreenstyle__BMCScreenInput>
+                          onClickOutside={[Function]}
+                          onFocus={[Function]}
+                          onInputClick={[Function]}
+                          onInputError={[Function]}
+                          onKeyDown={[Function]}
+                          onMonthChange={[Function]}
+                          onSelect={[Function]}
+                          onYearChange={[Function]}
+                          preventOpenOnFocus={false}
+                          previousMonthAriaLabel="Previous Month"
+                          previousMonthButtonLabel="Previous Month"
+                          previousYearAriaLabel="Previous Year"
+                          previousYearButtonLabel="Previous Year"
+                          readOnly={false}
+                          renderDayContents={[Function]}
+                          selected={2022-09-29T11:55:30.514Z}
+                          selectsDisabledDaysInRange={false}
+                          shouldCloseOnSelect={true}
+                          showFourColumnMonthYearPicker={false}
+                          showFullMonthYearPicker={false}
+                          showMonthYearPicker={false}
+                          showPopperArrow={true}
+                          showPreviousMonths={false}
+                          showQuarterYearPicker={false}
+                          showTimeInput={false}
+                          showTimeSelect={false}
+                          showTwoColumnMonthYearPicker={false}
+                          showYearPicker={false}
+                          strictParsing={false}
+                          timeCaption="Time"
+                          timeInputLabel="Time"
+                          timeIntervals={30}
+                          withPortal={false}
+                          yearItemNumber={12}
+                        >
+                          <r
+                            enableTabLoop={true}
+                            hidePopper={true}
+                            popperComponent={null}
+                            popperModifiers={Array []}
+                            popperOnKeyDown={[Function]}
+                            popperPlacement="bottom-start"
+                            popperProps={Object {}}
+                            targetComponent={
+                              <div
+                                className="react-datepicker__input-container"
+                              >
+                                <input
+                                  className="BMCScreenstyle__DatePickerStyled-bb916e-10 jAKNXT joyride-fourth-step"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  readOnly={false}
+                                  type="text"
+                                  value="09/29/2022"
+                                />
+                              </div>
+                            }
+                          >
+                            <Manager
+                              className="react-datepicker-manager"
+                            >
+                              <Reference>
+                                <div
+                                  className="react-datepicker-wrapper"
+                                >
+                                  <div
+                                    className="react-datepicker__input-container"
+                                  >
+                                    <input
+                                      className="BMCScreenstyle__DatePickerStyled-bb916e-10 jAKNXT joyride-fourth-step"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      readOnly={false}
+                                      type="text"
+                                      value="09/29/2022"
+                                    />
+                                  </div>
+                                </div>
+                              </Reference>
+                            </Manager>
+                          </r>
+                        </r>
+                      </BMCScreenstyle__DatePickerStyled>
                     </div>
                   </BMCScreenstyle__Flex>
                 </div>
@@ -841,7 +945,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -967,7 +1071,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1093,7 +1197,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1219,7 +1323,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1345,7 +1449,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1471,7 +1575,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1597,7 +1701,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1723,7 +1827,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"
@@ -1849,7 +1953,7 @@ exports[`App Component To match snapshot of App 1`] = `
                   >
                     <DocContainerstyle__DocContainerWrapper>
                       <div
-                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                        className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                       >
                         <Blueprint3.Icon
                           className="add-option joyride-sixth-step"

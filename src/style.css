@@ -1,5 +1,6 @@
 @import "~@blueprintjs/core/lib/css/blueprint.css";
 @import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "~react-datepicker/dist/react-datepicker.css";
 
 :root {
   --app-background-color: #f5f8fa;
@@ -116,4 +117,8 @@ button.bp3-button {
   .print-item {
     box-shadow: none !important;
   }
+}
+
+.react-datepicker-popper {
+  z-index: 20 !important;
 }

@@ -5,7 +5,7 @@ export const mockState = {
   },
   title: 'Business Model Canvas Title',
   version: '1.0.0',
-  date: '13 Apr, 2020',
+  date: new Date(),
   noteTitle: 'Test title',
   noteDescription: 'Test description',
   noteBackgroundColor: '#f5f8fa',

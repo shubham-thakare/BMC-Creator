@@ -140,12 +140,16 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     class="bp3-popover-target full-width"
                                   >
                                     <div
-                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
+                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 gRsqMu no-animation print-item"
                                       color="#000000"
                                       style="max-width: 300px; max-height: 60px;"
                                     >
+                                      <div
+                                        class="Notestyle__NoteMenuIcon-sc-2z8c2g-3 jzzqmT note-menu-icon"
+                                        color="#000000"
+                                      />
                                       <span
-                                        class="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                        class="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                       >
                                         Note Title Preview
                                       </span>
@@ -303,12 +307,16 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                     class="bp3-popover-target full-width"
                                   >
                                     <div
-                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
+                                      class="Notestyle__NoteWrapper-sc-2z8c2g-0 gRsqMu no-animation print-item"
                                       color="#000000"
                                       style="max-width: 300px; max-height: 60px;"
                                     >
+                                      <div
+                                        class="Notestyle__NoteMenuIcon-sc-2z8c2g-3 jzzqmT note-menu-icon"
+                                        color="#000000"
+                                      />
                                       <span
-                                        class="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                        class="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                       >
                                         Note Title Preview
                                       </span>
@@ -695,7 +703,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                                         }
                                                       >
                                                         <div
-                                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 eyrKAX no-animation print-item"
+                                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 gRsqMu no-animation print-item"
                                                           color="#000000"
                                                           style={
                                                             Object {
@@ -704,9 +712,18 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                                             }
                                                           }
                                                         >
+                                                          <Notestyle__NoteMenuIcon
+                                                            className="note-menu-icon"
+                                                            color="#000000"
+                                                          >
+                                                            <div
+                                                              className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 jzzqmT note-menu-icon"
+                                                              color="#000000"
+                                                            />
+                                                          </Notestyle__NoteMenuIcon>
                                                           <Notestyle__NoteTitle>
                                                             <span
-                                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                                             >
                                                               Note Title Preview
                                                             </span>
@@ -900,19 +917,123 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                         :
                       </b>
                     </BMCScreenstyle__Bold>
-                    <BMCScreenstyle__BMCScreenInput
+                    <BMCScreenstyle__DatePickerStyled
                       className="joyride-fourth-step"
                       onChange={[Function]}
-                      placeholder="NA"
-                      value="13 Apr, 2020"
+                      selected={2022-09-29T11:55:30.483Z}
                     >
-                      <input
-                        className="BMCScreenstyle__BMCScreenInput-bb916e-3 gQazie joyride-fourth-step"
+                      <r
+                        allowSameDay={false}
+                        className="BMCScreenstyle__DatePickerStyled-bb916e-10 jAKNXT joyride-fourth-step"
+                        customTimeInput={null}
+                        dateFormat="MM/dd/yyyy"
+                        dateFormatCalendar="LLLL yyyy"
+                        disabled={false}
+                        disabledKeyboardNavigation={false}
+                        dropdownMode="scroll"
+                        enableTabLoop={true}
+                        excludeScrollbar={true}
+                        focusSelectedMonth={false}
+                        monthsShown={1}
+                        nextMonthAriaLabel="Next Month"
+                        nextMonthButtonLabel="Next Month"
+                        nextYearAriaLabel="Next Year"
+                        nextYearButtonLabel="Next Year"
+                        onBlur={[Function]}
+                        onCalendarClose={[Function]}
+                        onCalendarOpen={[Function]}
                         onChange={[Function]}
-                        placeholder="NA"
-                        value="13 Apr, 2020"
-                      />
-                    </BMCScreenstyle__BMCScreenInput>
+                        onClickOutside={[Function]}
+                        onFocus={[Function]}
+                        onInputClick={[Function]}
+                        onInputError={[Function]}
+                        onKeyDown={[Function]}
+                        onMonthChange={[Function]}
+                        onSelect={[Function]}
+                        onYearChange={[Function]}
+                        preventOpenOnFocus={false}
+                        previousMonthAriaLabel="Previous Month"
+                        previousMonthButtonLabel="Previous Month"
+                        previousYearAriaLabel="Previous Year"
+                        previousYearButtonLabel="Previous Year"
+                        readOnly={false}
+                        renderDayContents={[Function]}
+                        selected={2022-09-29T11:55:30.483Z}
+                        selectsDisabledDaysInRange={false}
+                        shouldCloseOnSelect={true}
+                        showFourColumnMonthYearPicker={false}
+                        showFullMonthYearPicker={false}
+                        showMonthYearPicker={false}
+                        showPopperArrow={true}
+                        showPreviousMonths={false}
+                        showQuarterYearPicker={false}
+                        showTimeInput={false}
+                        showTimeSelect={false}
+                        showTwoColumnMonthYearPicker={false}
+                        showYearPicker={false}
+                        strictParsing={false}
+                        timeCaption="Time"
+                        timeInputLabel="Time"
+                        timeIntervals={30}
+                        withPortal={false}
+                        yearItemNumber={12}
+                      >
+                        <r
+                          enableTabLoop={true}
+                          hidePopper={true}
+                          popperComponent={null}
+                          popperModifiers={Array []}
+                          popperOnKeyDown={[Function]}
+                          popperPlacement="bottom-start"
+                          popperProps={Object {}}
+                          targetComponent={
+                            <div
+                              className="react-datepicker__input-container"
+                            >
+                              <input
+                                className="BMCScreenstyle__DatePickerStyled-bb916e-10 jAKNXT joyride-fourth-step"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                readOnly={false}
+                                type="text"
+                                value="09/29/2022"
+                              />
+                            </div>
+                          }
+                        >
+                          <Manager
+                            className="react-datepicker-manager"
+                          >
+                            <Reference>
+                              <div
+                                className="react-datepicker-wrapper"
+                              >
+                                <div
+                                  className="react-datepicker__input-container"
+                                >
+                                  <input
+                                    className="BMCScreenstyle__DatePickerStyled-bb916e-10 jAKNXT joyride-fourth-step"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    readOnly={false}
+                                    type="text"
+                                    value="09/29/2022"
+                                  />
+                                </div>
+                              </div>
+                            </Reference>
+                          </Manager>
+                        </r>
+                      </r>
+                    </BMCScreenstyle__DatePickerStyled>
                   </div>
                 </BMCScreenstyle__Flex>
               </div>
@@ -1016,7 +1137,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -1111,12 +1232,21 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                                           color="white"
                                         >
+                                          <Notestyle__NoteMenuIcon
+                                            className="note-menu-icon"
+                                            color="white"
+                                          >
+                                            <div
+                                              className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 brUUKT note-menu-icon"
+                                              color="white"
+                                            />
+                                          </Notestyle__NoteMenuIcon>
                                           <Notestyle__NoteTitle>
                                             <span
-                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                             >
                                               Test note 1
                                             </span>
@@ -1160,11 +1290,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587534690847,
+                            "key": 1664452530484,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587534690847"
+                        key="1664452530484"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1172,7 +1302,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587534690847}
+                              noteKey={1664452530484}
                             />
                           }
                           defaultIsOpen={false}
@@ -1218,12 +1348,21 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                                           color="white"
                                         >
+                                          <Notestyle__NoteMenuIcon
+                                            className="note-menu-icon"
+                                            color="white"
+                                          >
+                                            <div
+                                              className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 brUUKT note-menu-icon"
+                                              color="white"
+                                            />
+                                          </Notestyle__NoteMenuIcon>
                                           <Notestyle__NoteTitle>
                                             <span
-                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                             >
                                               Test note 2
                                             </span>
@@ -1267,11 +1406,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": undefined,
                             "color": "white",
                             "description": "Test description",
-                            "key": 1587534690848,
+                            "key": 1664452530485,
                             "title": "",
                           }
                         }
-                        key="1587534690848"
+                        key="1664452530485"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1279,7 +1418,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587534690848}
+                              noteKey={1664452530485}
                             />
                           }
                           defaultIsOpen={false}
@@ -1324,9 +1463,18 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hiIQbo undefined print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 kQFybJ undefined print-item"
                                           color="white"
                                         >
+                                          <Notestyle__NoteMenuIcon
+                                            className="note-menu-icon"
+                                            color="white"
+                                          >
+                                            <div
+                                              className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 brUUKT note-menu-icon"
+                                              color="white"
+                                            />
+                                          </Notestyle__NoteMenuIcon>
                                           <Notestyle__NoteDescription>
                                             <span
                                               className="Notestyle__NoteDescription-sc-2z8c2g-2 ilDHHe"
@@ -1366,11 +1514,11 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                             "background": "red",
                             "color": "white",
                             "description": "",
-                            "key": 1587534690849,
+                            "key": 1664452530486,
                             "title": "Test note 2",
                           }
                         }
-                        key="1587534690849"
+                        key="1664452530486"
                       >
                         <Blueprint3.Popover
                           boundary="scrollParent"
@@ -1378,7 +1526,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                           content={
                             <NoteMenu
                               activeKey="keyPartners"
-                              noteKey={1587534690849}
+                              noteKey={1664452530486}
                             />
                           }
                           defaultIsOpen={false}
@@ -1424,12 +1572,21 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                                         key=".0"
                                       >
                                         <div
-                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 hYtmWh undefined print-item"
+                                          className="Notestyle__NoteWrapper-sc-2z8c2g-0 fVKaaY undefined print-item"
                                           color="white"
                                         >
+                                          <Notestyle__NoteMenuIcon
+                                            className="note-menu-icon"
+                                            color="white"
+                                          >
+                                            <div
+                                              className="Notestyle__NoteMenuIcon-sc-2z8c2g-3 brUUKT note-menu-icon"
+                                              color="white"
+                                            />
+                                          </Notestyle__NoteMenuIcon>
                                           <Notestyle__NoteTitle>
                                             <span
-                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 gNJdcF"
+                                              className="Notestyle__NoteTitle-sc-2z8c2g-1 hYcKCw"
                                             >
                                               Test note 2
                                             </span>
@@ -1555,7 +1712,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -1681,7 +1838,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -1807,7 +1964,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -1933,7 +2090,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -2059,7 +2216,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -2185,7 +2342,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -2311,7 +2468,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
@@ -2437,7 +2594,7 @@ exports[`App Component To match snapshot of BMCScreen 1`] = `
                 >
                   <DocContainerstyle__DocContainerWrapper>
                     <div
-                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 AKFyq"
+                      className="DocContainerstyle__DocContainerWrapper-sc-106t2xe-1 ekwiTr"
                     >
                       <Blueprint3.Icon
                         className="add-option joyride-sixth-step"
