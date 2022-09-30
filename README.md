@@ -59,3 +59,4 @@ Business Model Canvas is a strategic management and lean startup template for de
 #### Utils
 1. **waait** *v1.0.5*
 2. **react-datepicker** *v4.8.0*
+ 
